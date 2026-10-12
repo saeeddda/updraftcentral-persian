@@ -56,12 +56,11 @@ class UCP_RTL {
 	public function enqueue_dashboard_rtl( $enqueue_version ) {
 		unset( $enqueue_version );
 
-		// jsDelivr is more reachable in Iran than fonts.googleapis.com.
 		wp_enqueue_style(
 			'ucp-vazirmatn',
-			'https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css',
+			UCP_URL . 'assets/fonts/vazirmatn/vazirmatn-font.css',
 			array(),
-			'33.003'
+			UCP_VERSION
 		);
 
 		wp_enqueue_style(
@@ -168,9 +167,9 @@ class UCP_RTL {
 
 		wp_enqueue_style(
 			'ucp-vazirmatn',
-			'https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css',
+			UCP_URL . 'assets/fonts/vazirmatn/vazirmatn-font.css',
 			array(),
-			'33.003'
+			UCP_VERSION
 		);
 
 		wp_enqueue_style(
