@@ -40,6 +40,7 @@ class UCP_RTL {
 		add_action( 'updraftcentral_load_dashboard_css', array( $this, 'enqueue_dashboard_rtl' ), 20 );
 		// UpdraftCentral enqueues LTR Bootstrap on wp_footer (priority 10); swap after that.
 		add_action( 'wp_footer', array( $this, 'swap_bootstrap_rtl' ), 20 );
+		add_action( 'wp_footer', array( $this, 'requeue_modal_assets' ), 30 );
 		add_action( 'wp_enqueue_scripts', array( $this, 'maybe_enqueue_front' ), 100 );
 		add_action( 'admin_enqueue_scripts', array( $this, 'enqueue_admin_rtl' ) );
 		add_filter( 'body_class', array( $this, 'body_class' ) );
@@ -58,7 +59,10 @@ class UCP_RTL {
 		wp_enqueue_style(
 			'ucp-fonts',
 			UCP_URL . 'assets/css/fonts.css',
-			array(),
+			array(
+				'updraftcentral-dashboard-css',
+				'updraftcentral-new-design',
+			),
 			UCP_VERSION
 		);
 
@@ -82,6 +86,21 @@ class UCP_RTL {
 			UCP_VERSION,
 			true
 		);
+	}
+
+	/**
+	 * Ensure font/RTL CSS stay after Bootstrap and theme styles in the footer.
+	 */
+	public function requeue_modal_assets() {
+		if ( ! $this->is_dashboard_context() ) {
+			return;
+		}
+		if ( wp_style_is( 'ucp-fonts', 'registered' ) ) {
+			wp_enqueue_style( 'ucp-fonts' );
+		}
+		if ( wp_style_is( 'ucp-rtl', 'registered' ) ) {
+			wp_enqueue_style( 'ucp-rtl' );
+		}
 	}
 
 	/**
@@ -170,7 +189,7 @@ class UCP_RTL {
 		if ( ! $this->is_dashboard_context() && ! $this->is_uc_admin_page() ) {
 			return;
 		}
-		echo "<style id=\"ucp-dir-hint\">html,body,#updraftcentral_dashboard{direction:rtl;text-align:right;}</style>\n";
+		echo "<style id=\"ucp-dir-hint\">html,body,#updraftcentral_dashboard,#updraft-central-content-container,#updraft-central-content,#updraftcentral_modal_dialog,.bootbox.modal,.modal{direction:rtl!important;text-align:right!important;font-family:Vazirmatn,\"Source Sans Pro\",Roboto,\"Helvetica Neue\",Arial,Tahoma,sans-serif!important;}</style>\n";
 	}
 
 	/**

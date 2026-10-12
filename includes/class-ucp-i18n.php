@@ -47,7 +47,9 @@ class UCP_I18n {
 		add_action( 'plugins_loaded', array( $this, 'load_updraftcentral_persian' ), 1 );
 		add_action( 'init', array( $this, 'load_own_textdomain' ) );
 		add_filter( 'gettext', array( $this, 'filter_hardcoded_strings' ), 20, 3 );
-		add_filter( 'gettext', array( $this, 'filter_dict_fallback' ), 30, 3 );
+		// Dict overrides MO so quality fixes apply immediately.
+		add_filter( 'gettext', array( $this, 'filter_dict_override' ), 30, 3 );
+		add_filter( 'gettext_with_context', array( $this, 'filter_dict_override_context' ), 30, 4 );
 		add_filter( 'ngettext', array( $this, 'filter_hardcoded_nstrings' ), 20, 5 );
 	}
 
@@ -190,19 +192,15 @@ class UCP_I18n {
 	}
 
 	/**
-	 * If MO left a string untranslated, try the PHP dictionary.
+	 * Prefer PHP dictionary over MO (fixes mixed/heuristic translations).
 	 *
 	 * @param string $translation Current translation.
 	 * @param string $text        Original.
 	 * @param string $domain      Domain.
 	 * @return string
 	 */
-	public function filter_dict_fallback( $translation, $text, $domain ) {
+	public function filter_dict_override( $translation, $text, $domain ) {
 		if ( UCP_UC_TEXTDOMAIN !== $domain || ! $this->should_localize() ) {
-			return $translation;
-		}
-
-		if ( $translation !== $text ) {
 			return $translation;
 		}
 
@@ -211,5 +209,19 @@ class UCP_I18n {
 		}
 
 		return $translation;
+	}
+
+	/**
+	 * Same override for contextual gettext.
+	 *
+	 * @param string $translation Translation.
+	 * @param string $text        Original.
+	 * @param string $context     Context.
+	 * @param string $domain      Domain.
+	 * @return string
+	 */
+	public function filter_dict_override_context( $translation, $text, $context, $domain ) {
+		unset( $context );
+		return $this->filter_dict_override( $translation, $text, $domain );
 	}
 }

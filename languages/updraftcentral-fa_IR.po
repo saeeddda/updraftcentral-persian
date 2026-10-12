@@ -1226,7 +1226,7 @@ msgstr "نصب %s %s"
 
 #: src/classes/user.php:260
 msgid "Update of the %s %s"
-msgstr "به‌روزرسانی of the %s %s"
+msgstr "به‌روزرسانی %s %s"
 
 #: src/classes/user.php:263
 msgid "Deletion of the %s %s"
@@ -1390,7 +1390,7 @@ msgstr "گزینه‌ها"
 
 #: src/modules/advancedtools/translations-dashboard.php:12
 msgid "Raw Backup History"
-msgstr "Raw پشتیبان History"
+msgstr "تاریخچه خام پشتیبان"
 
 #: src/modules/advancedtools/translations-dashboard.php:13
 msgid "Calculating"
@@ -1510,7 +1510,7 @@ msgstr "ادامه؟"
 
 #: src/modules/eum/translations-dashboard.php:16
 msgid "Easy Updates Manager plugin appears to be installed and activated but unfortunately the site could not return the requested information - perhaps you need to update it to a more recent Easy Updates Manager version?"
-msgstr "به نظر می‌رسد افزونه‌ی Easy Updates Manager نصب و فعال شده است، اما متأسفانه سایت نمی‌تواند اطلاعات درخواستی را برگرداند - شاید لازم باشد آن را به نسخه جدیدتری از Easy Updates Manager به‌روزرسانی کنید؟"
+msgstr "به نظر می‌رسد افزونه Easy Updates Manager نصب و فعال است اما سایت اطلاعات درخواستی را برنگرداند — شاید باید آن را به نسخه جدیدتر Easy Updates Manager به‌روز کنید؟"
 
 #: src/modules/eum/translations-dashboard.php:17
 msgctxt "Option as Default"
@@ -1710,7 +1710,7 @@ msgstr "تم‌های خود را به صورت خودکار به‌روزرسا
 
 #: src/modules/eum/translations-dashboard.php:59
 msgid "Select always on, always off, the WordPress default, or select themes individually using the Themes tab."
-msgstr "همیشه روشن، همیشه خاموش، پیش‌فرض وردپرس را انتخاب کنید، یا با استفاده از تب Themes، تم‌ها را به‌صورت جداگانه انتخاب کنید."
+msgstr "همیشه روشن، همیشه خاموش، پیش‌فرض وردپرس را انتخاب کنید، یا پوسته‌ها را جداگانه از زبانه پوسته‌ها انتخاب کنید."
 
 #: src/modules/eum/translations-dashboard.php:60
 msgid "Automatic updates for themes are now at their default setting (default is off)."
@@ -1750,7 +1750,7 @@ msgstr "همه به‌روزرسانی‌ها مجاز هستند، با این 
 
 #: src/modules/eum/translations-dashboard.php:69
 msgid "All updates are disabled."
-msgstr "همه updates are disabled."
+msgstr "همه به‌روزرسانی‌ها غیرفعال هستند."
 
 #: src/modules/eum/translations-dashboard.php:70
 msgctxt "Log what is stored when assets update"
@@ -1767,7 +1767,7 @@ msgstr "Enable گزارش‌ها"
 
 #: src/modules/eum/translations-dashboard.php:73
 msgid "Logs are enabled."
-msgstr "گزارش‌ها are enabled."
+msgstr "گزارش‌ها فعال هستند."
 
 #: src/modules/eum/translations-dashboard.php:73
 msgid "You will find Logs in the Logs tab."
@@ -1779,7 +1779,7 @@ msgstr "Disable گزارش‌ها"
 
 #: src/modules/eum/translations-dashboard.php:75
 msgid "Logs are disabled."
-msgstr "گزارش‌ها are disabled."
+msgstr "گزارش‌ها غیرفعال هستند."
 
 #: src/modules/eum/translations-dashboard.php:76
 msgctxt "WordPress shows a warning for older browsers"
@@ -1928,7 +1928,7 @@ msgstr "Enable افزونه به‌روزرسانی‌ها"
 
 #: src/modules/eum/translations-dashboard.php:109
 msgid "Plugin updates are enabled."
-msgstr "افزونه updates are enabled."
+msgstr "به‌روزرسانی افزونه‌ها فعال است."
 
 #: src/modules/eum/translations-dashboard.php:110
 msgid "Disable Plugin Updates"
@@ -1936,7 +1936,7 @@ msgstr "Disable افزونه به‌روزرسانی‌ها"
 
 #: src/modules/eum/translations-dashboard.php:111
 msgid "Plugin updates are disabled."
-msgstr "افزونه updates are disabled."
+msgstr "به‌روزرسانی افزونه‌ها غیرفعال است."
 
 #: src/modules/eum/translations-dashboard.php:112
 msgid "WordPress Theme Updates"
@@ -1952,7 +1952,7 @@ msgstr "Enable پوسته به‌روزرسانی‌ها"
 
 #: src/modules/eum/translations-dashboard.php:115
 msgid "Theme updates are enabled."
-msgstr "پوسته updates are enabled."
+msgstr "به‌روزرسانی پوسته‌ها فعال است."
 
 #: src/modules/eum/translations-dashboard.php:116
 msgid "Disable Theme Updates"
@@ -1960,7 +1960,7 @@ msgstr "Disable پوسته به‌روزرسانی‌ها"
 
 #: src/modules/eum/translations-dashboard.php:117
 msgid "Theme updates are disabled."
-msgstr "پوسته updates are disabled."
+msgstr "به‌روزرسانی پوسته‌ها غیرفعال است."
 
 #: src/modules/eum/translations-dashboard.php:118
 msgid "WordPress Translation Updates"
@@ -2004,7 +2004,7 @@ msgstr "به‌روزرسانی خودکار تمام نسخه‌های فرعی
 
 #: src/modules/eum/translations-dashboard.php:129
 msgid "Plugin updates"
-msgstr "افزونه updates"
+msgstr "به‌روزرسانی افزونه‌ها"
 
 #: src/modules/eum/translations-dashboard.php:130
 msgid "This allows you to disable or enable all plugin updates, including automatic updates."
@@ -2024,7 +2024,7 @@ msgstr "انتخاب بر اساس افزونه"
 
 #: src/modules/eum/translations-dashboard.php:136
 msgid "Theme updates"
-msgstr "پوسته updates"
+msgstr "به‌روزرسانی پوسته‌ها"
 
 #: src/modules/eum/translations-dashboard.php:139
 msgid "Disable theme updates"
@@ -2150,7 +2150,7 @@ msgstr "Easy به‌روزرسانی‌ها Manager"
 
 #: src/modules/eum/translations-dashboard.php:176
 msgid "Please update Easy Updates Manager to 9.0.0 to see this section."
-msgstr "برای مشاهده این بخش، لطفاً Easy Updates Manager را به ۹.۰.۰ به‌روزرسانی کنید."
+msgstr "برای دیدن این بخش، لطفاً Easy Updates Manager را به نسخه ۹.۰.۰ به‌روز کنید."
 
 #: src/modules/events/loader.php:43, src/modules/events/loader.php:101
 msgid "Events"
@@ -2454,11 +2454,11 @@ msgstr "از همه وب‌سایت‌ها"
 
 #: src/modules/updates/translations-dashboard.php:75
 msgid "Loading updates from"
-msgstr "در حال بارگذاری updates from"
+msgstr "در حال بارگذاری به‌روزرسانی‌ها از"
 
 #: src/modules/updates/translations-dashboard.php:76
 msgid "No matching items found."
-msgstr "خیر matching items found."
+msgstr "مورد منطبقی یافت نشد."
 
 #: src/modules/updates/translations-dashboard.php:79
 msgid "The loading of updates has completed."
@@ -2474,7 +2474,7 @@ msgstr "به‌روزرسانی خودکار برای این مورد در دس�
 
 #: src/modules/updates/translations-dashboard.php:82
 msgid "Backup currently running for"
-msgstr "پشتیبان currently running for"
+msgstr "پشتیبان‌گیری در حال اجرا برای"
 
 #: src/modules/updates/translations-dashboard.php:83
 msgid "Backup currently running..."
@@ -2490,7 +2490,7 @@ msgstr "در حال اجرای به‌روزرسانی‌ها..."
 
 #: src/modules/updates/translations-dashboard.php:85
 msgid "Failed updates"
-msgstr "ناموفق updates"
+msgstr "به‌روزرسانی‌های ناموفق"
 
 #: src/modules/updates/translations-dashboard.php:86
 msgid "Skipped"
@@ -2522,7 +2522,7 @@ msgstr "موارد صف نمایش داده شد"
 
 #: src/modules/updates/translations-dashboard.php:93
 msgid "Remove selected items from queue"
-msgstr "حذف selected items from queue"
+msgstr "حذف موارد انتخاب‌شده از صف"
 
 #: src/modules/updates/translations-dashboard.php:94
 msgid "Queued items"
@@ -2598,7 +2598,7 @@ msgstr "در حال پردازش به‌روزرسانی‌ها، لطفاً ص�
 
 #: src/modules/updates/translations-dashboard.php:112
 msgid "Loading updates, please wait..."
-msgstr "در حال بارگذاری updates, please wait..."
+msgstr "در حال بارگذاری به‌روزرسانی‌ها، لطفاً صبر کنید..."
 
 #: src/modules/updates/translations-dashboard.php:113
 msgid "WordPress compatible"
@@ -2610,7 +2610,7 @@ msgstr "مورد ناسازگاری موجود نیست."
 
 #: src/modules/updates/translations-dashboard.php:115
 msgid "No compatible items found."
-msgstr "خیر compatible items found."
+msgstr "مورد سازگاری یافت نشد."
 
 #: src/modules/updates/translations-dashboard.php:115
 msgid "There are %d incompatible items on the list."
@@ -2807,11 +2807,11 @@ msgstr "باید:"
 
 #: src/modules/updraftplus/translations-dashboard.php:51
 msgid "Delete from your web server"
-msgstr "حذف from your web server"
+msgstr "حذف از وب‌سرور شما"
 
 #: src/modules/updraftplus/translations-dashboard.php:52
 msgid "Download to your computer"
-msgstr "دانلود to your computer"
+msgstr "دانلود روی رایانه شما"
 
 #: src/modules/updraftplus/translations-dashboard.php:53
 msgid "and then, if you wish,"
@@ -2871,7 +2871,7 @@ msgstr "گزارش فقط هنگام هشدار/خطا ارسال شود"
 
 #: src/modules/updraftplus/translations-dashboard.php:68
 msgid "When the Email storage method is enabled, also send the entire backup"
-msgstr "When the ایمیل storage method is enabled, also send the entire backup"
+msgstr "وقتی روش ذخیره‌سازی ایمیل فعال است، کل پشتیبان نیز ارسال شود"
 
 #: src/modules/updraftplus/translations-dashboard.php:69
 msgid "Be aware that mail servers tend to have size limits; typically around %s Mb; backups larger than any limits will likely not arrive."
@@ -2999,7 +2999,7 @@ msgstr "حساب Rackspace آمریکا یا بریتانیا"
 
 #: src/modules/updraftplus/translations-dashboard.php:101
 msgid "Cloud Files Storage Region:"
-msgstr "Cloud فایل‌ها Storage Region:"
+msgstr "منطقه ذخیره‌سازی Cloud Files:"
 
 #: src/modules/updraftplus/translations-dashboard.php:102
 msgid "Enter your Rackspace admin username/API key (so that Rackspace can authenticate your permission to create new users), and enter a new (unique) username and email address for the new user and a container name."
@@ -3015,7 +3015,7 @@ msgstr "پشتیبان using"
 
 #: src/modules/updraftplus/translations-dashboard.php:105
 msgid "Delete Selected"
-msgstr "حذف Selected"
+msgstr "حذف موارد انتخاب‌شده"
 
 #: src/modules/updraftplus/translations-dashboard.php:106
 msgid "Select backup data"
@@ -3079,7 +3079,7 @@ msgstr "این سایت به UpdraftVault متصل نشده است."
 
 #: src/modules/updraftvault/translations-dashboard.php:7
 msgid "To do this, go to the \"Backups\" panel."
-msgstr "To do this, go to the \"پشتیبان‌ها\" panel."
+msgstr "برای این کار به پنل «پشتیبان‌ها» بروید."
 
 #: src/modules/updraftvault/translations-dashboard.php:8
 msgid "There appears to be a problem when processing your request."
@@ -3127,7 +3127,7 @@ msgstr "فایل(های) انتخاب‌شده UpdraftVault با موفقیت ح
 
 #: src/modules/updraftvault/translations-dashboard.php:21
 msgid "Delete files"
-msgstr "حذف files"
+msgstr "حذف فایل‌ها"
 
 #: src/modules/updraftvault/translations-dashboard.php:22
 msgid "Are you sure you want to permanently delete the selected file(s)?"
@@ -3151,11 +3151,11 @@ msgstr "فایل‌ها با موفقیت حذف شدند"
 
 #: src/modules/updraftvault/translations-dashboard.php:27
 msgid "Failed to remove files"
-msgstr "ناموفق to remove files"
+msgstr "حذف فایل‌ها ناموفق بود"
 
 #: src/modules/updraftvault/translations-dashboard.php:28
 msgid "Failed to retrieve files"
-msgstr "ناموفق to retrieve files"
+msgstr "دریافت فایل‌ها ناموفق بود"
 
 #: src/modules/updraftvault/translations-dashboard.php:29
 msgid "Connection error"
@@ -3163,7 +3163,7 @@ msgstr "اتصال error"
 
 #: src/modules/updraftvault/translations-dashboard.php:30
 msgid "No files selected"
-msgstr "خیر files selected"
+msgstr "فایلی انتخاب نشده است"
 
 #: src/modules/updraftvault/translations-dashboard.php:31
 msgid "Results per page"
@@ -3171,7 +3171,7 @@ msgstr "نتایج در هر صفحه"
 
 #: src/modules/updraftvault/translations-dashboard.php:32
 msgid "No message was given to translate"
-msgstr "خیر message was given to translate"
+msgstr "پیامی برای ترجمه داده نشد"
 
 #: src/modules/updraftvault/translations-dashboard.php:33
 msgid "The site sent an unrecognised response '(%s)'. You may need to update either UpdraftPlus or UpdraftCentral to a later version."
@@ -3299,7 +3299,7 @@ msgstr "خروجی تنظیمات"
 
 #: src/templates/sites/none-set-up.php:3
 msgid "No sites have yet been set up."
-msgstr "خیر sites have yet been set up."
+msgstr "هنوز هیچ سایتی راه‌اندازی نشده است."
 
 #: src/templates/sites/none-set-up.php:3
 msgid "Go here to learn how to add your first site."
@@ -3431,7 +3431,7 @@ msgstr "تازه‌سازی List"
 
 #: src/modules/events/templates/events-table.php:5
 msgid "UpdraftCentral captures events to make it easier for you to check the status and the raw response coming from the remote site."
-msgstr "UpdraftCentral captures events to make it easier for you to check the status and the raw response coming from the سایت راه دور."
+msgstr "UpdraftCentral رویدادها را ثبت می‌کند تا بررسی وضعیت و پاسخ خام سایت راه دور آسان‌تر باشد."
 
 #: src/modules/events/templates/events-table.php:5
 msgid "This is helpful, especially when an error has occurred while executing or processing a certain UpdraftCentral action."
@@ -3491,7 +3491,7 @@ msgstr "با این حال، با ارتقاء امکانات بیشتری می�
 
 #: src/modules/notices/templates/notice-upgrade.php:14
 msgid "UpdraftCentral Premium has an added, handy Analytics, Comment, User, Plugin and Theme Management modules, and more to come in future."
-msgstr "UpdraftCentral Premium has an added, handy Analytics, دیدگاه, کاربر, افزونه and پوسته Management modules, and more to come in future."
+msgstr "UpdraftCentral ویژه ماژول‌های کاربردی آمار، دیدگاه، کاربر، افزونه و مدیریت پوسته دارد و قابلیت‌های بیشتری در راه است."
 
 #: src/modules/notices/templates/notice-upgrade.php:14
 msgid "Our UpdraftCentral Cloud version has this too, plus the additional convenience of having it completely hosted on UpdraftPlus.com, maintained and personally supported by our team (i.e. \"Software as a Service, SaaS\")."
@@ -3515,7 +3515,7 @@ msgstr "مدیریت جامع پشتیبان"
 
 #: src/modules/notices/templates/notice-upgrade.php:59
 msgid "Update themes, plugins and WordPress core"
-msgstr "به‌روزرسانی themes, plugins and WordPress core"
+msgstr "به‌روزرسانی پوسته‌ها، افزونه‌ها و هسته وردپرس"
 
 #: src/modules/notices/templates/notice-upgrade.php:73
 msgid "Manage UpdraftPlus advanced tools"
@@ -3523,7 +3523,7 @@ msgstr "مدیریت ابزارهای پیشرفته UpdraftPlus"
 
 #: src/modules/notices/templates/notice-upgrade.php:87
 msgid "Export/Import websites and settings"
-msgstr "خروجی/ورود websites and settings"
+msgstr "خروجی/ورود وب‌سایت‌ها و تنظیمات"
 
 #: src/modules/notices/templates/notice-upgrade.php:101
 msgid "Manage UpdraftVault"

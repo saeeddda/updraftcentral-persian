@@ -1,32 +1,91 @@
 /**
- * Persian-capable font stack for UpdraftCentral dashboard.
- * Uses Vazirmatn from jsDelivr CDN (variable font).
+ * Vazirmatn for text only — never override icon fonts (dashicons).
  */
 
-@font-face {
-  font-family: "Vazirmatn";
-  src: url("https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/fonts/webfonts/Vazirmatn[wght].woff2") format("woff2");
-  font-weight: 100 900;
-  font-style: normal;
-  font-display: swap;
-}
-
 :root {
-  --ucp-font-family: "Vazirmatn", "Tahoma", "Segoe UI", Tahoma, Arial, sans-serif;
+  --ucp-font: Vazirmatn, "Source Sans Pro", Roboto, "Helvetica Neue", Arial, Tahoma, sans-serif;
 }
 
-body.ucp-rtl,
-body.updraftcentral-persian,
 #updraftcentral_dashboard,
-#updraftcentral_dashboard button,
+#updraft-central-content-container,
+#updraft-central-content,
+#updraftcentral_modal_dialog,
+#updraftcentral_modal,
+.bootbox.modal,
+.modal {
+  font-family: var(--ucp-font) !important;
+}
+
+#updraftcentral_dashboard body,
+#updraftcentral_dashboard p,
+#updraftcentral_dashboard span:not(.dashicons):not([class*="dashicons-"]),
+#updraftcentral_dashboard a,
+#updraftcentral_dashboard li,
+#updraftcentral_dashboard td,
+#updraftcentral_dashboard th,
+#updraftcentral_dashboard label,
+#updraftcentral_dashboard h1,
+#updraftcentral_dashboard h2,
+#updraftcentral_dashboard h3,
+#updraftcentral_dashboard h4,
+#updraftcentral_dashboard h5,
+#updraftcentral_dashboard h6,
+#updraftcentral_dashboard button:not(.dashicons),
+#updraftcentral_dashboard .btn,
+#updraftcentral_dashboard .menu-label,
+#updraftcentral_dashboard .modal-title,
+#updraftcentral_dashboard input,
 #updraftcentral_dashboard textarea,
 #updraftcentral_dashboard select,
-#updraftcentral_dashboard input,
-#updraftcentral_dashboard label,
-#updraftcentral_dashboard .btn,
-#updraftcentral_dashboard table,
-#updraftcentral_dashboard .modal,
-.ucp-rtl #wpbody,
-.ucp-rtl .wrap {
-  font-family: var(--ucp-font-family) !important;
+#updraftcentral_dashboard .dropdown-item,
+#updraftcentral_dashboard .updraft-dropdown-item,
+#updraftcentral_modal_dialog,
+#updraftcentral_modal_dialog p,
+#updraftcentral_modal_dialog span:not(.dashicons):not([class*="dashicons-"]),
+#updraftcentral_modal_dialog a,
+#updraftcentral_modal_dialog label,
+#updraftcentral_modal_dialog h1,
+#updraftcentral_modal_dialog h2,
+#updraftcentral_modal_dialog h3,
+#updraftcentral_modal_dialog h4,
+#updraftcentral_modal_dialog h5,
+#updraftcentral_modal_dialog h6,
+#updraftcentral_modal_dialog .btn,
+#updraftcentral_modal_dialog .modal-title,
+#updraftcentral_modal_dialog input,
+#updraftcentral_modal_dialog textarea,
+#updraftcentral_modal_dialog select,
+.bootbox.modal p,
+.bootbox.modal span:not(.dashicons):not([class*="dashicons-"]),
+.bootbox.modal a,
+.bootbox.modal label,
+.bootbox.modal h1,
+.bootbox.modal h2,
+.bootbox.modal h3,
+.bootbox.modal h4,
+.bootbox.modal h5,
+.bootbox.modal h6,
+.bootbox.modal .btn,
+.bootbox.modal .modal-title,
+.bootbox.modal input,
+.bootbox.modal textarea,
+.bootbox.modal select {
+  font-family: var(--ucp-font) !important;
+}
+
+/* Restore Dashicons (and checkbox tick glyph) */
+#updraftcentral_dashboard .dashicons,
+#updraftcentral_dashboard .dashicons:before,
+#updraftcentral_dashboard [class^="dashicons-"]:before,
+#updraftcentral_dashboard [class*=" dashicons-"]:before,
+#updraftcentral_dashboard input[type="checkbox"]:checked::before,
+#updraftcentral_modal_dialog .dashicons,
+#updraftcentral_modal_dialog .dashicons:before,
+#updraftcentral_modal_dialog input[type="checkbox"]:checked::before,
+.bootbox.modal .dashicons,
+.bootbox.modal .dashicons:before,
+.bootbox.modal input[type="checkbox"]:checked::before {
+  font-family: dashicons !important;
+  font-style: normal !important;
+  font-weight: normal !important;
 }

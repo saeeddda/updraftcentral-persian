@@ -1,97 +1,504 @@
 /**
- * RTL / Persian layout overrides for UpdraftCentral.
- * Loaded after core dashboard CSS. Does not modify UpdraftCentral files.
+ * RTL layout overrides for UpdraftCentral Persian.
  */
 
-html[dir="rtl"] #updraftcentral_dashboard,
-body.rtl #updraftcentral_dashboard,
-body.ucp-rtl #updraftcentral_dashboard,
-#updraftcentral_dashboard {
-  direction: rtl;
-  text-align: right;
-}
-
-/* ---------------------------------------------------------------------------
- * Typography & tables
- * --------------------------------------------------------------------------- */
-#updraftcentral_dashboard table,
-#updraftcentral_dashboard .table {
+/* ===========================================================================
+ * 1) Root / shell
+ * =========================================================================== */
+#updraftcentral_dashboard,
+#updraft-central-content-container,
+#updraft-central-content,
+#updraft-central-navigation-sidebar,
+.updraft-central-sidebar {
+  direction: rtl !important;
   text-align: right !important;
 }
 
+#updraft-central-content-container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (min-width: 670px) {
+  #updraft-central-content-container #updraft-central-navigation-sidebar,
+  #updraftcentral_dashboard #updraft-central-content-container .updraft-central-sidebar {
+    float: right !important;
+    border-right: 0 none !important;
+    border-left: 1px solid #eaedf0 !important;
+  }
+
+  #updraft-central-content-container #updraft-central-content {
+    direction: rtl !important;
+    text-align: right !important;
+    padding-right: 24px !important;
+    padding-left: 24px !important;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  #updraft-central-navigation-sidebar,
+  #updraftcentral_dashboard #updraft-central-content-container .updraft-central-sidebar {
+    border-right: 0 none !important;
+    border-left: 1px solid #eaedf0 !important;
+    -webkit-transform: translate(200px, 0) !important;
+    transform: translate(200px, 0) !important;
+  }
+
+  #updraft-central-navigation-sidebar.active,
+  #updraftcentral_dashboard #updraft-central-content-container .updraft-central-sidebar.active {
+    -webkit-transform: translate(0, 0) !important;
+    transform: translate(0, 0) !important;
+  }
+}
+
+/* ===========================================================================
+ * 2) Sidebar menu + arrows + collapse button
+ * =========================================================================== */
+#updraftcentral_dashboard #updraft-central-content-container .updraft-central-sidebar .updraft-menu-item,
+#updraftcentral_dashboard #updraft-central-content-container .updraft-central-sidebar .updraft-menu-item-links,
+#updraftcentral_dashboard #updraft-central-content-container .updraft-central-sidebar .updraft-menu-item-active,
+#updraftcentral_dashboard #updraft-central-content-container .updraft-central-sidebar .updraft-menu-item-links-active,
+div.updraft-menu-item {
+  text-align: right !important;
+  padding: 0 14px 0 28px !important;
+  border-left: 0 none !important;
+  border-right: 4px solid #fff !important;
+}
+
+#updraftcentral_dashboard #updraft-central-content-container .updraft-central-sidebar .updraft-menu-item:hover,
+#updraftcentral_dashboard #updraft-central-content-container .updraft-central-sidebar .updraft-menu-item:focus,
+#updraftcentral_dashboard #updraft-central-content-container .updraft-central-sidebar .updraft-menu-item-active,
+#updraftcentral_dashboard #updraft-central-content-container .updraft-central-sidebar .updraft-menu-item-links-active {
+  border-left: 0 none !important;
+  border-right: 4px solid #de6726 !important;
+}
+
+#updraftcentral_dashboard #updraft-central-content-container .updraft-central-sidebar .updraft-menu-item .dashicons,
+div.updraft-menu-item > span.dashicons {
+  margin: 0 0 0 8px !important;
+  float: right !important;
+}
+
+div.updraft-menu-item > span.menu-label,
+#updraftcentral_dashboard .updraft-central-sidebar .menu-label {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Submenu expand arrow (▶) should point left in RTL */
+#updraftcentral_dashboard .updraft-sub-menu-icon {
+  margin-left: 0 !important;
+  margin-right: 6px !important;
+  float: left !important;
+}
+
+#updraftcentral_dashboard .updraft-sub-menu-arrow-left {
+  display: inline-block;
+  transform: scaleX(-1);
+}
+
+#updraftcentral_dashboard .updraft-sub-menu-bullet.dashicons-arrow-right-alt,
+#updraftcentral_dashboard .dashicons-arrow-right,
+#updraftcentral_dashboard .dashicons-arrow-right-alt,
+#updraftcentral_dashboard .dashicons-arrow-right-alt2 {
+  transform: scaleX(-1);
+}
+
+.updraft-sub-menu > ul {
+  margin-left: 0 !important;
+  margin-right: 18px !important;
+  padding-right: 0 !important;
+  text-align: right !important;
+}
+
+#updraftcentral_dashboard #updraft-central-content-container .updraft-central-sidebar .module-visibility,
+.module-visibility {
+  right: auto !important;
+  left: 4px !important;
+}
+
+/* Collapse sidebar control — pin to inner edge (left of right sidebar) */
+@media screen and (min-width: 670px) {
+  #updraft-central-sidebar-button,
+  #updraftcentral_dashboard #updraft-central-sidebar-button {
+    position: absolute !important;
+    top: 50% !important;
+    left: -15px !important;
+    right: auto !important;
+    width: 15px !important;
+    height: 100px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border-radius: 25px 0 0 25px !important;
+    background-color: #de6726 !important;
+    -webkit-transform: translateY(-50%) !important;
+    transform: translateY(-50%) !important;
+    z-index: 1001 !important;
+  }
+
+  #updraft-central-navigation-sidebar,
+  #updraftcentral_dashboard #updraft-central-content-container .updraft-central-sidebar {
+    position: relative !important;
+  }
+
+  #updraft-central-sidebar-button .updraft-central-sidebar-button-icon img {
+    transform: scaleX(-1);
+  }
+}
+
+/* ===========================================================================
+ * 3) Top bar
+ * =========================================================================== */
+#updraft-central-navigation .updraft-central-logo,
+#updraftcentral_dashboard .screen-title {
+  float: right !important;
+}
+
+#updraft-central-navigation .top_menu_right {
+  float: left !important;
+  text-align: left !important;
+}
+
+#updraft-central-navigation .updraft-mobile-menu {
+  float: right !important;
+}
+
+div.updraftcentral_site_selected {
+  float: left !important;
+  margin-right: 0 !important;
+  margin-left: 16px !important;
+}
+
+/* ===========================================================================
+ * 4) Checkboxes / radios (backups page + general)
+ * =========================================================================== */
+#updraftcentral_dashboard input[type="checkbox"],
+#updraftcentral_modal_dialog input[type="checkbox"],
+.bootbox.modal input[type="checkbox"],
+#updraftcentral_dashboard_existingsites input[type="checkbox"],
+.updraft_existing_backups_output input[type="checkbox"],
+.download-backups input[type="checkbox"] {
+  -webkit-appearance: none !important;
+  appearance: none !important;
+  width: 20px !important;
+  height: 20px !important;
+  min-width: 20px !important;
+  margin: 0 0 0 10px !important;
+  padding: 0 !important;
+  float: none !important;
+  vertical-align: middle !important;
+  position: relative !important;
+  display: inline-block !important;
+  border: 1px solid #de6726 !important;
+  background: #fff !important;
+  box-sizing: border-box !important;
+}
+
+#updraftcentral_dashboard input[type="radio"],
+#updraftcentral_modal_dialog input[type="radio"],
+.bootbox.modal input[type="radio"] {
+  margin: 1px 0 3px 10px !important;
+}
+
+/* Custom styled checkbox tick (dashicons glyph) */
+#updraftcentral_dashboard input[type="checkbox"]:checked::before,
+#updraftcentral_modal_dialog input[type="checkbox"]:checked::before,
+.bootbox.modal input[type="checkbox"]:checked::before,
+#updraftcentral_dashboard_existingsites input[type="checkbox"]:checked::before,
+.updraft_existing_backups_output input[type="checkbox"]:checked::before,
+.download-backups input[type="checkbox"]:checked::before {
+  content: "\f147" !important;
+  font-family: dashicons !important;
+  font-size: 22px !important;
+  line-height: 18px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  float: none !important;
+  display: block !important;
+  text-align: center !important;
+  width: 18px !important;
+  height: 18px !important;
+  color: #de6726 !important;
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+#updraftcentral_dashboard label,
+#updraftcentral_modal_dialog label,
+.bootbox.modal label {
+  text-align: right !important;
+}
+
+/* Labelauty (backup include options) */
+input.labelauty + label > span.labelauty-unchecked-image,
+input.labelauty + label > span.labelauty-checked-image {
+  float: right !important;
+  margin: 5px 5px 5px 0 !important;
+}
+
+input.labelauty + label > span.labelauty-unchecked,
+input.labelauty + label > span.labelauty-checked {
+  float: left !important;
+  text-align: right !important;
+}
+
+/* ===========================================================================
+ * 5) Native <select> chevron — move to LEFT in RTL
+ * =========================================================================== */
+#updraftcentral_dashboard select,
+#updraftcentral_modal_dialog .modal-body select,
+.bootbox.modal .modal-body select {
+  background-position: 3% 50% !important;
+  padding-right: 12px !important;
+  padding-left: 43px !important;
+  text-align: right !important;
+  direction: rtl !important;
+}
+
+/* Select2 */
+#updraftcentral_dashboard .select2-container,
+#updraftcentral_modal_dialog .select2-container {
+  direction: rtl !important;
+  text-align: right !important;
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+#updraftcentral_dashboard .select2-container--default .select2-selection--single .select2-selection__arrow,
+#updraftcentral_modal_dialog .select2-container--default .select2-selection--single .select2-selection__arrow {
+  left: 1px !important;
+  right: auto !important;
+}
+
+#updraftcentral_dashboard .select2-container--default .select2-selection--single .select2-selection__rendered,
+#updraftcentral_modal_dialog .select2-container--default .select2-selection--single .select2-selection__rendered {
+  padding-right: 8px !important;
+  padding-left: 28px !important;
+  text-align: right !important;
+}
+
+/* ===========================================================================
+ * 6) Dropdown menus — width + alignment
+ * =========================================================================== */
+#updraftcentral_dashboard .dropdown-menu,
+#updraftcentral_modal_dialog .dropdown-menu,
+.bootbox.modal .dropdown-menu {
+  direction: rtl !important;
+  text-align: right !important;
+  right: 0 !important;
+  left: auto !important;
+  min-width: 14rem !important;
+  width: max-content !important;
+  max-width: min(320px, 90vw) !important;
+  padding: 0.35rem 0 !important;
+}
+
+#updraftcentral_dashboard .dropdown-menu .dropdown-item,
+#updraftcentral_dashboard .updraft-dropdown-item,
+#updraftcentral_dashboard .dropdown-item,
+#updraftcentral_modal_dialog .dropdown-item {
+  text-align: right !important;
+  padding: 0.45rem 1rem 0.45rem 1.25rem !important;
+  white-space: nowrap !important;
+  direction: rtl !important;
+}
+
+#updraftcentral_dashboard .btn-group .dropdown-menu,
+#updraftcentral_dashboard .updraft_site_actions .dropdown-menu,
+#updraftcentral_dashboard .updraftcentral_row_site_buttons .dropdown-menu {
+  right: 0 !important;
+  left: auto !important;
+}
+
+/* ===========================================================================
+ * 7) Buttons + icons spacing
+ * =========================================================================== */
+#updraftcentral_dashboard .btn .dashicons,
+#updraftcentral_dashboard button .dashicons,
+#updraftcentral_modal_dialog .btn .dashicons,
+.bootbox.modal .btn .dashicons {
+  margin-left: 0.4rem !important;
+  margin-right: 0 !important;
+  vertical-align: middle;
+}
+
+#updraftcentral_dashboard .btn .dashicons:before,
+#updraftcentral_dashboard button .dashicons:before {
+  font-family: dashicons !important;
+}
+
+/* ===========================================================================
+ * 8) Backup modal spacing
+ * =========================================================================== */
+#updraftcentral_modal_dialog.modal,
+#updraftcentral_modal_dialog .modal-dialog.backup-now,
+#updraftcentral_modal_dialog .modal-dialog.backup-now .modal-body,
+.backup-now #updraftcentral_modal,
+#updraftcentral_modal_dialog .modal-body {
+  direction: rtl !important;
+  text-align: right !important;
+}
+
+#updraftcentral_modal_dialog .modal-dialog.backup-now .modal-body label,
+.backup-now #updraftcentral_modal label,
+#updraftcentral_modal label.updraft_checkbox,
+#updraftcentral_modal_dialog label.updraft_checkbox {
+  display: block !important;
+  text-align: right !important;
+  margin: 10px 0 !important;
+  padding: 0 !important;
+  line-height: 1.5 !important;
+}
+
+#backupnow_includefiles_moreoptions,
+#backupnow_database_moreoptions,
+#backupnow_includecloud_moreoptions {
+  margin: 8px 0 12px 0 !important;
+  padding: 10px 14px !important;
+  text-align: right !important;
+  direction: rtl !important;
+}
+
+#backupnow_includefiles_moreoptions label,
+#backupnow_database_moreoptions label,
+#backupnow_includecloud_moreoptions label {
+  display: block !important;
+  margin: 8px 0 !important;
+  padding: 0 !important;
+  text-align: right !important;
+}
+
+#backupnow_always_keep_container > label {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+#updraftcentral_modal_dialog .modal-dialog.backup-now .modal-body span#backupnow_remote_container,
+#updraftcentral_modal_dialog .modal-dialog.backup-now .modal-body span#backupnow_remote_container em {
+  text-align: right !important;
+  direction: rtl !important;
+  display: block;
+}
+
+/* Pseudo checkbox decoration used in some backup labels */
+label.backupnow_includedb {
+  padding-right: 26px !important;
+  padding-left: 0 !important;
+  position: relative;
+}
+
+label.backupnow_includedb::before {
+  left: auto !important;
+  right: 0 !important;
+  margin-right: 0 !important;
+  margin-left: 10px !important;
+}
+
+/* Existing backups table actions */
+tr.updraft_existing_backups_row div.restore-button,
+tr.updraft_existing_backups_row div.updraftplus-upload,
+tr.updraft_existing_backups_row div.updraftplus-remove,
+tr.updraft_existing_backups_row div.updraft-viewlogdiv {
+  float: right !important;
+}
+
+div.delete-backup-container {
+  float: right !important;
+  margin-left: 10px !important;
+  margin-right: 0 !important;
+}
+
+a.show-backup-data > span {
+  margin-right: 0 !important;
+  margin-left: 4px !important;
+}
+
+#updraftcentral_dashboard .restore-button .button-primary,
+#updraftcentral_dashboard .updraftplus-upload .button-primary,
+#updraftcentral_dashboard .updraftplus-remove .no-decoration,
+#updraftcentral_dashboard .updraft-viewlogdiv .no-decoration {
+  margin: 0 0 5px 5px !important;
+}
+
+/* ===========================================================================
+ * 9) Modals (general)
+ * =========================================================================== */
+#updraftcentral_modal_dialog,
+#updraftcentral_modal_dialog .modal-dialog,
+#updraftcentral_modal_dialog .modal-content,
+#updraftcentral_modal_dialog .modal-header,
+#updraftcentral_modal_dialog .modal-body,
+#updraftcentral_modal_dialog .modal-footer,
+#updraftcentral_modal,
+.bootbox.modal,
+.bootbox.modal .modal-dialog,
+.bootbox.modal .modal-content,
+.bootbox.modal .modal-header,
+.bootbox.modal .modal-body,
+.bootbox.modal .modal-footer {
+  direction: rtl !important;
+  text-align: right !important;
+}
+
+#updraftcentral_modal_dialog .modal-header .close,
+#updraftcentral_modal_dialog .modal-body .close,
+.bootbox.modal .modal-header .close,
+.bootbox.modal .bootbox-close-button {
+  margin-left: 0 !important;
+  margin-right: auto !important;
+  float: left !important;
+  right: auto !important;
+  left: 15px !important;
+  position: absolute;
+}
+
+#updraftcentral_modal_dialog .modal-footer,
+.bootbox.modal .modal-footer {
+  display: flex !important;
+  flex-direction: row-reverse !important;
+  justify-content: flex-start !important;
+}
+
+#updraftcentral_modal_dialog .modal-footer .btn,
+.bootbox.modal .modal-footer .btn {
+  margin-left: 0.5rem !important;
+  margin-right: 0 !important;
+}
+
+#updraftcentral_modal_dialog .modal-body ul,
+.bootbox.modal .modal-body ul {
+  padding-right: 1.25rem !important;
+  padding-left: 0 !important;
+}
+
+#updraftcentral_modal_dialog textarea#updraftcentral_addsite_key,
+#updraftcentral_modal_dialog input[type="url"],
+#updraftcentral_modal_dialog input[name*="url"],
+#updraftcentral_modal_dialog input[name*="key"],
+#updraftcentral_modal_dialog code,
+#updraftcentral_modal_dialog pre {
+  direction: ltr !important;
+  text-align: left !important;
+}
+
+/* ===========================================================================
+ * 10) Content / tables / spacing polish
+ * =========================================================================== */
+#updraftcentral_dashboard table,
+#updraftcentral_dashboard .table,
 #updraftcentral_dashboard th,
 #updraftcentral_dashboard td {
-  text-align: right;
+  text-align: right !important;
 }
 
 #updraftcentral_dashboard ul,
 #updraftcentral_dashboard ol {
   padding-right: 1.25rem;
   padding-left: 0;
-  margin-right: 0;
-}
-
-/* ---------------------------------------------------------------------------
- * Notices — border accent on the start (right in RTL)
- * --------------------------------------------------------------------------- */
-#updraftcentral_notice_container .updraftcentral_notice {
-  border-left: 1px solid #555;
-  border-right: 5px solid;
-  padding: 6px 12px 6px 6px;
-}
-
-#updraftcentral_notice_container .updraftcentral_notice_level_error {
-  border-left-width: 1px;
-  border-right: 4px solid red;
-}
-
-#updraftcentral_notice_container .updraftcentral_notice_level_notice,
-#updraftcentral_notice_container .updraftcentral_notice_level_info {
-  border-left-width: 1px;
-  border-right: 4px solid #46b450;
-}
-
-#updraftcentral_notice_container .updraftcentral_notice_dismiss {
-  float: left;
-}
-
-/* ---------------------------------------------------------------------------
- * Sidebar / navigation
- * --------------------------------------------------------------------------- */
-#updraft-central-navigation-sidebar,
-.updraft-central-sidebar {
-  direction: rtl;
-  text-align: right;
-}
-
-#updraftcentral_dashboard .updraft-menu-item-container,
-#updraftcentral_dashboard .updraft-menu-item,
-#updraftcentral_dashboard .updraft-menu-item-links {
-  text-align: right;
-}
-
-#updraftcentral_dashboard .updraft-sub-menu-bullet.dashicons-arrow-right-alt {
-  transform: scaleX(-1);
-}
-
-#updraftcentral_dashboard .dashicons-arrow-right,
-#updraftcentral_dashboard .dashicons-arrow-right-alt,
-#updraftcentral_dashboard .dashicons-arrow-right-alt2,
-#updraftcentral_dashboard .updraft-sub-menu-arrow-left {
-  transform: scaleX(-1);
-}
-
-/* Collapse / expand chevrons */
-#updraftcentral_dashboard .updraft-central-sidebar .dashicons-arrow-left-alt2,
-#updraftcentral_dashboard .updraft-central-sidebar .dashicons-arrow-right-alt2 {
-  transform: scaleX(-1);
-}
-
-/* ---------------------------------------------------------------------------
- * Floats & expert options
- * --------------------------------------------------------------------------- */
-#updraftcentral_editsite_expertoptions {
-  clear: right;
 }
 
 #updraftcentral_dashboard .pull-left,
@@ -112,231 +519,105 @@ body.ucp-rtl #updraftcentral_dashboard,
   text-align: left !important;
 }
 
-#updraftcentral_dashboard .me-1,
-#updraftcentral_dashboard .me-2,
-#updraftcentral_dashboard .me-3 {
-  margin-right: 0 !important;
+@media screen and (min-width: 1200px) {
+  #updraftcentral_dashboard #updraftcentral_dashboard_existingsites .updraftcentral_site_row {
+    text-align: right !important;
+  }
 }
 
-#updraftcentral_dashboard .ms-1 {
+#updraftcentral_notice_container .updraftcentral_notice {
+  border-left: 1px solid #555 !important;
+  border-right: 5px solid !important;
+  padding: 6px 12px 6px 6px !important;
+}
+
+#updraftcentral_notice_container .updraftcentral_notice_level_error {
+  border-right-color: red !important;
+}
+
+#updraftcentral_notice_container .updraftcentral_notice_level_notice,
+#updraftcentral_notice_container .updraftcentral_notice_level_info {
+  border-right-color: #46b450 !important;
+}
+
+#updraftcentral_notice_container .updraftcentral_notice_dismiss {
+  float: left !important;
+}
+
+#updraftcentral_dashboard .nav-tab {
+  float: right !important;
   margin-left: 0 !important;
-  margin-right: 0.25rem !important;
+  margin-right: 0.5em !important;
 }
 
-#updraftcentral_dashboard .ms-2 {
-  margin-left: 0 !important;
-  margin-right: 0.5rem !important;
+.updraft_existing_backups_output > button.btn-refresh,
+.updraft_site_settings_output > button.btn-refresh,
+.updraft_module_output > button.btn-refresh {
+  float: left !important;
+  left: auto !important;
+  right: -12px !important;
 }
 
-#updraftcentral_dashboard .ms-3 {
-  margin-left: 0 !important;
-  margin-right: 1rem !important;
-}
-
-/* ---------------------------------------------------------------------------
- * Buttons, forms, modals
- * --------------------------------------------------------------------------- */
-#updraftcentral_dashboard .modal-header .btn-close,
-#updraftcentral_dashboard .modal-header .close {
-  margin-left: 0;
-  margin-right: auto;
-}
-
-#updraftcentral_dashboard .modal-footer {
-  flex-direction: row-reverse;
-  justify-content: flex-start;
-}
-
-#updraftcentral_dashboard .modal-footer > * {
-  margin-left: 0.5rem;
-  margin-right: 0;
-}
-
-#updraftcentral_dashboard .btn .dashicons,
-#updraftcentral_dashboard button .dashicons {
-  margin-left: 0.35rem;
-  margin-right: 0;
-}
-
-#updraftcentral_dashboard input[type="checkbox"],
-#updraftcentral_dashboard input[type="radio"] {
-  margin-left: 0.4rem;
-  margin-right: 0;
-}
-
-#updraftcentral_dashboard label {
-  text-align: right;
-}
-
-/* Select2 */
-#updraftcentral_dashboard .select2-container {
-  direction: rtl;
-  text-align: right;
-}
-
-#updraftcentral_dashboard .select2-container--default .select2-selection--single .select2-selection__arrow {
-  left: 1px;
-  right: auto;
-}
-
-#updraftcentral_dashboard .select2-container--default .select2-selection--single .select2-selection__rendered {
-  padding-right: 8px;
-  padding-left: 20px;
-  text-align: right;
-}
-
-/* ---------------------------------------------------------------------------
- * DataTables
- * --------------------------------------------------------------------------- */
-#updraftcentral_dashboard .dataTables_wrapper .dataTables_filter {
-  float: left;
-  text-align: left;
-}
-
-#updraftcentral_dashboard .dataTables_wrapper .dataTables_length {
-  float: right;
-  text-align: right;
-}
-
-#updraftcentral_dashboard .dataTables_wrapper .dataTables_info {
-  float: right;
-  text-align: right;
-}
-
+#updraftcentral_dashboard .dataTables_wrapper .dataTables_filter,
 #updraftcentral_dashboard .dataTables_wrapper .dataTables_paginate {
-  float: left;
-  text-align: left;
+  float: left !important;
+  text-align: left !important;
 }
 
-#updraftcentral_dashboard table.dataTable thead th,
-#updraftcentral_dashboard table.dataTable tbody td {
-  text-align: right;
+#updraftcentral_dashboard .dataTables_wrapper .dataTables_length,
+#updraftcentral_dashboard .dataTables_wrapper .dataTables_info {
+  float: right !important;
+  text-align: right !important;
 }
 
-#updraftcentral_dashboard table.dataTable thead .sorting:after,
-#updraftcentral_dashboard table.dataTable thead .sorting_asc:after,
-#updraftcentral_dashboard table.dataTable thead .sorting_desc:after {
-  left: 8px;
-  right: auto;
-}
-
-/* ---------------------------------------------------------------------------
- * Site rows / cards / module panels
- * --------------------------------------------------------------------------- */
-#updraftcentral_dashboard .updraft_site_row,
-#updraftcentral_dashboard .updraftcentral_row,
-#updraftcentral_dashboard .site-row {
-  text-align: right;
-}
-
-#updraftcentral_dashboard .updraft-site-menu,
-#updraftcentral_dashboard .updraftcentral_site_menu {
-  direction: rtl;
-}
-
-/* Search boxes */
-#updraftcentral_dashboard .search-box,
-#updraftcentral_dashboard input[type="search"] {
-  text-align: right;
-}
-
-/* Dropdown menus */
-#updraftcentral_dashboard .dropdown-menu {
-  text-align: right;
-  right: 0;
-  left: auto;
-}
-
-/* Progress / spinners stay centered */
-#updraftcentral_dashboard .spinner,
-#updraftcentral_dashboard .updraftcentral_spinner {
-  /* no flip */
-}
-
-/* ---------------------------------------------------------------------------
- * Module-specific soft fixes
- * --------------------------------------------------------------------------- */
-#updraftcentral_dashboard .updraftcentral_updates,
-#updraftcentral_dashboard .updraftcentral_backups,
-#updraftcentral_dashboard .updraftcentral_wpo,
-#updraftcentral_dashboard .updraftcentral_eum,
-#updraftcentral_dashboard .updraftcentral_vault,
-#updraftcentral_dashboard .updraftcentral_advancedtools,
-#updraftcentral_dashboard .updraftcentral_events {
-  direction: rtl;
-  text-align: right;
-}
-
-/* Tabs */
-#updraftcentral_dashboard .nav-tabs,
-#updraftcentral_dashboard .nav-pills {
-  padding-right: 0;
-}
-
-#updraftcentral_dashboard .nav-tabs .nav-item,
-#updraftcentral_dashboard .nav-pills .nav-item {
-  margin-left: 0.25rem;
-  margin-right: 0;
-}
-
-/* Breadcrumbs / paginator */
-#updraftcentral_dashboard .pagination {
-  direction: rtl;
-}
-
-#updraftcentral_dashboard .page-item:first-child .page-link {
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
-  border-top-right-radius: 0.25rem;
-  border-bottom-right-radius: 0.25rem;
-}
-
-#updraftcentral_dashboard .page-item:last-child .page-link {
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-  border-top-left-radius: 0.25rem;
-  border-bottom-left-radius: 0.25rem;
-}
-
-/* ---------------------------------------------------------------------------
- * Keyboard shortcuts modal & help
- * --------------------------------------------------------------------------- */
-#updraftcentral_dashboard .updraftcentral_keyboard_shortcuts,
-#updraftcentral_dashboard #updraftcentral_help {
-  text-align: right;
-}
-
-/* Keep code / keys LTR for readability */
 #updraftcentral_dashboard kbd,
 #updraftcentral_dashboard code,
 #updraftcentral_dashboard pre,
-#updraftcentral_dashboard .updraftcentral_key,
+#updraftcentral_dashboard input[type="url"],
+#updraftcentral_dashboard input[name*="url"],
 #updraftcentral_dashboard input[name*="key"],
 #updraftcentral_dashboard textarea#updraftcentral_addsite_key {
-  direction: ltr;
-  text-align: left;
+  direction: ltr !important;
+  text-align: left !important;
   unicode-bidi: embed;
 }
 
-/* URLs and technical fields stay LTR */
-#updraftcentral_dashboard input[type="url"],
-#updraftcentral_dashboard input[name*="url"],
-#updraftcentral_dashboard .ltr {
-  direction: ltr;
-  text-align: left;
+span.uc_updates_perpage {
+  float: left !important;
+  margin-left: 0 !important;
+  margin-right: 20px !important;
 }
 
-/* ---------------------------------------------------------------------------
- * Fullscreen dashboard shell
- * --------------------------------------------------------------------------- */
-#updraftcentral_dashboard.updraft-fullscreen,
-body.ucp-rtl #updraftcentral_dashboard {
-  font-feature-settings: "ss01" on;
+.uc-configure-shortcuts-link {
+  float: left !important;
 }
 
-/* Mobile tweaks */
-@media (max-width: 782px) {
-  #updraft-central-navigation-sidebar {
-    text-align: right;
-  }
+ul.uc_shortcuts {
+  margin-left: 0 !important;
+  margin-right: 16px !important;
 }
+
+input#updraftcentral_settings_timeout,
+.uc-timeouts-label {
+  float: right !important;
+}
+
+.uc-timeouts-label {
+  margin-left: 0 !important;
+  margin-right: 10px !important;
+}
+
+/* Common LTR paddings → logical RTL swaps inside dashboard */
+#updraftcentral_dashboard .ms-1 { margin-left: 0 !important; margin-right: 0.25rem !important; }
+#updraftcentral_dashboard .ms-2 { margin-left: 0 !important; margin-right: 0.5rem !important; }
+#updraftcentral_dashboard .ms-3 { margin-left: 0 !important; margin-right: 1rem !important; }
+#updraftcentral_dashboard .me-1,
+#updraftcentral_dashboard .me-2,
+#updraftcentral_dashboard .me-3 { margin-right: 0 !important; }
+
+#updraftcentral_dashboard .ps-1 { padding-left: 0 !important; padding-right: 0.25rem !important; }
+#updraftcentral_dashboard .ps-2 { padding-left: 0 !important; padding-right: 0.5rem !important; }
+#updraftcentral_dashboard .ps-3 { padding-left: 0 !important; padding-right: 1rem !important; }
+#updraftcentral_dashboard .pe-1,
+#updraftcentral_dashboard .pe-2,
+#updraftcentral_dashboard .pe-3 { padding-right: 0 !important; }

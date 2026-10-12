@@ -1,0 +1,16 @@
+{
+    "Cloud Files Storage Region:": "Cloud فایل‌ها Storage Region:",
+    "Delete from your web server": "حذف from your web server",
+    "Easy Updates Manager plugin appears to be installed and activated but unfortunately the site could not return the requested information - perhaps you need to update it to a more recent Easy Updates Manager version?": "به نظر می‌رسد افزونه‌ی Easy Updates Manager نصب و فعال شده است، اما متأسفانه سایت نمی‌تواند اطلاعات درخواستی را برگرداند - شاید لازم باشد آن را به نسخه جدیدتری از Easy Updates Manager به‌روزرسانی کنید؟",
+    "Loading updates, please wait...": "در حال بارگذاری updates, please wait...",
+    "No compatible items found.": "خیر compatible items found.",
+    "No matching items found.": "خیر matching items found.",
+    "No message was given to translate": "خیر message was given to translate",
+    "No sites have yet been set up.": "خیر sites have yet been set up.",
+    "Please update Easy Updates Manager to 9.0.0 to see this section.": "برای مشاهده این بخش، لطفاً Easy Updates Manager را به ۹.۰.۰ به‌روزرسانی کنید.",
+    "Remove selected items from queue": "حذف selected items from queue",
+    "Update themes, plugins and WordPress core": "به‌روزرسانی themes, plugins and WordPress core",
+    "UpdraftCentral Premium has an added, handy Analytics, Comment, User, Plugin and Theme Management modules, and more to come in future.": "UpdraftCentral Premium has an added, handy Analytics, دیدگاه, کاربر, افزونه and پوسته Management modules, and more to come in future.",
+    "UpdraftCentral captures events to make it easier for you to check the status and the raw response coming from the remote site.": "UpdraftCentral captures events to make it easier for you to check the status and the raw response coming from the سایت راه دور.",
+    "When the Email storage method is enabled, also send the entire backup": "When the ایمیل storage method is enabled, also send the entire backup"
+}
