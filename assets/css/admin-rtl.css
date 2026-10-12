@@ -1,0 +1,19 @@
+/**
+ * RTL polish for the WP-admin UpdraftCentral settings page.
+ */
+
+body.rtl .toplevel_page_updraft-central #wpbody-content,
+body.locale-fa-ir .toplevel_page_updraft-central #wpbody-content {
+  font-family: "Vazirmatn", Tahoma, Arial, sans-serif;
+}
+
+body.rtl .toplevel_page_updraft-central .wrap,
+body.locale-fa-ir .toplevel_page_updraft-central .wrap {
+  direction: rtl;
+  text-align: right;
+}
+
+body.rtl .toplevel_page_updraft-central .wrap h1,
+body.rtl .toplevel_page_updraft-central .wrap h2 {
+  font-family: "Vazirmatn", Tahoma, Arial, sans-serif;
+}

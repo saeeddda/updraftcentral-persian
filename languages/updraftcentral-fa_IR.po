@@ -1,0 +1,3623 @@
+# Persian (fa_IR) translation for UpdraftCentral
+# Copyright (C) 2026 UpdraftCentral Persian
+# This file is distributed under the same license as the UpdraftCentral package.
+msgid ""
+msgstr ""
+"Project-Id-Version: UpdraftCentral Persian 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/saeednoori/updraftcentral-persian\n"
+"POT-Creation-Date: 2026-06-05 06:47+0000\n"
+"PO-Revision-Date: 2026-10-12 12:00+0330\n"
+"Last-Translator: UpdraftCentral Persian\n"
+"Language-Team: Persian\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n == 0 || n == 1);\n"
+"X-Generator: updraftcentral-persian bin/build-fa-po.php\n"
+
+#: src/dashboard-translations.php:20
+msgid "Error"
+msgstr "خطا"
+
+#: src/dashboard-translations.php:21
+msgid "Communications error"
+msgstr "خطای ارتباط"
+
+#: src/dashboard-translations.php:22
+msgid "Add website"
+msgstr "افزودن وب‌سایت"
+
+#: src/dashboard-translations.php:23
+msgid "Advanced options"
+msgstr "گزینه‌های پیشرفته"
+
+#: src/dashboard-translations.php:24
+msgid "The response was not understood."
+msgstr "پاسخ قابل درک نبود."
+
+#: src/dashboard-translations.php:24, src/dashboard-translations.php:25
+msgid "You can check the browser JavaScript console for more information."
+msgstr "برای اطلاعات بیشتر می‌توانید کنسول جاوااسکریپت مرورگر را بررسی کنید."
+
+#: src/dashboard-translations.php:25
+msgid "The response was not understood (no message included)."
+msgstr "پاسخ قابل درک نبود (پیامی همراه نبود)."
+
+#: src/dashboard-translations.php:26, src/templates/sites/site-menu.php:31
+msgid "Remove site"
+msgstr "حذف سایت"
+
+#: src/dashboard-translations.php:27
+msgid "Do you really wish to delete this site from your dashboard?"
+msgstr "آیا واقعاً می‌خواهید این سایت را از داشبورد حذف کنید؟"
+
+#: src/dashboard-translations.php:28
+msgid "This site is running WordPress version %s (PHP %s, MySQL %s) and UpdraftPlus version %s (UDRPC version %s)"
+msgstr "این سایت با وردپرس نسخه %s (PHP %s، MySQL %s) و UpdraftPlus نسخه %s (نسخه UDRPC: %s) اجرا می‌شود"
+
+#: src/dashboard-translations.php:29
+msgid "UpdraftCentral version"
+msgstr "نسخه UpdraftCentral"
+
+#: src/dashboard-translations.php:30
+msgid "An error occurred - you may find more information in your web browser's JavaScript console."
+msgstr "خطایی رخ داد — ممکن است اطلاعات بیشتری در کنسول جاوااسکریپت مرورگر بیابید."
+
+#: src/dashboard-translations.php:31
+msgid "Follow this link to test alternative connection methods"
+msgstr "برای آزمایش روش‌های جایگزین اتصال این پیوند را دنبال کنید"
+
+#: src/dashboard-translations.php:32
+msgid "Test connection methods"
+msgstr "آزمایش روش‌های اتصال"
+
+#: src/dashboard-translations.php:33, src/modules/updraftplus/translations-dashboard.php:79
+msgid "Testing..."
+msgstr "در حال آزمایش..."
+
+#: src/dashboard-translations.php:34
+msgid "Failed"
+msgstr "ناموفق"
+
+#: src/dashboard-translations.php:35
+msgid "Succeeded."
+msgstr "موفق شد."
+
+#: src/dashboard-translations.php:36, src/dashboard-translations.php:38, src/dashboard-translations.php:40, src/dashboard-translations.php:41, src/classes/class-siterpc.php:276
+msgid "There was an error in contacting the remote site."
+msgstr "در برقراری ارتباط با سایت راه دور خطایی رخ داد."
+
+#: src/dashboard-translations.php:36, src/dashboard-translations.php:38, src/classes/class-siterpc.php:276
+msgid "You should check that the remote site is online, is not firewalled, has remote control enabled, and that no security module is blocking the access."
+msgstr "بررسی کنید که سایت راه دور آنلاین باشد، پشت فایروال نباشد، کنترل از راه دور فعال باشد و هیچ ماژول امنیتی دسترسی را مسدود نکند."
+
+#: src/dashboard-translations.php:36, src/dashboard-translations.php:37, src/classes/class-siterpc.php:276
+msgid "Then, check the logs on the remote site and your browser's JavaScript console."
+msgstr "سپس گزارش‌های سایت راه دور و کنسول جاوااسکریپت مرورگر را بررسی کنید."
+
+#: src/dashboard-translations.php:36, src/dashboard-translations.php:37, src/classes/class-siterpc.php:276
+msgid "If none of that helps, then you should try re-adding the site with a fresh key."
+msgstr "اگر هیچ‌کدام کمک نکرد، سایت را با یک کلید جدید دوباره اضافه کنید."
+
+#: src/dashboard-translations.php:37
+msgid "There was an error in contacting either the dashboard server or the remote site."
+msgstr "در برقراری ارتباط با سرور داشبورد یا سایت راه دور خطایی رخ داد."
+
+#: src/dashboard-translations.php:37
+msgid "You should check that the dashboard website is online, and that the remote site is online, is not firewalled, has remote control enabled, and that no security module is blocking the access."
+msgstr "بررسی کنید که وب‌سایت داشبورد آنلاین باشد و سایت راه دور نیز آنلاین، بدون فایروال مسدودکننده، با کنترل از راه دور فعال و بدون ماژول امنیتی مسدودکننده باشد."
+
+#: src/dashboard-translations.php:38
+msgid "The request did not complete in a reasonable amount of time."
+msgstr "درخواست در زمان معقولی کامل نشد."
+
+#: src/dashboard-translations.php:38
+msgid "Then, check the logs on the remote site."
+msgstr "سپس گزارش‌های سایت راه دور را بررسی کنید."
+
+#: src/dashboard-translations.php:39
+msgid "timeout"
+msgstr "پایان مهلت"
+
+#: src/dashboard-translations.php:40
+msgid "The request to the remote site was blocked by the site's webserver as unauthorized."
+msgstr "درخواست به سایت راه دور توسط وب‌سرور سایت به‌عنوان غیرمجاز مسدود شد."
+
+#: src/dashboard-translations.php:41
+msgid "The request to the remote site was blocked by your web browser as unauthorized."
+msgstr "درخواست به سایت راه دور توسط مرورگر شما به‌عنوان غیرمجاز مسدود شد."
+
+#: src/dashboard-translations.php:42
+msgid "HTTP response status code"
+msgstr "کد وضعیت پاسخ HTTP"
+
+#: src/dashboard-translations.php:43
+msgid "Error code"
+msgstr "کد خطا"
+
+#: src/dashboard-translations.php:44
+msgid "Site"
+msgstr "سایت"
+
+#: src/dashboard-translations.php:45
+msgid "Open site configuration"
+msgstr "باز کردن پیکربندی سایت"
+
+#: src/dashboard-translations.php:46, src/site-management.php:1832, src/modules/updates/translations-dashboard.php:26
+msgid "Description"
+msgstr "توضیحات"
+
+#: src/dashboard-translations.php:47, src/templates/dashboard/modal.php:19
+msgid "Go"
+msgstr "برو"
+
+#: src/dashboard-translations.php:48, src/templates/dashboard/modal.php:11, src/templates/dashboard/modal.php:18, src/modules/notices/templates/horizontal-notice.php:18, src/modules/notices/templates/horizontal-notice.php:16
+msgid "Close"
+msgstr "بستن"
+
+#: src/dashboard-translations.php:49
+msgid "Edit"
+msgstr "ویرایش"
+
+#: src/dashboard-translations.php:50
+msgid "Edit site configuration"
+msgstr "ویرایش پیکربندی سایت"
+
+#: src/dashboard-translations.php:51
+msgid "PHP installation information"
+msgstr "اطلاعات نصب PHP"
+
+#: src/dashboard-translations.php:52
+msgid "To connect to a remote site, paste its key here:"
+msgstr "برای اتصال به سایت راه دور، کلید آن را اینجا بچسبانید:"
+
+#: src/dashboard-translations.php:53
+msgid "The remote site did not recognise the communications key - you are recommended to delete and re-create it."
+msgstr "سایت راه دور کلید ارتباطی را نشناخت — توصیه می‌شود آن را حذف و دوباره بسازید."
+
+#: src/dashboard-translations.php:54
+msgid "The remote site has already received the communications key"
+msgstr "سایت راه دور قبلاً کلید ارتباطی را دریافت کرده است"
+
+#: src/dashboard-translations.php:55
+msgid "Need help adding a site?"
+msgstr "برای افزودن سایت به راهنما نیاز دارید؟"
+
+#: src/dashboard-translations.php:56
+msgid "Go here for help in trouble-shooting connection issues"
+msgstr "برای راهنمایی در رفع مشکلات اتصال اینجا بروید"
+
+#: src/dashboard-translations.php:57
+msgid "HTTP Authentication"
+msgstr "احراز هویت HTTP"
+
+#: src/dashboard-translations.php:58
+msgid "For sites protected by a password"
+msgstr "برای سایت‌های محافظت‌شده با رمز عبور"
+
+#: src/dashboard-translations.php:60
+msgid "HTTP Authentication Username"
+msgstr "نام کاربری احراز هویت HTTP"
+
+#: src/dashboard-translations.php:61
+msgid "HTTP Authentication Password"
+msgstr "رمز عبور احراز هویت HTTP"
+
+#: src/dashboard-translations.php:62
+msgid "Basic"
+msgstr "پایه"
+
+#: src/dashboard-translations.php:63
+msgid "Digest"
+msgstr "خلاصه"
+
+#: src/dashboard-translations.php:64
+msgid "Send CORS headers"
+msgstr "ارسال هدرهای CORS"
+
+#: src/dashboard-translations.php:65
+msgid "CORS headers should normally be turned on, so that UpdraftCentral on the remote site sends these necessary headers."
+msgstr "هدرهای CORS معمولاً باید روشن باشند تا UpdraftCentral در سایت راه دور این هدرهای ضروری را ارسال کند."
+
+#: src/dashboard-translations.php:65
+msgid "You would only turn it off if you have set something else up to manually add them (which may be necessary for you to do if you are using HTTP authentication)."
+msgstr "فقط اگر چیز دیگری برای افزودن دستی آن‌ها تنظیم کرده‌اید خاموشش کنید (در صورت استفاده از احراز هویت HTTP ممکن است لازم باشد)."
+
+#: src/dashboard-translations.php:66
+msgid "The remote site is protected by HTTP digest authentication, which UpdraftCentral does not support in this connection mode (via mothership)."
+msgstr "سایت راه دور با احراز هویت HTTP Digest محافظت می‌شود که UpdraftCentral در این حالت اتصال (از طریق mothership) از آن پشتیبانی نمی‌کند."
+
+#: src/dashboard-translations.php:67
+msgid "Connection method"
+msgstr "روش اتصال"
+
+#: src/dashboard-translations.php:68
+msgid "These tests cannot currently be run."
+msgstr "در حال حاضر نمی‌توان این آزمایش‌ها را اجرا کرد."
+
+#: src/dashboard-translations.php:68
+msgid "You must first change and save the site configuration to take it out of the \"Via mothership (dashboard webserver), encryption performed at the mothership\" mode, in order to be able to perform the connection tests."
+msgstr "ابتدا باید پیکربندی سایت را تغییر داده و ذخیره کنید تا از حالت «از طریق سرور اصلی (وب سرور داشبورد)، رمزگذاری در سرور اصلی انجام شده است» خارج شود تا بتوانید آزمایش‌های اتصال را انجام دهید."
+
+#: src/dashboard-translations.php:68
+msgid "This is because in the current mode, some of the information for testing direct connections has not been shared with the browser, to enhance security."
+msgstr "زیرا در حالت فعلی، بخشی از اطلاعات آزمایش اتصال مستقیم به‌خاطر امنیت با مرورگر به‌اشتراک گذاشته نشده است."
+
+#: src/dashboard-translations.php:69
+msgid "Run a connection method test by following this link"
+msgstr "با دنبال کردن این پیوند آزمایش روش اتصال را اجرا کنید"
+
+#: src/dashboard-translations.php:70
+msgid "Get help on complicated setups and connection methods at this link."
+msgstr "راهنمای راه‌اندازی‌های پیچیده و روش‌های اتصال را در این پیوند ببینید."
+
+#: src/dashboard-translations.php:71
+msgid "Because of %s, any connections to http sites must go via the mothership (dashboard webserver) - and the option chosen here will make no difference"
+msgstr "به‌خاطر %s، هر اتصال به سایت‌های http باید از طریق mothership (وب‌سرور داشبورد) انجام شود — و گزینهٔ انتخاب‌شده اینجا تفاوتی ایجاد نمی‌کند"
+
+#: src/dashboard-translations.php:71
+msgid "web browser security restrictions"
+msgstr "محدودیت‌های امنیتی مرورگر"
+
+#: src/dashboard-translations.php:72
+msgid "Direct"
+msgstr "مستقیم"
+
+#: src/dashboard-translations.php:73
+msgid "Direct when possible (authentication method chosen automatically)"
+msgstr "مستقیم در صورت امکان (روش احراز هویت خودکار)"
+
+#: src/dashboard-translations.php:74
+msgid "Direct when possible (authentication via jQuery)"
+msgstr "مستقیم در صورت امکان (احراز هویت از طریق jQuery)"
+
+#: src/dashboard-translations.php:75
+msgid "Direct when possible (manually constructed authentication)"
+msgstr "مستقیم در صورت امکان (احراز هویت دستی)"
+
+#: src/dashboard-translations.php:76
+msgid "Not yet begun"
+msgstr "هنوز شروع نشده"
+
+#: src/dashboard-translations.php:77
+msgid "Via mothership (encrypted from the browser)"
+msgstr "از طریق mothership (رمزنگاری‌شده از مرورگر)"
+
+#: src/dashboard-translations.php:78
+msgid "Via mothership (encrypted at the mothership)"
+msgstr "از طریق کشتی مادر (رمزگذاری شده در کشتی مادر)"
+
+#: src/dashboard-translations.php:79
+msgid "Via mothership (slower, but better compatibility with some awkward setups)"
+msgstr "از طریق mothership (کندتر، اما سازگاری بهتر با برخی تنظیمات خاص)"
+
+#: src/dashboard-translations.php:80
+msgid "Via mothership, encryption performed at the mothership (useful for slow browsers, but less secure)"
+msgstr "از طریق کشتی مادر، رمزگذاری در کشتی مادر انجام می‌شود (برای مرورگرهای کند مفید است، اما امنیت کمتری دارد)"
+
+#: src/dashboard-translations.php:81
+msgid "Browser security restrictions preventing https dashboards contacting non-https sites may be involved here."
+msgstr "محدودیت‌های امنیتی مرورگر که مانع از تماس داشبوردهای https با سایت‌های غیر https می‌شوند، ممکن است در اینجا دخیل باشند."
+
+#: src/dashboard-translations.php:81
+msgid "You could try setting up https (i.e. SSL) for your site-local website, visiting its dashboard over https, and getting a new key for it."
+msgstr "می‌توانید https (یعنی SSL) را برای وب‌سایت محلی خود تنظیم کنید، از طریق https به داشبورد آن مراجعه کنید و یک کلید جدید برای آن دریافت کنید."
+
+#: src/dashboard-translations.php:82
+msgid "Method (in recommended order)"
+msgstr "روش (به ترتیب پیشنهادی)"
+
+#: src/dashboard-translations.php:83
+msgid "Result"
+msgstr "نتیجه"
+
+#: src/dashboard-translations.php:84
+msgid "Not possible (due to browser security restrictions on non-https sites)"
+msgstr "امکان‌پذیر نیست (به‌خاطر محدودیت امنیتی مرورگر روی سایت‌های غیر https)"
+
+#: src/dashboard-translations.php:85
+msgid "This is the best connection method."
+msgstr "این بهترین روش اتصال است."
+
+#: src/dashboard-translations.php:86
+msgid "You are recommended to continue using it."
+msgstr "توصیه می‌شود به استفاده از آن ادامه دهید."
+
+#: src/dashboard-translations.php:87
+msgid "You are recommended to use it."
+msgstr "توصیه می‌شود از آن استفاده کنید."
+
+#: src/dashboard-translations.php:88
+msgid "This is the current method."
+msgstr "این روش فعلی است."
+
+#: src/dashboard-translations.php:89
+msgid "Switch to using this method"
+msgstr "تغییر به این روش"
+
+#: src/dashboard-translations.php:90, src/site-management.php:1497, src/templates/dashboard/navigation.php:35, src/modules/updraftplus/templates/management-actions-oldcopy-keep.php:16
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: src/dashboard-translations.php:91, src/modules/eum/translations-dashboard.php:11, src/modules/wpo/translations-dashboard.php:11
+msgid "Save settings"
+msgstr "ذخیره تنظیمات"
+
+#: src/dashboard-translations.php:92
+msgid "Debugging level"
+msgstr "سطح اشکال‌زدایی"
+
+#: src/dashboard-translations.php:93
+msgid "for this session only - controls the amount of output in the web browser's console"
+msgstr "فقط برای این نشست — میزان خروجی در کنسول مرورگر را کنترل می‌کند"
+
+#: src/dashboard-translations.php:94
+msgid "The request to open a new browser window/tab was made, but that window/tab was not immediately found - if you have a pop-up blocker, then please check it (e.g. it may be showing something in the browser address bar)."
+msgstr "درخواست باز شدن پنجره/زبانهٔ جدید ارسال شد اما فوراً پیدا نشد — اگر مسدودکنندهٔ پاپ‌آپ دارید بررسی کنید (مثلاً ممکن است در نوار آدرس چیزی نشان دهد)."
+
+#: src/dashboard-translations.php:95
+msgid "Opening a new window/tab"
+msgstr "باز کردن پنجره/زبانهٔ جدید"
+
+#: src/dashboard-translations.php:96
+msgid "UpdraftCentral Help"
+msgstr "راهنمای UpdraftCentral"
+
+#: src/dashboard-translations.php:97
+msgid "Follow one of these links to get help with UpdraftCentral"
+msgstr "یکی از این پیوندها را برای دریافت راهنما دنبال کنید"
+
+#: src/dashboard-translations.php:98
+msgid "How to install UpdraftCentral"
+msgstr "نحوه نصب UpdraftCentral"
+
+#: src/dashboard-translations.php:99
+msgid "How to add a site to UpdraftCentral"
+msgstr "نحوه افزودن سایت به UpdraftCentral"
+
+#: src/dashboard-translations.php:100
+msgid "Frequently asked questions"
+msgstr "سؤالات متداول"
+
+#: src/dashboard-translations.php:101
+msgid "Make a suggestion / feature request"
+msgstr "پیشنهاد / درخواست قابلیت"
+
+#: src/dashboard-translations.php:102
+msgid "Paid support requests"
+msgstr "درخواست پشتیبانی پولی"
+
+#: src/dashboard-translations.php:103, src/templates/wp-admin/dashboard-page.php:6
+msgid "Support forum"
+msgstr "انجمن پشتیبانی"
+
+#: src/dashboard-translations.php:104, src/classes/class-siterpc.php:110
+msgid "You have more sites in your dashboard than licences."
+msgstr "تعداد سایت‌های داشبورد بیشتر از تعداد مجوزهاست."
+
+#: src/dashboard-translations.php:104, src/classes/class-siterpc.php:110
+msgid "As a result, you cannot perform actions on this site."
+msgstr "در نتیجه نمی‌توانید روی این سایت عملی انجام دهید."
+
+#: src/dashboard-translations.php:104, src/classes/class-siterpc.php:110
+msgid "You will need to obtain more licences, or remove some sites."
+msgstr "باید مجوز بیشتری بگیرید یا برخی سایت‌ها را حذف کنید."
+
+#: src/dashboard-translations.php:105
+msgid "UC browser cache"
+msgstr "کش مرورگر UC"
+
+#: src/dashboard-translations.php:107
+msgid "Log contents"
+msgstr "ثبت محتوا در گزارش"
+
+#: src/dashboard-translations.php:108
+msgid "The UpdraftCentral browser cache currently has no contents"
+msgstr "کش مرورگر UpdraftCentral در حال حاضر محتوایی ندارد"
+
+#: src/dashboard-translations.php:109
+msgid "The UpdraftCentral browser cache was emptied - %s items were removed"
+msgstr "کش مرورگر UpdraftCentral خالی شد — %s مورد حذف شد"
+
+#: src/dashboard-translations.php:110
+msgid "The UpdraftCentral browser cache contents have been logged in the browser developer console."
+msgstr "محتوای کش مرورگر UpdraftCentral در کنسول توسعه‌دهنده ثبت شد."
+
+#: src/dashboard-translations.php:113
+msgid "The site could not return the requested information - perhaps you need to update it to a more recent UpdraftPlus version?"
+msgstr "سایت نتوانست اطلاعات درخواستی را برگرداند — شاید باید UpdraftPlus را به نسخهٔ جدیدتر به‌روز کنید؟"
+
+#: src/dashboard-translations.php:114
+msgid "The remote site did not recognise the command."
+msgstr "سایت راه دور دستور را نشناخت."
+
+#: src/dashboard-translations.php:114
+msgid "Possibly you need to update the remote site to a more recent %s version."
+msgstr "احتمالاً باید سایت راه دور را به نسخهٔ جدیدتر %s به‌روز کنید."
+
+#: src/dashboard-translations.php:115
+msgid "The remote site has encountered a fatal error while executing the requested command."
+msgstr "سایت راه دور هنگام اجرای دستور با خطای مهلک مواجه شد."
+
+#: src/dashboard-translations.php:115
+msgid "Remote response follows: %s"
+msgstr "پاسخ راه دور: %s"
+
+#: src/dashboard-translations.php:117
+msgid "Your web browser lacks capabilities that UpdraftCentral requires, and thus is not supported."
+msgstr "مرورگر شما قابلیت‌های مورد نیاز UpdraftCentral را ندارد و پشتیبانی نمی‌شود."
+
+#: src/dashboard-translations.php:117
+msgid "Please update your browser to the latest version."
+msgstr "لطفاً مرورگر را به آخرین نسخه به‌روز کنید."
+
+#: src/dashboard-translations.php:118
+msgid "Search"
+msgstr "جستجو"
+
+#: src/dashboard-translations.php:119
+msgid "Invalid Credentials"
+msgstr "اطلاعات ورود نامعتبر"
+
+#: src/dashboard-translations.php:120
+msgid "The credentials you entered did not give the desired access."
+msgstr "اطلاعات ورود، دسترسی مورد نظر را نداد."
+
+#: src/dashboard-translations.php:120
+msgid "Please check that your server is properly configured for access, and that you have entered the correct credentials."
+msgstr "پیکربندی سرور و صحت اطلاعات ورود را بررسی کنید."
+
+#: src/dashboard-translations.php:121
+msgid "Credentials appears to be valid."
+msgstr "به نظر می‌رسد اطلاعات ورود معتبر است."
+
+#: src/dashboard-translations.php:122
+msgid "There are currently no tasks available to execute."
+msgstr "در حال حاضر وظیفه‌ای برای اجرا وجود ندارد."
+
+#: src/dashboard-translations.php:123
+msgid "The update process has completed."
+msgstr "فرآیند به‌روزرسانی کامل شد."
+
+#: src/dashboard-translations.php:123, src/modules/updates/translations-dashboard.php:79
+msgid "Refreshing..."
+msgstr "در حال تازه‌سازی..."
+
+#: src/dashboard-translations.php:124
+msgid "Processing"
+msgstr "در حال پردازش"
+
+#: src/dashboard-translations.php:125
+msgid "Process halted due to errors."
+msgstr "فرآیند به‌خاطر خطا متوقف شد."
+
+#: src/dashboard-translations.php:126
+msgid "There was an error when saving the site order."
+msgstr "هنگام ذخیره ترتیب سایت‌ها خطایی رخ داد."
+
+#: src/dashboard-translations.php:127, src/templates/sites/site-row.php:4, src/templates/sites/site-row.php:19
+msgid "Drag to set the site order"
+msgstr "بکشید تا ترتیب سایت‌ها را تنظیم کنید"
+
+#: src/dashboard-translations.php:128
+msgid "No site selected"
+msgstr "سایتی انتخاب نشده"
+
+#: src/dashboard-translations.php:129
+msgid "Selected site"
+msgstr "سایت انتخاب‌شده"
+
+#: src/dashboard-translations.php:130
+msgid "Show keyboard shortcuts"
+msgstr "نمایش میانبرهای صفحه‌کلید"
+
+#: src/dashboard-translations.php:131
+msgid "Show keyboard shortcuts (this window)"
+msgstr "نمایش میانبرهای صفحه‌کلید (این پنجره)"
+
+#: src/dashboard-translations.php:132
+msgid "Keyboard shortcuts"
+msgstr "میانبرهای صفحه‌کلید"
+
+#: src/dashboard-translations.php:133
+msgid "Most of these shortcuts operate on the currently selected site."
+msgstr "بیشتر این میانبرها روی سایت انتخاب‌شده عمل می‌کنند."
+
+#: src/dashboard-translations.php:133
+msgid "If no site is currently selected, then the first site in your list will be used."
+msgstr "اگر سایتی انتخاب نشده باشد، اولین سایت فهرست استفاده می‌شود."
+
+#: src/dashboard-translations.php:133
+msgid "You may change the default shortcuts, but be sure that your new shortcut does not conflict with your browser's own shortcut keys, otherwise, it won't work or may cause some unexpected behaviour."
+msgstr "می‌توانید میانبرها را تغییر دهید؛ مراقب تداخل با میانبرهای خود مرورگر باشید وگرنه کار نمی‌کند یا رفتار غیرمنتظره دارد."
+
+#: src/dashboard-translations.php:133
+msgid "Shortcuts are case-insensitive and only alphabetic (A-Z) characters are allowed."
+msgstr "میانبرها به بزرگی/کوچکی حروف حساس نیستند و فقط حروف انگلیسی (A-Z) مجازند."
+
+#: src/dashboard-translations.php:134
+msgid "change"
+msgstr "تغییر"
+
+#: src/dashboard-translations.php:135
+msgid "save"
+msgstr "ذخیره"
+
+#: src/dashboard-translations.php:136
+msgid "cancel"
+msgstr "لغو"
+
+#: src/dashboard-translations.php:137
+msgid "Choose modifiers"
+msgstr "انتخاب اصلاح‌کننده‌ها"
+
+#: src/dashboard-translations.php:138
+msgid "New shortcut"
+msgstr "میانبر جدید"
+
+#: src/dashboard-translations.php:139
+msgid "Key character required"
+msgstr "کاراکتر کلید الزامی است"
+
+#: src/dashboard-translations.php:140
+msgid "You need to input an alphabetic character (a-z/A-Z) in order to save the new shortcut."
+msgstr "برای ذخیره میانبر جدید باید یک حرف الفبا (a-z/A-Z) وارد کنید."
+
+#: src/dashboard-translations.php:141
+msgid "Show comments"
+msgstr "نمایش دیدگاه‌ها"
+
+#: src/dashboard-translations.php:142
+msgid "Show users"
+msgstr "نمایش کاربران"
+
+#: src/dashboard-translations.php:143
+msgid "Show analytics"
+msgstr "نمایش آمار"
+
+#: src/dashboard-translations.php:144
+msgid "Invalid key"
+msgstr "کلید نامعتبر"
+
+#: src/dashboard-translations.php:145
+msgid "Shortcut unavailable"
+msgstr "میانبر در دسترس نیست"
+
+#: src/dashboard-translations.php:146
+msgid "The shortcut you wish to save has already been taken."
+msgstr "میانبری که می‌خواهید ذخیره کنید قبلاً گرفته شده است."
+
+#: src/dashboard-translations.php:146
+msgid "Please choose a different shortcut."
+msgstr "لطفاً میانبر دیگری انتخاب کنید."
+
+#: src/dashboard-translations.php:147
+msgid "All sites selected."
+msgstr "همه سایت‌ها انتخاب شدند."
+
+#: src/dashboard-translations.php:147
+msgid "Previous site selection cleared."
+msgstr "انتخاب قبلی سایت پاک شد."
+
+#: src/dashboard-translations.php:148
+msgid "Site update"
+msgstr "به‌روزرسانی سایت"
+
+#: src/dashboard-translations.php:149
+msgid "Reset shortcuts"
+msgstr "بازنشانی میانبرها"
+
+#: src/dashboard-translations.php:150
+msgid "Shortcut key"
+msgstr "کلید میانبر"
+
+#: src/dashboard-translations.php:151
+msgid "Please wait, action in progress"
+msgstr "لطفاً صبر کنید، عملیات در جریان است"
+
+#: src/dashboard-translations.php:152
+msgid "An action is currently in progress."
+msgstr "در حال حاضر عملیاتی در جریان است."
+
+#: src/dashboard-translations.php:153
+msgid "Standard"
+msgstr "استاندارد"
+
+#: src/dashboard-translations.php:154, src/modules/eum/templates/site-row-buttons.php:10
+msgid "Advanced"
+msgstr "پیشرفته"
+
+#: src/dashboard-translations.php:155
+msgid "Show All"
+msgstr "نمایش همه"
+
+#: src/dashboard-translations.php:156, src/templates/dashboard/sidebar-navigation.php:127, src/templates/dashboard/sidebar-navigation.php:131
+msgid "Hidden Modules"
+msgstr "ماژول‌های مخفی"
+
+#: src/dashboard-translations.php:157
+msgid "Sorry, you are not allowed to install or activate plugins on the remote site."
+msgstr "متأسفانه اجازه نصب یا فعال‌سازی افزونه در سایت راه دور را ندارید."
+
+#: src/dashboard-translations.php:158
+msgid "UpdraftCentral failed to install the %s plugin on the remote website."
+msgstr "UpdraftCentral نتوانست افزونه %s را روی سایت راه دور نصب کند."
+
+#: src/dashboard-translations.php:159
+msgid "It appears that the %s plugin is not installed."
+msgstr "به نظر می‌رسد افزونه %s نصب نیست."
+
+#: src/dashboard-translations.php:159
+msgid "Press the \"Install and Activate\" button to download, install and activate the plugin on the remote website."
+msgstr "دکمه «نصب و فعال‌سازی» را بزنید تا افزونه در سایت راه دور دانلود، نصب و فعال شود."
+
+#: src/dashboard-translations.php:160
+msgid "It appears that the %s plugin is installed but not activated."
+msgstr "به نظر می‌رسد افزونه %s نصب است اما فعال نیست."
+
+#: src/dashboard-translations.php:160
+msgid "Press the \"Activate\" button to activate the plugin on the remote website."
+msgstr "دکمه «فعال‌سازی» را بزنید تا افزونه در سایت راه دور فعال شود."
+
+#: src/dashboard-translations.php:161
+msgid "Install and Activate"
+msgstr "نصب و فعال‌سازی"
+
+#: src/dashboard-translations.php:162
+msgid "Activate"
+msgstr "فعال‌سازی"
+
+#: src/dashboard-translations.php:163
+msgid "Plugin name is required."
+msgstr "نام افزونه الزامی است."
+
+#: src/dashboard-translations.php:164
+msgid "Plugin slug is required."
+msgstr "نامک افزونه الزامی است."
+
+#: src/dashboard-translations.php:165
+msgid "Collapse menu"
+msgstr "جمع کردن منو"
+
+#: src/dashboard-translations.php:166
+msgid "Expand menu"
+msgstr "گسترش منو"
+
+#: src/dashboard-translations.php:167
+msgid "Return to the \"updates\" screen"
+msgstr "بازگشت به صفحه «به‌روزرسانی‌ها»"
+
+#: src/dashboard-translations.php:168
+msgid "Add user"
+msgstr "افزودن کاربر"
+
+#: src/dashboard-translations.php:169
+msgid "Timeout"
+msgstr "پایان مهلت"
+
+#: src/dashboard-translations.php:170
+msgid "The maximum number of seconds until the request times out and the current process is stopped."
+msgstr "حداکثر ثانیه تا پایان مهلت درخواست و توقف فرآیند فعلی."
+
+#: src/dashboard-translations.php:170
+msgid "Adjust it to your specific needs and requirements."
+msgstr "آن را مطابق نیاز خود تنظیم کنید."
+
+#: src/dashboard-translations.php:171
+msgid "seconds"
+msgstr "ثانیه"
+
+#: src/dashboard-translations.php:172, src/classes/class-siterpc.php:106, src/modules/eum/translations-dashboard.php:7, src/modules/wpo/translations-dashboard.php:7
+msgid "An error has occurred while processing your request."
+msgstr "هنگام پردازش درخواست خطایی رخ داد."
+
+#: src/dashboard-translations.php:172, src/modules/eum/translations-dashboard.php:7, src/modules/wpo/translations-dashboard.php:7
+msgid "Please refer to the following error: %s"
+msgstr "به این خطا مراجعه کنید: %s"
+
+#: src/dashboard-translations.php:173
+msgid "Press to select and add a website"
+msgstr "برای انتخاب و افزودن وب‌سایت فشار دهید"
+
+#: src/dashboard-translations.php:174
+msgid "Submit"
+msgstr "ارسال"
+
+#: src/dashboard-translations.php:175
+msgid "Page %s of %s"
+msgstr "صفحه %s از %s"
+
+#: src/dashboard-translations.php:176, src/modules/updates/translations-dashboard.php:77, src/modules/updraftvault/translations-dashboard.php:18
+msgid "Previous"
+msgstr "قبلی"
+
+#: src/dashboard-translations.php:177, src/modules/updates/translations-dashboard.php:78, src/modules/updraftvault/translations-dashboard.php:19
+msgid "Next"
+msgstr "بعدی"
+
+#: src/dashboard-translations.php:178
+msgid "First"
+msgstr "اولین"
+
+#: src/dashboard-translations.php:179
+msgid "Last"
+msgstr "آخرین"
+
+#: src/dashboard-translations.php:180
+msgid "%s-%s of %s items"
+msgstr "%s–%s از %s مورد"
+
+#: src/dashboard-translations.php:181
+msgid "OK"
+msgstr "تأیید"
+
+#: src/dashboard-translations.php:182
+msgid "Cancel"
+msgstr "لغو"
+
+#: src/dashboard-translations.php:183
+msgid "All managed sites"
+msgstr "همه سایت‌های مدیریت‌شده"
+
+#: src/dashboard-translations.php:184
+msgid "Add all sites tagged: %s"
+msgstr "افزودن همه سایت‌های برچسب‌خورده: %s"
+
+#: src/dashboard-translations.php:185
+msgid "Export/Import settings"
+msgstr "خروجی/ورودی تنظیمات"
+
+#: src/dashboard-translations.php:186
+msgid "Export settings"
+msgstr "خروجی گرفتن از تنظیمات"
+
+#: src/dashboard-translations.php:187
+msgid "Import settings"
+msgstr "وارد کردن تنظیمات"
+
+#: src/dashboard-translations.php:188
+msgid "Export"
+msgstr "خروجی"
+
+#: src/dashboard-translations.php:189
+msgid "Without an encryption phrase, your exported data is in plain text."
+msgstr "بدون عبارت رمزنگاری، دادهٔ خروجی به‌صورت متن ساده است."
+
+#: src/dashboard-translations.php:189
+msgid "Anyone who gets access to the unencrypted file would be able to control the exported sites."
+msgstr "هر کس به فایل رمزنگاری‌نشده دسترسی یابد می‌تواند سایت‌های صادرشده را کنترل کند."
+
+#: src/dashboard-translations.php:189
+msgid "Keep the phrase somewhere safe and do not lose it (there is no other way to decrypt the file)."
+msgstr "عبارت را در جای امن نگه دارید و گم نکنید (راه دیگری برای رمزگشایی نیست)."
+
+#: src/dashboard-translations.php:190
+msgid "Import"
+msgstr "ورودی"
+
+#: src/dashboard-translations.php:191
+msgid "Add an encryption phrase"
+msgstr "افزودن عبارت رمزنگاری"
+
+#: src/dashboard-translations.php:192
+msgid "Use phrase for decryption"
+msgstr "استفاده از عبارت برای رمزگشایی"
+
+#: src/dashboard-translations.php:193
+msgid "Encryption phrase"
+msgstr "عبارت رمزنگاری"
+
+#: src/dashboard-translations.php:194
+msgid "Decryption phrase"
+msgstr "عبارت رمزگشایی"
+
+#: src/dashboard-translations.php:195
+msgid "Import response"
+msgstr "پاسخ ورود"
+
+#: src/dashboard-translations.php:196
+msgid "Import process has succeeded."
+msgstr "فرآیند ورود موفق بود."
+
+#: src/dashboard-translations.php:196
+msgid "Your UpdraftCentral dashboard will now be reloaded to refresh your sites list."
+msgstr "داشبورد UpdraftCentral برای تازه‌سازی فهرست سایت‌ها دوباره بارگذاری می‌شود."
+
+#: src/dashboard-translations.php:197
+msgid "You have chosen encryption, but not entered an encryption phrase."
+msgstr "رمزنگاری را انتخاب کرده‌اید اما عبارت رمزنگاری وارد نکرده‌اید."
+
+#: src/dashboard-translations.php:198
+msgid "Shortcuts are here to help you navigate UpdraftCentral features more quickly."
+msgstr "میانبرها برای حرکت سریع‌تر در قابلیت‌های UpdraftCentral هستند."
+
+#: src/dashboard-translations.php:198
+msgid "If you wish to deactivate them, you can do so via the checkbox below."
+msgstr "اگر می‌خواهید غیرفعالشان کنید از کادر زیر استفاده کنید."
+
+#: src/dashboard-translations.php:199
+msgid "Tick to activate"
+msgstr "برای فعال‌سازی علامت بزنید"
+
+#: src/dashboard-translations.php:200
+msgid "Configure shortcuts"
+msgstr "پیکربندی میانبرها"
+
+#: src/dashboard-translations.php:201
+msgid "Message"
+msgstr "پیام"
+
+#: src/dashboard-translations.php:202
+msgid "Replace existing with uploaded"
+msgstr "جایگزینی موجود با بارگذاری‌شده"
+
+#: src/dashboard-translations.php:203
+msgid "Cancel installation"
+msgstr "لغو نصب"
+
+#: src/dashboard-translations.php:204
+msgid "Close editor"
+msgstr "بستن ویرایشگر"
+
+#: src/dashboard-translations.php:205
+msgid "Switch to draft"
+msgstr "تغییر به پیش‌نویس"
+
+#: src/dashboard-translations.php:206
+msgid "Preview changes"
+msgstr "پیش‌نمایش تغییرات"
+
+#: src/dashboard-translations.php:207
+msgid "Permalink"
+msgstr "پیوند یکتا"
+
+#: src/dashboard-translations.php:208
+msgid "JavaScript is required for the block editor to work."
+msgstr "برای کار ویرایشگر بلوک به جاوااسکریپت نیاز است."
+
+#: src/dashboard-translations.php:209
+msgid "Load setting"
+msgstr "تنظیم بارگذاری"
+
+#: src/dashboard-translations.php:210
+msgid "By default UpdraftCentral fills the entire content area when it loads."
+msgstr "به‌طور پیش‌فرض UpdraftCentral هنگام بارگذاری کل ناحیه محتوا را پر می‌کند."
+
+#: src/dashboard-translations.php:210
+msgid "If you don't wish to load UpdraftCentral that way, then un-tick the checkbox below."
+msgstr "اگر نمی‌خواهید این‌گونه بارگذاری شود، علامت کادر زیر را بردارید."
+
+#: src/dashboard-translations.php:210
+msgid "You may need to reload the browser after saving for the new settings to take effect."
+msgstr "ممکن است پس از ذخیره برای اعمال تنظیمات، مرورگر را دوباره بارگذاری کنید."
+
+#: src/dashboard-translations.php:211
+msgid "Tick to fill the entire content area on load"
+msgstr "برای پر کردن کل ناحیه محتوا هنگام بارگذاری علامت بزنید"
+
+#: src/dashboard-translations.php:212
+msgid "Backup is disabled for \"%s\" because the UpdrafPlus plugin is not installed or activated."
+msgstr "پشتیبان‌گیری برای «%s» غیرفعال است چون افزونه UpdraftPlus نصب یا فعال نیست."
+
+#: src/dashboard-translations.php:213
+msgid "The attempt to activate UpdraftPlus on \"%s\" has failed."
+msgstr "تلاش برای فعال‌سازی UpdraftPlus روی «%s» ناموفق بود."
+
+#: src/dashboard-translations.php:213, src/classes/class-uploader.php:107
+msgid "Please try again."
+msgstr "لطفاً دوباره تلاش کنید."
+
+#: src/site-management.php:228
+msgid "Export UpdraftCentral registered sites"
+msgstr "سایت‌های ثبت‌شده‌ی UpdraftCentral را استخراج کنید"
+
+#: src/site-management.php:263
+msgid "Once every minute"
+msgstr "یک بار هر دقیقه"
+
+#: src/site-management.php:651
+msgid "Higher PHP version required"
+msgstr "نسخه بالاتر PHP مورد نیاز است"
+
+#: src/site-management.php:651, src/site-management.php:661, src/site-management.php:866, src/site-management.php:870
+msgid "The %s plugin requires %s version %s or higher - your current version is only %s."
+msgstr "افزونه‌ی %s به نسخه‌ی %s یا بالاتر نیاز دارد - نسخه فعلی شما فقط %s است."
+
+#: src/site-management.php:661
+msgid "Higher WordPress version required"
+msgstr "نسخه وردپرس بالاتر مورد نیاز است"
+
+#: src/site-management.php:695
+msgid "Home"
+msgstr "خانه"
+
+#: src/site-management.php:801, src/site-management.php:793, src/site-management.php:824, src/site-management.php:819, src/site-management.php:1546, src/classes/user.php:1607, src/classes/user.php:1600, src/classes/user.php:1707, src/classes/user.php:1580, src/classes/user.php:1575, src/classes/user.php:1567, src/classes/user.php:1556
+msgid "Error:"
+msgstr "خطا:"
+
+#: src/site-management.php:801
+msgid "you are not authorized to access this site"
+msgstr "شما مجوز دسترسی به این برگه را ندارید"
+
+#: src/site-management.php:793
+msgid "failed to initialise"
+msgstr "مقداردهی اولیه انجام نشد"
+
+#: src/site-management.php:819
+msgid "This action (%s) could not be handled"
+msgstr "این اقدام (%s) قابل انجام نیست"
+
+#: src/site-management.php:994
+msgid "UpdraftCentral"
+msgstr "UpdraftCentral"
+
+#: src/site-management.php:995
+msgid "Manage your WordPress sites from a central dashboard"
+msgstr "سایت‌های وردپرس خود را از یک داشبورد مرکزی مدیریت کنید"
+
+#: src/site-management.php:996
+msgid "Dashboard Settings"
+msgstr "داشبورد تنظیمات"
+
+#: src/site-management.php:997
+msgid "Layout"
+msgstr "طرح بندی"
+
+#: src/site-management.php:998
+msgid "Require role"
+msgstr "نیاز به نقش"
+
+#: src/site-management.php:999
+msgid "Fill entire content area"
+msgstr "کل ناحیه محتوا را پر کنید"
+
+#: src/site-management.php:1500
+msgid "UpdraftCentral website"
+msgstr "وب‌سایت UpdraftCentral"
+
+#: src/site-management.php:1546
+msgid "template not found"
+msgstr "نمونه ای یافت نشد"
+
+#: src/site-management.php:1893, src/site-management.php:1880
+msgid "registered sites"
+msgstr "سایت‌های ثبت‌شده"
+
+#: src/site-management.php:1897
+msgid "Not Found"
+msgstr "یافت نشد"
+
+#: src/site-management.php:1884
+msgid "No sites found"
+msgstr "سایتی پیدا نشد."
+
+#: src/site-management.php:1820
+msgid "UpdraftCentral Registered sites"
+msgstr "سایت‌های ثبت‌شده‌ی UpdraftCentral"
+
+#: src/site-management.php:1824
+msgid "Remote user login"
+msgstr "ورود کاربر از راه دور"
+
+#: src/site-management.php:1828
+msgid "Remote user ID"
+msgstr "کاربر راه دور"
+
+#: src/site-management.php:1836
+msgid "URL"
+msgstr "آدرس URL"
+
+#: src/site-management.php:1857
+msgid "Meta ID"
+msgstr "متا آیدی"
+
+#: src/site-management.php:1861
+msgid "Meta key"
+msgstr "کلید متا"
+
+#: src/site-management.php:1865
+msgid "Meta value"
+msgstr "مقدار متا"
+
+#: src/actions/showmain.php:20
+msgid "UpdraftCentral is a JavaScript application."
+msgstr "UpdraftCentral یک برنامه جاوا اسکریپت است."
+
+#: src/actions/showmain.php:20
+msgid "You will need to have JavaScript enabled in order to use it."
+msgstr "برای استفاده از آن، باید جاوا اسکریپت را فعال کنید."
+
+#: src/actions/showmain.php:28
+msgid "Loading..."
+msgstr "در حال بارگذاری..."
+
+#: src/classes/class-editor.php:443
+msgid "UpdraftCentral Editor Placeholder"
+msgstr "جای خالی ویرایشگر UpdraftCentral"
+
+#: src/classes/class-editor.php:445
+msgid "UpdraftCentral plugin uses this %s as a placeholder when loading the %s editor."
+msgstr "افزونه‌ی UpdraftCentral هنگام بارگذاری ویرایشگر %s از این %s به عنوان یک نگهدارنده‌ی مکان استفاده می‌کند."
+
+#: src/classes/class-editor.php:445
+msgid "You should leave it with \"Draft\" status."
+msgstr "شما باید آن را در وضعیت «پیش‌نویس» رها کنید."
+
+#: src/classes/class-editor.php:486
+msgid "The required object has not been found."
+msgstr "شیء مورد نظر یافت نشد."
+
+#: src/classes/class-editor.php:483
+msgid "An error has occurred while communicating to the remote website."
+msgstr "هنگام برقراری ارتباط با وب‌سایت راه دور، خطایی رخ داده است."
+
+#: src/classes/class-editor.php:480
+msgid "The remote website responded with an error."
+msgstr "وب‌سایت راه دور با خطا پاسخ داد."
+
+#: src/classes/class-editor.php:638, src/classes/class-editor.php:623
+msgid "An unknown error has occurred while processing your request."
+msgstr "خطایی در هنگام درخواست شما رخ داده است"
+
+#: src/classes/class-editor.php:638, src/classes/class-editor.php:623
+msgid "Please contact our support on updraftplus.com so that we can properly escalate the issue."
+msgstr "لطفا با پشتیبانی ما در updraftplus.com تماس بگیرید تا بتوانیم مشکل را به درستی پیگیری کنیم."
+
+#: src/classes/class-editor.php:836
+msgid "Publish"
+msgstr "انتشار"
+
+#: src/classes/class-editor.php:843
+msgid "Categories"
+msgstr "دسته‌بندی‌ها"
+
+#: src/classes/class-editor.php:845
+msgid "Tags"
+msgstr "برچسب‌ها"
+
+#: src/classes/class-editor.php:1036
+msgid "Default template"
+msgstr "الگوی پیش فرض"
+
+#: src/classes/class-editor.php:1282
+msgid "All Categories"
+msgstr "همه Categories"
+
+#: src/classes/class-editor.php:1283
+msgid "Most Used"
+msgstr "بیشترین استفاده"
+
+#: src/classes/class-editor.php:1284, src/classes/class-editor.php:1288
+msgid "Add New Category"
+msgstr "افزودن New Category"
+
+#: src/classes/class-editor.php:1287
+msgid "New Category Name"
+msgstr "New Category نام"
+
+#: src/classes/class-editor.php:1336
+msgid "Add or remove tags"
+msgstr "افزودن / حذف برچسب ها"
+
+#: src/classes/class-editor.php:1337
+msgid "Add New Tag"
+msgstr "افزودن New Tag"
+
+#: src/classes/class-editor.php:1338
+msgid "Separate tags with commas"
+msgstr "برچسب ها را با کاما جدا کنید"
+
+#: src/classes/class-editor.php:1339
+msgid "No tags"
+msgstr "خیر tags"
+
+#: src/classes/class-editor.php:1340
+msgid "Choose from the most used tags"
+msgstr "انتخاب از برچسب های بیشتر استفاده شده"
+
+#: src/classes/class-editor.php:1343
+msgid "Add"
+msgstr "افزودن"
+
+#: src/classes/class-siterpc.php:107, src/classes/user.php:965, src/classes/user.php:1014, src/classes/user.php:1083
+msgid "Missing information"
+msgstr "<g id=\"2\">اطلاعات گم شده</g>. "
+
+#: src/classes/class-siterpc.php:108
+msgid "This site (%d / %d) was not found"
+msgstr "این سایت (%d / %d) پیدا نشد"
+
+#: src/classes/class-siterpc.php:109
+msgid "The key for this site (%d / %d) was not found"
+msgstr "کلید این سایت (%d / %d) پیدا نشد."
+
+#: src/classes/class-siterpc.php:111
+msgid "You cannot contact a website hosted on a site-local network (e.g. localhost) from this dashboard - it cannot be reached."
+msgstr "شما نمی‌توانید از این داشبورد با وب‌سایتی که روی یک شبکه محلی (مثلاً localhost) میزبانی می‌شود، تماس بگیرید - دسترسی به آن امکان‌پذیر نیست."
+
+#: src/classes/class-siterpc.php:112
+msgid "To use HTTP digest authentication, your server running the UpdraftCentral dashboard needs at least PHP %s (your version is %s)"
+msgstr "برای استفاده از احراز هویت HTTP digest، سرور شما که داشبورد UpdraftCentral را اجرا می‌کند، حداقل به PHP %s نیاز دارد (نسخه شما %s است)."
+
+#: src/classes/class-siterpc.php:113
+msgid "The loaded UDRPC library (%s) is too old - you probably need to update your installed UpdraftPlus on the server"
+msgstr "کتابخانه‌ی UDRPC بارگذاری شده (%s) خیلی قدیمی است - احتمالاً باید UpdraftPlus نصب شده روی سرور خود را به‌روزرسانی کنید."
+
+#: src/classes/class-siterpc.php:281
+msgid "The site was connected to, and returned a response"
+msgstr "سایت به آن متصل شد و پاسخی را برگرداند."
+
+#: src/classes/class-siterpc.php:271
+msgid "The connection to the remote site returned an error"
+msgstr "اتصال به سایت راه دور خطایی را نشان داد"
+
+#: src/classes/class-updraftcentral-php-logger.php:24
+msgid "Log events into the PHP error log"
+msgstr "گزارش رویدادها در گزارش خطای PHP"
+
+#: src/classes/class-uploader.php:86
+msgid "The uploaded file exceeds the upload_max_filesize directive set in your UpdraftCentral dashboard's php.ini file."
+msgstr "حجم فایل آپلود شده از مقدار تعیین شده در فایل php.ini داشبورد UpdraftCentral شما بیشتر است."
+
+#: src/classes/class-uploader.php:89
+msgid "The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in the HTML form."
+msgstr "فایل بارگذاری شده بیش از دستورالعمل MAX_FILE_SIZE است که در فرم HTML مشخص شده است."
+
+#: src/classes/class-uploader.php:92
+msgid "The uploaded file was only partially uploaded."
+msgstr "فایل آپلود شده فقط تا حدی آپلود شد."
+
+#: src/classes/class-uploader.php:95
+msgid "No file was uploaded."
+msgstr "هیچ فایلی آپلود نشد."
+
+#: src/classes/class-uploader.php:98
+msgid "Missing a temporary folder that is needed to upload files to your UpdraftCentral dashboard."
+msgstr "پوشه موقت مورد نیاز برای آپلود فایل‌ها در داشبورد UpdraftCentral شما وجود ندارد."
+
+#: src/classes/class-uploader.php:101
+msgid "Failed to write file to disk."
+msgstr "نوشتن پرونده روی دیسک انجام نشد."
+
+#: src/classes/class-uploader.php:101
+msgid "Make sure you have sufficient permission to upload files to your UpdraftCentral dashboard's file system."
+msgstr "مطمئن شوید که مجوز کافی برای آپلود فایل‌ها در سیستم فایل داشبورد UpdraftCentral خود را دارید."
+
+#: src/classes/class-uploader.php:104
+msgid "Your UpdraftCentral dashboard's PHP extension stopped the file upload."
+msgstr "افزونه PHP داشبورد UpdraftCentral شما آپلود فایل را متوقف کرد."
+
+#: src/classes/class-uploader.php:107
+msgid "The file was not uploaded successfully."
+msgstr "فایل با موفقیت آپلود شد"
+
+#: src/classes/class-uploader.php:175, src/classes/class-uploader.php:236, src/classes/class-uploader.php:230
+msgid "Error: %s"
+msgstr "خطا: %s"
+
+#: src/classes/class-uploader.php:175
+msgid "Nonce verification failed."
+msgstr "تأیید Nonce انجام نشد."
+
+#: src/classes/class-uploader.php:230
+msgid "This file does not appear to be a zip file."
+msgstr "این فایل به نظر نمی‌رسد که یک فایل زیپ باشد."
+
+#: src/classes/user.php:252
+msgid "translation"
+msgstr "ترجمه"
+
+#: src/classes/user.php:250
+msgid "core"
+msgstr "عضلات مرکزی"
+
+#: src/classes/user.php:248
+msgid "theme"
+msgstr "قالب"
+
+#: src/classes/user.php:246
+msgid "plugin"
+msgstr "پلاگین"
+
+#: src/classes/user.php:257
+msgid "Installation of the %s %s"
+msgstr "نصب %s %s"
+
+#: src/classes/user.php:260
+msgid "Update of the %s %s"
+msgstr "به‌روزرسانی of the %s %s"
+
+#: src/classes/user.php:263
+msgid "Deletion of the %s %s"
+msgstr "حذف %s %s"
+
+#: src/classes/user.php:266
+msgid "Activation of the %s %s"
+msgstr "فعال‌سازی %s %s"
+
+#: src/classes/user.php:269
+msgid "Deactivation of the %s %s"
+msgstr "غیرفعال‌سازی %s %s"
+
+#: src/classes/user.php:272
+msgid "Installation and activation of the %s %s"
+msgstr "نصب و فعال‌سازی %s %s"
+
+#: src/classes/user.php:312
+msgid "Could not connect to remote site successfully."
+msgstr "نتوانست با موفقیت به سایت راه دور متصل شود."
+
+#: src/classes/user.php:940
+msgid "The site list has been refreshed."
+msgstr "لیست سایت به‌روزرسانی شد."
+
+#: src/classes/user.php:959
+msgid "The site was successfully deleted from your dashboard."
+msgstr "سایت با موفقیت از داشبورد شما حذف شد."
+
+#: src/classes/user.php:1006, src/classes/user.php:1074
+msgid "The site configuration was successfully edited."
+msgstr "پیکربندی سایت با موفقیت ویرایش شد."
+
+#: src/classes/user.php:1179
+msgid "There appears to be a problem uploading the file."
+msgstr "ظاهراً مشکلی در آپلود فایل وجود دارد."
+
+#: src/classes/user.php:1179
+msgid "Please make sure that you have the right permission to upload files in this server."
+msgstr "لطفاً مطمئن شوید که مجوز لازم برای آپلود فایل‌ها در این سرور را دارید."
+
+#: src/classes/user.php:1176
+msgid "Invalid import file"
+msgstr "خطا در درون ریزی"
+
+#: src/classes/user.php:1129
+msgid "It appears that the imported file is encrypted."
+msgstr "به نظر می‌رسد که فایل وارد شده رمزگذاری شده است."
+
+#: src/classes/user.php:1129
+msgid "Please provide the phrase you used to encrypt the file and try again."
+msgstr "لطفاً عبارتی را که برای رمزگذاری فایل استفاده کرده‌اید، وارد کنید و دوباره امتحان کنید."
+
+#: src/classes/user.php:1135
+msgid "The imported file was created by a later version of UpdraftCentral (%s)."
+msgstr "فایل وارد شده توسط نسخه جدیدتر UpdraftCentral (%s) ایجاد شده است."
+
+#: src/classes/user.php:1135
+msgid "Your current UpdraftCentral version is %s."
+msgstr "نسخه فعلی UpdraftCentral شما %s است."
+
+#: src/classes/user.php:1135
+msgid "Please upgrade your UpdraftCentral plugin and try again."
+msgstr "لطفاً افزونه‌ی UpdraftCentral خود را ارتقا دهید و دوباره امتحان کنید."
+
+#: src/classes/user.php:1470
+msgid "You are not authorized to view this information."
+msgstr "شما مجاز به دیدن این نیستید"
+
+#: src/classes/user.php:1470
+msgid "The encryption phrase needed to unlock this file is incorrect."
+msgstr "عبارت رمزگذاری مورد نیاز برای باز کردن قفل این فایل نادرست است."
+
+#: src/classes/user.php:1607
+msgid "This key could not be added - it may be too long since you generated it; please try again."
+msgstr "این کلید قابل اضافه شدن نیست - ممکن است از زمان ایجاد آن توسط شما مدت زیادی گذشته باشد؛ لطفاً دوباره امتحان کنید."
+
+#: src/classes/user.php:1600
+msgid "This key could not be added, as it appears to be corrupt - please try again."
+msgstr "این کلید قابل اضافه شدن نیست، زیرا به نظر می‌رسد خراب است - لطفاً دوباره امتحان کنید."
+
+#: src/classes/user.php:1693
+msgid "The key was successfully added."
+msgstr "کلید با موفقیت اضافه شد."
+
+#: src/classes/user.php:1693
+msgid "It is for interacting with the following site: "
+msgstr "برای تعامل با سایت زیر است:"
+
+#: src/classes/user.php:1580
+msgid "The entered key belongs to a local development website - these cannot be controlled from this dashboard because it is not reachable from an external network."
+msgstr "کلید وارد شده متعلق به یک وب‌سایت توسعه محلی است - این وب‌سایت‌ها را نمی‌توان از این داشبورد کنترل کرد زیرا از یک شبکه خارجی قابل دسترسی نیست."
+
+#: src/classes/user.php:1575
+msgid "The entered key does not belong to a remote site (it belongs to this one)."
+msgstr "کلید وارد شده متعلق به یک سایت راه دور نیست (متعلق به این یکی است)."
+
+#: src/classes/user.php:1567, src/classes/user.php:1563, src/classes/user.php:1561
+msgid "The entered key was corrupt - please try again."
+msgstr "کلید وارد شده خراب است - لطفاً دوباره امتحان کنید."
+
+#: src/classes/user.php:1559
+msgid "The entered key was the wrong length - please try again."
+msgstr "کلید وارد شده طول اشتباه بود - لطفا دوباره امتحان کنید."
+
+#: src/classes/user.php:1537
+msgid "Please enter the site key."
+msgstr "لطفا کد سایت را وارد کنید."
+
+#: src/classes/user.php:1723
+msgid "You have more sites being managed (%d) than active licences (%d) - you will need to obtain more licences in order to manage all of your managed sites."
+msgstr "تعداد سایت‌های تحت مدیریت شما (%d) از تعداد مجوزهای فعال شما (%d) بیشتر است - برای مدیریت تمام سایت‌های مدیریت‌شده‌تان، به مجوزهای بیشتری نیاز خواهید داشت."
+
+#: src/classes/user.php:1932
+msgid "You do not have the permission to do this."
+msgstr "ئێوە دەستپێگەیشتنی پێویستان بۆ ئەم کردارە نییە."
+
+#: src/classes/user.php:1935
+msgid "You have no licences available - to add a site, you will need to obtain some more."
+msgstr "شما هیچ مجوزی ندارید - برای اضافه کردن یک سایت، باید مجوزهای بیشتری دریافت کنید."
+
+#: src/classes/user.php:2122, src/classes/user.php:2154
+msgid "Visibility changed successfully"
+msgstr "قابلیت مشاهده با موفقیت تغییر کرد"
+
+#: src/classes/user.php:2109
+msgid "There was a error, please try again."
+msgstr "خطایی رخ ، لطفا دوباره امتحان کنید."
+
+#: src/pages/dashboard.php:56
+msgid "Sites"
+msgstr "سایت‌ها"
+
+#: src/modules/advancedtools/loader.php:42
+msgid "Show advanced tools"
+msgstr "ابزارهای پیشرفته"
+
+#: src/modules/advancedtools/loader.php:98
+msgid "Tools"
+msgstr "ابزارها"
+
+#: src/modules/advancedtools/translations-dashboard.php:7
+msgid "PHP Info"
+msgstr "اطلاعات PHP"
+
+#: src/modules/advancedtools/translations-dashboard.php:8
+msgid "Response"
+msgstr "پاسخ"
+
+#: src/modules/advancedtools/translations-dashboard.php:9
+msgid "Known Backups"
+msgstr "Known پشتیبان‌ها"
+
+#: src/modules/advancedtools/translations-dashboard.php:10
+msgid "Files"
+msgstr "فایل‌ها"
+
+#: src/modules/advancedtools/translations-dashboard.php:11
+msgid "Options"
+msgstr "گزینه‌ها"
+
+#: src/modules/advancedtools/translations-dashboard.php:12
+msgid "Raw Backup History"
+msgstr "Raw پشتیبان History"
+
+#: src/modules/advancedtools/translations-dashboard.php:13
+msgid "Calculating"
+msgstr "محاسبه"
+
+#: src/modules/advancedtools/translations-dashboard.php:14
+msgid "Log"
+msgstr "گزارش"
+
+#: src/modules/advancedtools/translations-dashboard.php:15
+msgid "Key created"
+msgstr "کلید ایجاد شد"
+
+#: src/modules/advancedtools/translations-dashboard.php:16
+msgid "Generated key"
+msgstr "کلید تولید شده"
+
+#: src/modules/advancedtools/translations-dashboard.php:17
+msgid "Lock settings changed"
+msgstr "تنظیمات قفل تغییر کرد"
+
+#: src/modules/advancedtools/translations-dashboard.php:18
+msgid "Password changed to"
+msgstr "رمز عبور changed to"
+
+#: src/modules/advancedtools/translations-dashboard.php:19
+msgid "Search / replace database"
+msgstr "جستجو / جایگزینی پایگاه داده"
+
+#: src/modules/advancedtools/translations-dashboard.php:20
+msgid "Empty password provided, the settings page is now unlocked"
+msgstr "رمز عبور خالی ارائه شد، صفحه تنظیمات اکنون قفل شده است"
+
+#: src/modules/advancedtools/translations-dashboard.php:21, src/modules/eum/translations-dashboard.php:159
+msgid "You have not yet selected a file to import."
+msgstr "شما هنوز یک پرونده برای وارد کردن انتخاب نکرده اید."
+
+#: src/modules/advancedtools/translations-dashboard.php:22
+msgid "This will import data from:"
+msgstr "این داده ها را از موارد زیر وارد می کند:"
+
+#: src/modules/advancedtools/translations-dashboard.php:23
+msgid "Which was exported on:"
+msgstr "کدام صادر شد:"
+
+#: src/modules/advancedtools/translations-dashboard.php:24
+msgid "Do you want to carry out the import?"
+msgstr "آیا می خواهید واردات را انجام دهید?"
+
+#: src/modules/advancedtools/translations-dashboard.php:25
+msgid "Settings import"
+msgstr "تنظیمات import"
+
+#: src/modules/advancedtools/translations-dashboard.php:26
+msgid "Settings successfully imported."
+msgstr "تنظیمات با موفقیت وارد شد."
+
+#: src/modules/advancedtools/translations-dashboard.php:27
+msgid "Failed to import settings."
+msgstr "وارد کردن تنظیمات ناموفق بود."
+
+#: src/modules/advancedtools/translations-dashboard.php:28
+msgid "Wipe settings"
+msgstr "تنظیمات پاک‌سازی"
+
+#: src/modules/advancedtools/translations-dashboard.php:29
+msgid "Your settings have been wiped on the remote site."
+msgstr "تنظیمات شما در سایت راه دور پاک شده است."
+
+#: src/modules/advancedtools/translations-dashboard.php:30
+msgid "There was a problem with the wipe settings."
+msgstr "مشکلی در تنظیمات پاک کردن وجود داشت."
+
+#: src/modules/eum/loader.php:84
+msgid "Auto Updates"
+msgstr "به‌روزرسانی خودکار"
+
+#: src/modules/eum/translations-dashboard.php:8, src/modules/wpo/translations-dashboard.php:8
+msgid "Feature update"
+msgstr "به‌روزرسانی ویژگی‌ها"
+
+#: src/modules/eum/translations-dashboard.php:9, src/modules/wpo/translations-dashboard.php:9
+msgid "Feature has been updated successfully."
+msgstr "ویژگی با موفقیت به‌روزرسانی شد."
+
+#: src/modules/eum/translations-dashboard.php:10, src/modules/wpo/translations-dashboard.php:10
+msgid "An error has occurred while updating the feature."
+msgstr "هنگام به‌روزرسانی ویژگی، خطایی رخ داده است."
+
+#: src/modules/eum/translations-dashboard.php:10, src/modules/wpo/translations-dashboard.php:10
+msgid "Server might be busy."
+msgstr "ممکنه سرور شلوغ باشه"
+
+#: src/modules/eum/translations-dashboard.php:10, src/modules/wpo/translations-dashboard.php:10
+msgid "Please try again later."
+msgstr "لطفاً بعداً دوباره تلاش کنید. "
+
+#: src/modules/eum/translations-dashboard.php:12
+msgid "Save emails"
+msgstr "ذخیره emails"
+
+#: src/modules/eum/translations-dashboard.php:13
+msgid "Saving emails..."
+msgstr "ذخیره ایمیل‌ها..."
+
+#: src/modules/eum/translations-dashboard.php:14
+msgid "Remember to save settings"
+msgstr "به یاد داشته باشید که تنظیمات را ذخیره کنید"
+
+#: src/modules/eum/translations-dashboard.php:15, src/modules/wpo/translations-dashboard.php:13
+msgid "Warning: This operation is permanent."
+msgstr "اخطار:این عملیات دائمی است. ادامه یابد؟"
+
+#: src/modules/eum/translations-dashboard.php:15, src/modules/wpo/translations-dashboard.php:13
+msgid "Continue?"
+msgstr "ادامه؟"
+
+#: src/modules/eum/translations-dashboard.php:16
+msgid "Easy Updates Manager plugin appears to be installed and activated but unfortunately the site could not return the requested information - perhaps you need to update it to a more recent Easy Updates Manager version?"
+msgstr "به نظر می‌رسد افزونه‌ی Easy Updates Manager نصب و فعال شده است، اما متأسفانه سایت نمی‌تواند اطلاعات درخواستی را برگرداند - شاید لازم باشد آن را به نسخه جدیدتری از Easy Updates Manager به‌روزرسانی کنید؟"
+
+#: src/modules/eum/translations-dashboard.php:17
+msgctxt "Option as Default"
+msgid "Default"
+msgstr "پیش‌فرض"
+
+#: src/modules/eum/translations-dashboard.php:18
+msgctxt "Option enabled"
+msgid "On"
+msgstr "روشن"
+
+#: src/modules/eum/translations-dashboard.php:19
+msgctxt "Option disabled"
+msgid "Off"
+msgstr "خاموش"
+
+#: src/modules/eum/translations-dashboard.php:20
+msgctxt "Option allows for configuration"
+msgid "Custom"
+msgstr "سفارشی"
+
+#: src/modules/eum/translations-dashboard.php:21
+msgid "You have selected default."
+msgstr "شما پیش‌فرض را انتخاب کرده‌اید."
+
+#: src/modules/eum/translations-dashboard.php:21
+msgid "WordPress will behave as if this plugin is not installed for automatic updates."
+msgstr "وردپرس طوری رفتار خواهد کرد که انگار این افزونه برای به‌روزرسانی‌های خودکار نصب نشده است."
+
+#: src/modules/eum/translations-dashboard.php:22
+msgid "Automatic updates are on."
+msgstr "به‌روزرسانی‌های خودکار فعال هستند."
+
+#: src/modules/eum/translations-dashboard.php:23
+msgid "Automatic updates are off."
+msgstr "به روزرسانی های خودکار خاموش هستند"
+
+#: src/modules/eum/translations-dashboard.php:24
+msgid "You have selected to customize the updates below."
+msgstr "شما انتخاب کرده‌اید که به‌روزرسانی‌های زیر را سفارشی کنید."
+
+#: src/modules/eum/translations-dashboard.php:25
+msgid "Automatic Updates"
+msgstr "Automatic به‌روزرسانی‌ها"
+
+#: src/modules/eum/translations-dashboard.php:26
+msgid "These options will enable or disable automatic updates (background updates) of certain parts of WordPress."
+msgstr "این گزینه‌ها به‌روزرسانی‌های خودکار (به‌روزرسانی‌های پس‌زمینه) بخش‌های خاصی از وردپرس را فعال یا غیرفعال می‌کنند."
+
+#: src/modules/eum/translations-dashboard.php:26
+msgid "Select Custom for more flexibility."
+msgstr "برای انعطاف‌پذیری بیشتر، گزینه سفارشی (Custom) را انتخاب کنید."
+
+#: src/modules/eum/translations-dashboard.php:26
+msgid "Leave as Default for normal WordPress behavior"
+msgstr "برای رفتار عادی وردپرس، آن را به عنوان پیش‌فرض رها کنید"
+
+#: src/modules/eum/translations-dashboard.php:27
+msgctxt "Major WordPress releases"
+msgid "Major Releases"
+msgstr "انتشارات عمده"
+
+#: src/modules/eum/translations-dashboard.php:28
+msgid "Automatically update to major releases (e.g., 4.1, 4.2, 4.3)."
+msgstr "به طور خودکار به نسخه‌های اصلی (مثلاً ۴.۱، ۴.۲، ۴.۳) به‌روزرسانی شود."
+
+#: src/modules/eum/translations-dashboard.php:29
+msgid "Enable Major Releases"
+msgstr "فعال کردن نسخه‌های اصلی"
+
+#: src/modules/eum/translations-dashboard.php:30
+msgid "Automatic major release updates are now turned on."
+msgstr "به‌روزرسانی‌های خودکار نسخه‌های اصلی اکنون فعال شده‌اند."
+
+#: src/modules/eum/translations-dashboard.php:31
+msgid "Disable Major Releases"
+msgstr "غیرفعال کردن نسخه‌های اصلی"
+
+#: src/modules/eum/translations-dashboard.php:32
+msgid "Automatic major release updates are now turned off."
+msgstr "به‌روزرسانی‌های خودکار نسخه‌های اصلی اکنون غیرفعال شده‌اند."
+
+#: src/modules/eum/translations-dashboard.php:33
+msgctxt "Minor point releases for WordPress"
+msgid "Minor Releases"
+msgstr "نسخه‌های فرعی"
+
+#: src/modules/eum/translations-dashboard.php:34
+msgid "Automatically update to minor releases (e.g., 4.1.1, 4.1.2, 4.1.3)."
+msgstr "به‌روزرسانی خودکار به نسخه‌های فرعی (مثلاً ۴.۱.۱، ۴.۱.۲، ۴.۱.۳)."
+
+#: src/modules/eum/translations-dashboard.php:35
+msgid "Enable Minor Releases"
+msgstr "فعال کردن نسخه‌های فرعی"
+
+#: src/modules/eum/translations-dashboard.php:36
+msgid "Automatic minor release updates are now turned on."
+msgstr "به‌روزرسانی‌های خودکار نسخه‌های فرعی اکنون فعال شده‌اند."
+
+#: src/modules/eum/translations-dashboard.php:37
+msgid "Disable Minor Releases"
+msgstr "غیرفعال کردن نسخه‌های فرعی"
+
+#: src/modules/eum/translations-dashboard.php:38
+msgid "Automatic minor release updates are now turned off."
+msgstr "به‌روزرسانی‌های خودکار نسخه‌های فرعی اکنون غیرفعال شده‌اند."
+
+#: src/modules/eum/translations-dashboard.php:39
+msgctxt "Beta and RC releases for WordPress"
+msgid "Development Updates"
+msgstr "Development به‌روزرسانی‌ها"
+
+#: src/modules/eum/translations-dashboard.php:40
+msgid "Allow your install to receive development updates from WordPress (for advanced users only)"
+msgstr "به نصب خود اجازه دهید به‌روزرسانی‌های توسعه را از وردپرس دریافت کند (فقط برای کاربران پیشرفته)"
+
+#: src/modules/eum/translations-dashboard.php:41
+msgid "Enable Development Updates"
+msgstr "فعال کردن به‌روزرسانی‌های توسعه"
+
+#: src/modules/eum/translations-dashboard.php:42
+msgid "Automatic development release updates are now turned on."
+msgstr "به‌روزرسانی‌های خودکار نسخه‌های توسعه اکنون فعال شده‌اند."
+
+#: src/modules/eum/translations-dashboard.php:43
+msgid "Disable Development Updates"
+msgstr "غیرفعال کردن به‌روزرسانی‌های توسعه"
+
+#: src/modules/eum/translations-dashboard.php:44
+msgid "Automatic development release updates are now turned off."
+msgstr "به‌روزرسانی‌های خودکار نسخه‌های توسعه اکنون غیرفعال شده‌اند."
+
+#: src/modules/eum/translations-dashboard.php:45
+msgctxt "Enable or disable translation updates"
+msgid "Translation Updates"
+msgstr "Translation به‌روزرسانی‌ها"
+
+#: src/modules/eum/translations-dashboard.php:46
+msgid "Automatically update your translations."
+msgstr "ترجمه‌های خود را به‌طور خودکار به‌روزرسانی کنید."
+
+#: src/modules/eum/translations-dashboard.php:47, src/modules/eum/translations-dashboard.php:120
+msgid "Enable Translation Updates"
+msgstr "فعال کردن به‌روزرسانی‌های ترجمه"
+
+#: src/modules/eum/translations-dashboard.php:48
+msgid "Automatic translation updates are now turned on."
+msgstr "به‌روزرسانی‌های خودکار ترجمه اکنون فعال شده‌اند."
+
+#: src/modules/eum/translations-dashboard.php:49, src/modules/eum/translations-dashboard.php:122
+msgid "Disable Translation Updates"
+msgstr "غیرفعال کردن به‌روزرسانی‌های ترجمه"
+
+#: src/modules/eum/translations-dashboard.php:50
+msgid "Automatic translation updates are now turned off."
+msgstr "به‌روزرسانی‌های خودکار ترجمه اکنون غیرفعال شده‌اند."
+
+#: src/modules/eum/translations-dashboard.php:51
+msgid "Select Individually"
+msgstr "انتخاب به صورت جداگانه"
+
+#: src/modules/eum/translations-dashboard.php:52
+msgid "Automatic Plugin Updates"
+msgstr "Automatic افزونه به‌روزرسانی‌ها"
+
+#: src/modules/eum/translations-dashboard.php:53
+msgid "Automatically update your plugins."
+msgstr "افزونه‌های خود را به صورت خودکار به‌روزرسانی کنید."
+
+#: src/modules/eum/translations-dashboard.php:53
+msgid "Select always on, always off, the WordPress default, or select plugins individually using the Plugins tab."
+msgstr "همیشه روشن، همیشه خاموش، پیش‌فرض وردپرس را انتخاب کنید، یا افزونه‌ها را به‌صورت جداگانه با استفاده از برگه افزونه‌ها انتخاب کنید."
+
+#: src/modules/eum/translations-dashboard.php:54
+msgid "Automatic updates for plugins are now at their default setting (default is off)."
+msgstr "به‌روزرسانی‌های خودکار افزونه‌ها اکنون در تنظیمات پیش‌فرض خود هستند (پیش‌فرض غیرفعال است)."
+
+#: src/modules/eum/translations-dashboard.php:55
+msgid "Automatic updates for plugins are now on."
+msgstr "به‌روزرسانی‌های خودکار برای افزونه‌ها اکنون فعال است."
+
+#: src/modules/eum/translations-dashboard.php:56
+msgid "Automatic updates for plugins are now off."
+msgstr "به‌روزرسانی‌های خودکار برای افزونه‌ها اکنون غیرفعال است."
+
+#: src/modules/eum/translations-dashboard.php:57
+msgid "Automatic updates for plugins can be customized in the Plugins tab."
+msgstr "به‌روزرسانی‌های خودکار افزونه‌ها را می‌توان در برگه افزونه‌ها سفارشی‌سازی کرد."
+
+#: src/modules/eum/translations-dashboard.php:58
+msgid "Automatic Theme Updates"
+msgstr "Automatic پوسته به‌روزرسانی‌ها"
+
+#: src/modules/eum/translations-dashboard.php:59
+msgid "Automatically update your themes."
+msgstr "تم‌های خود را به صورت خودکار به‌روزرسانی کنید."
+
+#: src/modules/eum/translations-dashboard.php:59
+msgid "Select always on, always off, the WordPress default, or select themes individually using the Themes tab."
+msgstr "همیشه روشن، همیشه خاموش، پیش‌فرض وردپرس را انتخاب کنید، یا با استفاده از تب Themes، تم‌ها را به‌صورت جداگانه انتخاب کنید."
+
+#: src/modules/eum/translations-dashboard.php:60
+msgid "Automatic updates for themes are now at their default setting (default is off)."
+msgstr "به‌روزرسانی‌های خودکار برای قالب‌ها اکنون در تنظیمات پیش‌فرض خود هستند (پیش‌فرض غیرفعال است)."
+
+#: src/modules/eum/translations-dashboard.php:61
+msgid "Automatic updates for themes are now on."
+msgstr "به‌روزرسانی‌های خودکار برای قالب‌ها اکنون فعال هستند."
+
+#: src/modules/eum/translations-dashboard.php:62
+msgid "Automatic updates for themes are now off."
+msgstr "به‌روزرسانی‌های خودکار برای قالب‌ها اکنون غیرفعال است."
+
+#: src/modules/eum/translations-dashboard.php:63
+msgid "Automatic updates for themes can be customized in the Themes tab."
+msgstr "به‌روزرسانی‌های خودکار برای قالب‌ها را می‌توان در برگه قالب‌ها سفارشی‌سازی کرد."
+
+#: src/modules/eum/translations-dashboard.php:64, src/modules/eum/translations-dashboard.php:68
+msgid "Disable All Updates"
+msgstr "Disable همه به‌روزرسانی‌ها"
+
+#: src/modules/eum/translations-dashboard.php:65
+msgid "This is a master switch and will enable or disable updates for the WordPress installation."
+msgstr "این یک سوئیچ اصلی است و به‌روزرسانی‌ها را برای نصب وردپرس فعال یا غیرفعال می‌کند."
+
+#: src/modules/eum/translations-dashboard.php:65
+msgid "Switching updates off is not recommended."
+msgstr "غیرفعال کردن به‌روزرسانی‌ها توصیه نمی‌شود."
+
+#: src/modules/eum/translations-dashboard.php:66
+msgid "Enable All Updates"
+msgstr "Enable همه به‌روزرسانی‌ها"
+
+#: src/modules/eum/translations-dashboard.php:67
+msgid "All updates are allowed, however, you still need to configure the updates below."
+msgstr "همه به‌روزرسانی‌ها مجاز هستند، با این حال، شما هنوز هم باید به‌روزرسانی‌های زیر را پیکربندی کنید."
+
+#: src/modules/eum/translations-dashboard.php:69
+msgid "All updates are disabled."
+msgstr "همه updates are disabled."
+
+#: src/modules/eum/translations-dashboard.php:70
+msgctxt "Log what is stored when assets update"
+msgid "Logs"
+msgstr "گزارش‌ها"
+
+#: src/modules/eum/translations-dashboard.php:71
+msgid "Logs will show you what assets have updated and will show up in the Logs tab."
+msgstr "گزارش‌ها به شما نشان می‌دهند که چه دارایی‌هایی به‌روزرسانی شده‌اند و در برگه گزارش‌ها نمایش داده می‌شوند."
+
+#: src/modules/eum/translations-dashboard.php:72
+msgid "Enable Logs"
+msgstr "Enable گزارش‌ها"
+
+#: src/modules/eum/translations-dashboard.php:73
+msgid "Logs are enabled."
+msgstr "گزارش‌ها are enabled."
+
+#: src/modules/eum/translations-dashboard.php:73
+msgid "You will find Logs in the Logs tab."
+msgstr "شما می‌توانید Logs را در تب Logs پیدا کنید."
+
+#: src/modules/eum/translations-dashboard.php:74
+msgid "Disable Logs"
+msgstr "Disable گزارش‌ها"
+
+#: src/modules/eum/translations-dashboard.php:75
+msgid "Logs are disabled."
+msgstr "گزارش‌ها are disabled."
+
+#: src/modules/eum/translations-dashboard.php:76
+msgctxt "WordPress shows a warning for older browsers"
+msgid "Browser Nag"
+msgstr "مرورگر ناگ"
+
+#: src/modules/eum/translations-dashboard.php:77
+msgid "Enables or disables the browser nag for users using older browsers."
+msgstr "فعال یا غیرفعال کردن نوار مرورگر برای کاربرانی که از مرورگرهای قدیمی استفاده می‌کنند."
+
+#: src/modules/eum/translations-dashboard.php:78
+msgid "Enable the Browser Nag"
+msgstr "فعال کردن مرورگر ناگ"
+
+#: src/modules/eum/translations-dashboard.php:79
+msgid "The Browser Nag for older browsers is on."
+msgstr "مرورگر ناگ (Browser Nag) برای مرورگرهای قدیمی‌تر فعال است."
+
+#: src/modules/eum/translations-dashboard.php:80
+msgid "Disable the Browser Nag"
+msgstr "غیرفعال کردن مرورگر ناگ"
+
+#: src/modules/eum/translations-dashboard.php:81
+msgid "The Browser Nag for older browsers is off."
+msgstr "نوار مرورگر برای مرورگرهای قدیمی غیرفعال است."
+
+#: src/modules/eum/translations-dashboard.php:82
+msgid "WordPress Version in Footer"
+msgstr "WordPress نسخه in Footer"
+
+#: src/modules/eum/translations-dashboard.php:83
+msgid "Enables or disables the WordPress version from showing in the footer of the admin area."
+msgstr "نمایش نسخه وردپرس در پاورقی ناحیه مدیریت را فعال یا غیرفعال می‌کند."
+
+#: src/modules/eum/translations-dashboard.php:84
+msgid "Enable the Version in the Footer"
+msgstr "نسخه را در پاورقی فعال کنید"
+
+#: src/modules/eum/translations-dashboard.php:85
+msgid "Showing the WordPress version in the footer is on."
+msgstr "نمایش نسخه وردپرس در پاورقی فعال است."
+
+#: src/modules/eum/translations-dashboard.php:86
+msgid "Showing the WordPress version in the footer is off."
+msgstr "نمایش نسخه وردپرس در پاورقی غیرفعال است."
+
+#: src/modules/eum/translations-dashboard.php:87
+msgid "Disable the Version in the Footer"
+msgstr "نسخه را در پاورقی غیرفعال کنید"
+
+#: src/modules/eum/translations-dashboard.php:88
+msgid "Core Notification E-mails"
+msgstr "آگاه سازی از طریق ایمیل"
+
+#: src/modules/eum/translations-dashboard.php:89
+msgid "WordPress periodically sends update notification e-mails, such as in the case of automatic updates."
+msgstr "وردپرس به صورت دوره‌ای ایمیل‌های اطلاع‌رسانی به‌روزرسانی ارسال می‌کند، مانند مواردی که به‌روزرسانی‌های خودکار انجام می‌شوند."
+
+#: src/modules/eum/translations-dashboard.php:89
+msgid "By default, the email used is the one in Settings->General, but you can override this below."
+msgstr "به طور پیش‌فرض، ایمیل مورد استفاده همان ایمیلی است که در تنظیمات>عمومی قرار دارد، اما می‌توانید این مورد را در زیر تغییر دهید."
+
+#: src/modules/eum/translations-dashboard.php:90
+msgid "Enable Core Notification E-mails"
+msgstr "فعال کردن ایمیل‌های اعلان اصلی"
+
+#: src/modules/eum/translations-dashboard.php:91
+msgid "E-mail notifications are on."
+msgstr "اعلان‌های ایمیلی فعال هستند."
+
+#: src/modules/eum/translations-dashboard.php:91
+msgid "You can configure which e-mail addresses are sent to below."
+msgstr "می‌توانید در زیر پیکربندی کنید که به کدام آدرس‌های ایمیل ارسال شود."
+
+#: src/modules/eum/translations-dashboard.php:92
+msgid "Disable Core Notification E-mails"
+msgstr "غیرفعال کردن ایمیل‌های اعلان اصلی"
+
+#: src/modules/eum/translations-dashboard.php:93
+msgid "E-mail notifications are off"
+msgstr "اعلان‌های ایمیل غیرفعال هستند"
+
+#: src/modules/eum/translations-dashboard.php:94
+msgid "Add an e-mail address"
+msgstr "شما باید یک آدرس ایمیل را وارد کنید"
+
+#: src/modules/eum/translations-dashboard.php:95
+msgid "Enter Comma Separated E-mail Addresses"
+msgstr "آدرس‌های ایمیل را با کاما از هم جدا کنید"
+
+#: src/modules/eum/translations-dashboard.php:96
+msgid "One or more e-mail addresses are invalid."
+msgstr "یک یا چند آدرس ایمیل نامعتبر است."
+
+#: src/modules/eum/translations-dashboard.php:97
+msgid "Save E-mail Addresses"
+msgstr "آدرس ایمیل"
+
+#: src/modules/eum/translations-dashboard.php:98
+msgid "Please enter an e-mail address"
+msgstr "لطفا آدرس ایمیل را وارد نمائید."
+
+#: src/modules/eum/translations-dashboard.php:99, src/modules/eum/translations-dashboard.php:167
+msgid "Saving..."
+msgstr "در حال ذخیره ..."
+
+#: src/modules/eum/translations-dashboard.php:100
+msgid "WordPress Core Updates"
+msgstr "WordPress Core به‌روزرسانی‌ها"
+
+#: src/modules/eum/translations-dashboard.php:101
+msgid "This allows you to disable or enable all core updates, including automatic updates."
+msgstr "این به شما امکان می‌دهد همه به‌روزرسانی‌های اصلی، از جمله به‌روزرسانی‌های خودکار، را غیرفعال یا فعال کنید."
+
+#: src/modules/eum/translations-dashboard.php:102
+msgid "Enable Core Updates"
+msgstr "فعال کردن به‌روزرسانی‌های اصلی"
+
+#: src/modules/eum/translations-dashboard.php:103
+msgid "Core updates are enabled."
+msgstr "به‌روزرسانی‌های اصلی فعال شده‌اند."
+
+#: src/modules/eum/translations-dashboard.php:104
+msgid "Disable Core Updates"
+msgstr "غیرفعال کردن nags به روزرسانی هسته"
+
+#: src/modules/eum/translations-dashboard.php:105
+msgid "Core updates are disabled."
+msgstr "به‌روزرسانی‌های اصلی غیرفعال هستند."
+
+#: src/modules/eum/translations-dashboard.php:106
+msgid "WordPress Plugin Updates"
+msgstr "WordPress افزونه به‌روزرسانی‌ها"
+
+#: src/modules/eum/translations-dashboard.php:107
+msgid "This allows you to disable or enable all plugin updates."
+msgstr "این به شما امکان می‌دهد همه به‌روزرسانی‌های افزونه را غیرفعال یا فعال کنید."
+
+#: src/modules/eum/translations-dashboard.php:107, src/modules/eum/translations-dashboard.php:113, src/modules/eum/translations-dashboard.php:137
+msgid "Disabling this option will also disable automatic updates."
+msgstr "غیرفعال کردن این گزینه، به‌روزرسانی‌های خودکار را نیز غیرفعال می‌کند."
+
+#: src/modules/eum/translations-dashboard.php:108
+msgid "Enable Plugin Updates"
+msgstr "Enable افزونه به‌روزرسانی‌ها"
+
+#: src/modules/eum/translations-dashboard.php:109
+msgid "Plugin updates are enabled."
+msgstr "افزونه updates are enabled."
+
+#: src/modules/eum/translations-dashboard.php:110
+msgid "Disable Plugin Updates"
+msgstr "Disable افزونه به‌روزرسانی‌ها"
+
+#: src/modules/eum/translations-dashboard.php:111
+msgid "Plugin updates are disabled."
+msgstr "افزونه updates are disabled."
+
+#: src/modules/eum/translations-dashboard.php:112
+msgid "WordPress Theme Updates"
+msgstr "WordPress پوسته به‌روزرسانی‌ها"
+
+#: src/modules/eum/translations-dashboard.php:113, src/modules/eum/translations-dashboard.php:137
+msgid "This allows you to disable or enable all theme updates."
+msgstr "این به شما امکان می‌دهد همه به‌روزرسانی‌های قالب را غیرفعال یا فعال کنید."
+
+#: src/modules/eum/translations-dashboard.php:114
+msgid "Enable Theme Updates"
+msgstr "Enable پوسته به‌روزرسانی‌ها"
+
+#: src/modules/eum/translations-dashboard.php:115
+msgid "Theme updates are enabled."
+msgstr "پوسته updates are enabled."
+
+#: src/modules/eum/translations-dashboard.php:116
+msgid "Disable Theme Updates"
+msgstr "Disable پوسته به‌روزرسانی‌ها"
+
+#: src/modules/eum/translations-dashboard.php:117
+msgid "Theme updates are disabled."
+msgstr "پوسته updates are disabled."
+
+#: src/modules/eum/translations-dashboard.php:118
+msgid "WordPress Translation Updates"
+msgstr "WordPress Translation به‌روزرسانی‌ها"
+
+#: src/modules/eum/translations-dashboard.php:119, src/modules/eum/translations-dashboard.php:144
+msgid "This allows you to disable or enable all translations."
+msgstr "این به شما امکان می‌دهد همه ترجمه‌ها را غیرفعال یا فعال کنید."
+
+#: src/modules/eum/translations-dashboard.php:119
+msgid "Disabling this option will also disable automatic translation updates."
+msgstr "غیرفعال کردن این گزینه، به‌روزرسانی‌های خودکار ترجمه را نیز غیرفعال می‌کند."
+
+#: src/modules/eum/translations-dashboard.php:121, src/modules/eum/translations-dashboard.php:146
+msgid "Translation updates are enabled."
+msgstr "به‌روزرسانی‌های ترجمه فعال شده‌اند."
+
+#: src/modules/eum/translations-dashboard.php:123
+msgid "Translation updates are disabled."
+msgstr "به‌روزرسانی‌های ترجمه غیرفعال هستند."
+
+#: src/modules/eum/translations-dashboard.php:124, src/modules/eum/translations-dashboard.php:131, src/modules/eum/translations-dashboard.php:138, src/modules/eum/translations-dashboard.php:145
+msgid "Manually update"
+msgstr "به‌روزرسانی دستی"
+
+#: src/modules/eum/translations-dashboard.php:125
+msgid "Disable core updates"
+msgstr "غیرفعال کردن nags به روزرسانی هسته"
+
+#: src/modules/eum/translations-dashboard.php:126, src/modules/eum/translations-dashboard.php:134, src/modules/eum/translations-dashboard.php:141, src/modules/eum/translations-dashboard.php:149, src/modules/eum/translations-dashboard.php:153
+msgid "Disable auto updates"
+msgstr "غیرفعال کردن به روزرسانی های خودکار"
+
+#: src/modules/eum/translations-dashboard.php:127
+msgid "Auto update all releases"
+msgstr "به‌روزرسانی خودکار همه نسخه‌ها"
+
+#: src/modules/eum/translations-dashboard.php:128
+msgid "Auto update all minor versions"
+msgstr "به‌روزرسانی خودکار تمام نسخه‌های فرعی"
+
+#: src/modules/eum/translations-dashboard.php:129
+msgid "Plugin updates"
+msgstr "افزونه updates"
+
+#: src/modules/eum/translations-dashboard.php:130
+msgid "This allows you to disable or enable all plugin updates, including automatic updates."
+msgstr "این به شما امکان می‌دهد همه به‌روزرسانی‌های افزونه، از جمله به‌روزرسانی‌های خودکار، را غیرفعال یا فعال کنید."
+
+#: src/modules/eum/translations-dashboard.php:132
+msgid "Disable plugin updates"
+msgstr "غیرفعال کردن به‌روزرسانی افزونه‌ها"
+
+#: src/modules/eum/translations-dashboard.php:133, src/modules/eum/translations-dashboard.php:140, src/modules/eum/translations-dashboard.php:148
+msgid "Enable auto updates"
+msgstr "فعال کردن بروزرسانی خودکار"
+
+#: src/modules/eum/translations-dashboard.php:135
+msgid "Choose per plugin"
+msgstr "انتخاب بر اساس افزونه"
+
+#: src/modules/eum/translations-dashboard.php:136
+msgid "Theme updates"
+msgstr "پوسته updates"
+
+#: src/modules/eum/translations-dashboard.php:139
+msgid "Disable theme updates"
+msgstr "غیرفعال کردن به‌روزرسانی‌های قالب"
+
+#: src/modules/eum/translations-dashboard.php:142
+msgid "Choose per theme"
+msgstr "بر اساس تم انتخاب کنید"
+
+#: src/modules/eum/translations-dashboard.php:143
+msgid "Translation updates"
+msgstr "به‌روزرسانی‌های ترجمه"
+
+#: src/modules/eum/translations-dashboard.php:144
+msgid "Choose automatic to automatically update your translations."
+msgstr "برای به‌روزرسانی خودکار ترجمه‌هایتان، گزینه خودکار را انتخاب کنید."
+
+#: src/modules/eum/translations-dashboard.php:147
+msgid "Disable translation updates"
+msgstr "غیرفعال کردن به‌روزرسانی‌های ترجمه"
+
+#: src/modules/eum/translations-dashboard.php:150
+msgid "Core development auto updates"
+msgstr "به‌روزرسانی‌های خودکار توسعه هسته"
+
+#: src/modules/eum/translations-dashboard.php:151
+msgid "This allows you to enable auto updates for development versions of WordPress."
+msgstr "این به شما امکان می‌دهد به‌روزرسانی‌های خودکار را برای نسخه‌های در حال توسعه وردپرس فعال کنید."
+
+#: src/modules/eum/translations-dashboard.php:152
+msgid "Auto update"
+msgstr "به روز رسانی خودکار"
+
+#: src/modules/eum/translations-dashboard.php:154
+msgid "Not a valid number"
+msgstr "عدد معتبر نیست"
+
+#: src/modules/eum/translations-dashboard.php:155
+msgid "Enable Auto Backup"
+msgstr "فعال کردن پشتیبان‌گیری خودکار"
+
+#: src/modules/eum/translations-dashboard.php:156
+msgid "Your site will be backed up automatically before updating."
+msgstr "قبل از به‌روزرسانی، به‌طور خودکار از سایت شما پشتیبان‌گیری می‌شود."
+
+#: src/modules/eum/translations-dashboard.php:157
+msgid "Disable Auto Backup"
+msgstr "غیرفعال کردن پشتیبان‌گیری خودکار"
+
+#: src/modules/eum/translations-dashboard.php:158
+msgid "Your site will NOT be backed up automatically before updating."
+msgstr "قبل از به‌روزرسانی، از سایت شما به‌طور خودکار پشتیبان‌گیری نمی‌شود."
+
+#: src/modules/eum/translations-dashboard.php:160
+msgid "Error: The chosen file is corrupt."
+msgstr "خطا: فایل انتخاب شده خراب است."
+
+#: src/modules/eum/translations-dashboard.php:160
+msgid "Please choose a valid EUM export file."
+msgstr "لطفاً یک فایل خروجی معتبر EUM انتخاب کنید."
+
+#: src/modules/eum/translations-dashboard.php:161
+msgid "The file you're trying to import is not of this site, If you have customized plugin and themes update settings, this will override this site's settings."
+msgstr "فایلی که می‌خواهید وارد کنید از این سایت نیست، اگر تنظیمات به‌روزرسانی افزونه و قالب را سفارشی کرده‌اید، این تنظیمات جایگزین تنظیمات این سایت خواهد شد."
+
+#: src/modules/eum/translations-dashboard.php:161
+msgid "Do you still want to import settings?"
+msgstr "آیا هنوز می‌خواهید تنظیمات را وارد کنید؟"
+
+#: src/modules/eum/translations-dashboard.php:162
+msgid "Your update cron is scheduled successfully"
+msgstr "کرون به‌روزرسانی شما با موفقیت زمان‌بندی شد."
+
+#: src/modules/eum/translations-dashboard.php:163
+msgid "Enable Webhook"
+msgstr "فعال کردن وب‌هوک"
+
+#: src/modules/eum/translations-dashboard.php:164
+msgid "Disable Webhook"
+msgstr "غیرفعال کردن وب‌هوک"
+
+#: src/modules/eum/translations-dashboard.php:165
+msgctxt "Copy webhook to clipboard"
+msgid "Copy"
+msgstr "کپی"
+
+#: src/modules/eum/translations-dashboard.php:166
+msgctxt "Copy webhook to clipboard"
+msgid "Copied"
+msgstr "کپی شد"
+
+#: src/modules/eum/translations-dashboard.php:168
+msgid "Working..."
+msgstr "در حال کار کردن..."
+
+#: src/modules/eum/translations-dashboard.php:169
+msgid "Enable Safe Mode"
+msgstr "فعال‌سازی حالت ایمن"
+
+#: src/modules/eum/translations-dashboard.php:170
+msgid "Disable Safe Mode"
+msgstr "غیر فعال کردن حالت امن"
+
+#: src/modules/eum/translations-dashboard.php:171
+msgid "Enable Version Control Protection"
+msgstr "فعال کردن محافظت کنترل نسخه"
+
+#: src/modules/eum/translations-dashboard.php:172
+msgid "Disable Version Control Protection"
+msgstr "غیرفعال کردن محافظت از کنترل نسخه"
+
+#: src/modules/eum/translations-dashboard.php:173
+msgid "Enable Plugin Checks"
+msgstr "فعال کردن بررسی افزونه‌ها"
+
+#: src/modules/eum/translations-dashboard.php:174
+msgid "Disable Plugin Checks"
+msgstr "غیرفعال کردن بررسی افزونه‌ها"
+
+#: src/modules/eum/translations-dashboard.php:175, src/modules/eum/templates/management-actions.php:10
+msgid "Easy Updates Manager"
+msgstr "Easy به‌روزرسانی‌ها Manager"
+
+#: src/modules/eum/translations-dashboard.php:176
+msgid "Please update Easy Updates Manager to 9.0.0 to see this section."
+msgstr "برای مشاهده این بخش، لطفاً Easy Updates Manager را به ۹.۰.۰ به‌روزرسانی کنید."
+
+#: src/modules/events/loader.php:43, src/modules/events/loader.php:101
+msgid "Events"
+msgstr "رویدادها"
+
+#: src/modules/events/translations-dashboard.php:7
+msgid "Events - result data (raw)"
+msgstr "رویدادها - داده‌های نتیجه (خام)"
+
+#: src/modules/events/translations-dashboard.php:8
+msgid "filtered from %d total entries"
+msgstr "فیلتر شده از %d کل ورودی‌ها"
+
+#: src/modules/events/translations-dashboard.php:9
+msgid "Showing %d to %d of %d entries"
+msgstr "نمایش %d تا %d از %d ورودی"
+
+#: src/modules/events/translations-dashboard.php:10, src/modules/events/templates/events-table.php:11
+msgid "Website"
+msgstr "وبسایت"
+
+#: src/modules/notices/loader.php:39
+msgid "Upgrade license"
+msgstr "ارتقای مجوز"
+
+#: src/modules/notices/loader.php:79
+msgid "Upgrade"
+msgstr "ارتقاء"
+
+#: src/modules/notices/updraftcentral-notices.php:30
+msgid "Reason to upgrade to UpdraftCentral Premium #1:"
+msgstr "دلیل ارتقا به UpdraftCentral Premium #1:"
+
+#: src/modules/notices/updraftcentral-notices.php:32
+msgid "Enjoy the benefits of professional, fast, and friendly help whenever you need it."
+msgstr "از مزایای کمک حرفه‌ای، سریع و دوستانه در هر زمان که نیاز دارید، لذت ببرید."
+
+#: src/modules/notices/updraftcentral-notices.php:41
+msgid "Reason to upgrade to UpdraftCentral Premium #2:"
+msgstr "دلیل ارتقا به UpdraftCentral Premium #2:"
+
+#: src/modules/notices/updraftcentral-notices.php:43
+msgid "Create and manage users on all your WordPress sites from one place!"
+msgstr "ایجاد و مدیریت کاربران در تمام سایت‌های وردپرس شما از یک مکان!"
+
+#: src/modules/notices/updraftcentral-notices.php:52
+msgid "Reason to upgrade to UpdraftCentral Premium #3:"
+msgstr "دلیل ارتقا به UpdraftCentral Premium #3:"
+
+#: src/modules/notices/updraftcentral-notices.php:54
+msgid "Upgrade to UpdraftCentral Cloud to let us host and maintain it to save you time and effort."
+msgstr "به UpdraftCentral Cloud ارتقا دهید تا میزبانی و نگهداری آن را به ما بسپارید و در زمان و تلاش شما صرفه‌جویی شود."
+
+#: src/modules/site_search/translations-dashboard.php:7
+msgid "No matching sites were found."
+msgstr "هیچ سایت منطبقی پیدا نشد."
+
+#: src/modules/updates/loader.php:66
+msgid "Mass updates"
+msgstr "به‌روزرسانی‌های انبوه"
+
+#: src/modules/updates/loader.php:101, src/modules/updates/translations-dashboard.php:55
+msgid "Updates"
+msgstr "به‌روزرسانی‌ها"
+
+#: src/modules/updates/translations-dashboard.php:7
+msgid "Type"
+msgstr "نوع"
+
+#: src/modules/updates/translations-dashboard.php:8, src/modules/updraftvault/translations-dashboard.php:13
+msgid "Name"
+msgstr "نام"
+
+#: src/modules/updates/translations-dashboard.php:9, src/templates/wp-admin/dashboard-page.php:10
+msgid "Version"
+msgstr "نسخه"
+
+#: src/modules/updates/translations-dashboard.php:10
+msgid "Action"
+msgstr "اقدام"
+
+#: src/modules/updates/translations-dashboard.php:11
+msgid "Actions"
+msgstr "عملیات"
+
+#: src/modules/updates/translations-dashboard.php:12
+msgid "Connection information"
+msgstr "اتصال information"
+
+#: src/modules/updates/translations-dashboard.php:13
+msgid "Updating..."
+msgstr "در حال بروز رسانی"
+
+#: src/modules/updates/translations-dashboard.php:14
+msgid "Update"
+msgstr "به‌روزرسانی"
+
+#: src/modules/updates/translations-dashboard.php:15
+msgid "Show messages..."
+msgstr "نمایش پیام‌ها"
+
+#: src/modules/updates/translations-dashboard.php:16
+msgid "Update to"
+msgstr "به‌روزرسانی to"
+
+#: src/modules/updates/translations-dashboard.php:17, src/modules/updates/translations-dashboard.php:27
+msgid "Update information"
+msgstr "به‌روزرسانی information"
+
+#: src/modules/updates/translations-dashboard.php:18
+msgid "by"
+msgstr "به وسیله"
+
+#: src/modules/updates/translations-dashboard.php:19
+msgid "New version available"
+msgstr "نسخه جدید در دسترس است"
+
+#: src/modules/updates/translations-dashboard.php:20
+msgid "Plugin"
+msgstr "افزونه"
+
+#: src/modules/updates/translations-dashboard.php:21
+msgid "Theme"
+msgstr "پوسته"
+
+#: src/modules/updates/translations-dashboard.php:22
+msgid "WordPress core"
+msgstr "هسته وردپرس"
+
+#: src/modules/updates/translations-dashboard.php:23
+msgid "WordPress"
+msgstr "المان‌های وردپرس"
+
+#: src/modules/updates/translations-dashboard.php:24
+msgid "current"
+msgstr "فعلی"
+
+#: src/modules/updates/translations-dashboard.php:25
+msgid "Changelog"
+msgstr "تاریخچه تغییرات"
+
+#: src/modules/updates/translations-dashboard.php:29
+msgid "Automatic backup before update"
+msgstr "پشتیبان گیری خودکار قبل از به روزرسانی"
+
+#: src/modules/updates/translations-dashboard.php:30
+msgid "Cannot update"
+msgstr "نمی تواند به روز رسانی کند"
+
+#: src/modules/updates/translations-dashboard.php:31
+msgid "download"
+msgstr "دانلود"
+
+#: src/modules/updates/translations-dashboard.php:32
+msgid "Save these credentials locally in your web browser"
+msgstr "این اعتبارنامه‌ها را به صورت محلی در مرورگر وب خود ذخیره کنید"
+
+#: src/modules/updates/translations-dashboard.php:33
+msgid "Your WordPress site is fully up to date."
+msgstr "سایت وردپرس شما کاملاً به‌روز است."
+
+#: src/modules/updates/translations-dashboard.php:34, src/modules/updates/translations-dashboard.php:35
+msgid "%s version required"
+msgstr "نسخه %s مورد نیاز است"
+
+#: src/modules/updates/translations-dashboard.php:40
+msgid "Update failed"
+msgstr "به‌روزرسانی failed"
+
+#: src/modules/updates/translations-dashboard.php:41
+msgid "The item to update was not found (has it been removed?)"
+msgstr "مورد برای به‌روزرسانی پیدا نشد (آیا حذف شده است؟)"
+
+#: src/modules/updates/translations-dashboard.php:42
+msgid "You do not have permission to update this item"
+msgstr "شما اجازه به روز رسانی این پست را ندارید"
+
+#: src/modules/updates/translations-dashboard.php:43
+msgid "WordPress was unable to connect to the filesystem to perform this update."
+msgstr "وردپرس نتوانست برای انجام این به‌روزرسانی به سیستم فایل متصل شود."
+
+#: src/modules/updates/translations-dashboard.php:43
+msgid "This indicates that the supplied filesystem credentials were incorrect."
+msgstr "این نشان می‌دهد که اعتبارنامه‌های سیستم فایل ارائه شده نادرست بوده‌اند."
+
+#: src/modules/updates/translations-dashboard.php:45
+msgid "Queued"
+msgstr "در صف"
+
+#: src/modules/updates/translations-dashboard.php:46
+msgid "Process Updates"
+msgstr "Process به‌روزرسانی‌ها"
+
+#: src/modules/updates/translations-dashboard.php:47
+msgid "Process"
+msgstr "تایید و پردازش"
+
+#: src/modules/updates/translations-dashboard.php:48
+msgid "queued update"
+msgstr "به‌روزرسانی در صف انتظار"
+
+#: src/modules/updates/translations-dashboard.php:49
+msgid "queued updates"
+msgstr "به‌روزرسانی‌های صف‌شده"
+
+#: src/modules/updates/translations-dashboard.php:50
+msgid "Updates in progress"
+msgstr "به‌روزرسانی‌ها in progress"
+
+#: src/modules/updates/translations-dashboard.php:51
+msgid "Queue update"
+msgstr "صف‌بندی به‌روزرسانی"
+
+#: src/modules/updates/translations-dashboard.php:52
+msgid "The process has been aborted due to an error."
+msgstr "فرآیند به‌خاطر خطا متوقف شد."
+
+#: src/modules/updates/translations-dashboard.php:53
+msgid "Reset Filter"
+msgstr "Reset فیلتر"
+
+#: src/modules/updates/translations-dashboard.php:54
+msgid "Reload"
+msgstr "بارگذاری مجدد"
+
+#: src/modules/updates/translations-dashboard.php:56
+msgid "Sort"
+msgstr "مرتب‌سازی"
+
+#: src/modules/updates/translations-dashboard.php:57
+msgid "Sort by name"
+msgstr "مرتب‌سازی بر اساس نام"
+
+#: src/modules/updates/translations-dashboard.php:58
+msgid "Sort by version"
+msgstr "مرتب‌سازی بر اساس نسخه"
+
+#: src/modules/updates/translations-dashboard.php:59
+msgid "Sort by website"
+msgstr "مرتب‌سازی بر اساس وب‌سایت"
+
+#: src/modules/updates/translations-dashboard.php:60
+msgid "Sort by entity"
+msgstr "مرتب‌سازی بر اساس موجودیت"
+
+#: src/modules/updates/translations-dashboard.php:61
+msgid "Sort by name (reverse)"
+msgstr "مرتب‌سازی بر اساس نام (معکوس)"
+
+#: src/modules/updates/translations-dashboard.php:62
+msgid "Sort by version (reverse)"
+msgstr "مرتب‌سازی بر اساس نسخه (معکوس)"
+
+#: src/modules/updates/translations-dashboard.php:63
+msgid "Sort by website (reverse)"
+msgstr "مرتب‌سازی بر اساس وب‌سایت (معکوس)"
+
+#: src/modules/updates/translations-dashboard.php:64
+msgid "Sort by entity (reverse)"
+msgstr "مرتب‌سازی بر اساس موجودیت (معکوس)"
+
+#: src/modules/updates/translations-dashboard.php:65
+msgid "Ascending"
+msgstr "صعودی"
+
+#: src/modules/updates/translations-dashboard.php:66
+msgid "Descending"
+msgstr "نزولی"
+
+#: src/modules/updates/translations-dashboard.php:67
+msgid "Filter"
+msgstr "فیلتر"
+
+#: src/modules/updates/translations-dashboard.php:68, src/templates/sites/site-row.php:51, src/modules/eum/templates/site-row-buttons.php:17
+msgid "Plugins"
+msgstr "افزونه‌ها"
+
+#: src/modules/updates/translations-dashboard.php:69, src/templates/sites/site-row.php:52, src/modules/eum/templates/site-row-buttons.php:21
+msgid "Themes"
+msgstr "پوسته‌ها"
+
+#: src/modules/updates/translations-dashboard.php:70
+msgid "Select All"
+msgstr "Select همه"
+
+#: src/modules/updates/translations-dashboard.php:71
+msgid "Filter by entity"
+msgstr "فیلتر by entity"
+
+#: src/modules/updates/translations-dashboard.php:72
+msgid "Filter by website"
+msgstr "فیلتر by website"
+
+#: src/modules/updates/translations-dashboard.php:73
+msgid "Type here to filter"
+msgstr "برای فیلتر اینجا بنویسید"
+
+#: src/modules/updates/translations-dashboard.php:74
+msgid "From all websites"
+msgstr "از همه وب‌سایت‌ها"
+
+#: src/modules/updates/translations-dashboard.php:75
+msgid "Loading updates from"
+msgstr "در حال بارگذاری updates from"
+
+#: src/modules/updates/translations-dashboard.php:76
+msgid "No matching items found."
+msgstr "خیر matching items found."
+
+#: src/modules/updates/translations-dashboard.php:79
+msgid "The loading of updates has completed."
+msgstr "بارگذاری به‌روزرسانی‌ها کامل شد."
+
+#: src/modules/updates/translations-dashboard.php:80
+msgid "There are no available updates to process."
+msgstr "به‌روزرسانی موجودی برای پردازش نیست."
+
+#: src/modules/updates/translations-dashboard.php:81
+msgid "Automatic update is unavailable for this item."
+msgstr "به‌روزرسانی خودکار برای این مورد در دسترس نیست."
+
+#: src/modules/updates/translations-dashboard.php:82
+msgid "Backup currently running for"
+msgstr "پشتیبان currently running for"
+
+#: src/modules/updates/translations-dashboard.php:83
+msgid "Backup currently running..."
+msgstr "پشتیبان currently running..."
+
+#: src/modules/updates/translations-dashboard.php:84
+msgid "Backup completed."
+msgstr "پشتیبان completed."
+
+#: src/modules/updates/translations-dashboard.php:84
+msgid "Running updates now..."
+msgstr "در حال اجرای به‌روزرسانی‌ها..."
+
+#: src/modules/updates/translations-dashboard.php:85
+msgid "Failed updates"
+msgstr "ناموفق updates"
+
+#: src/modules/updates/translations-dashboard.php:86
+msgid "Skipped"
+msgstr "رد شد"
+
+#: src/modules/updates/translations-dashboard.php:87
+msgid "Backup first"
+msgstr "پشتیبان first"
+
+#: src/modules/updates/translations-dashboard.php:88
+msgid "Site default setting"
+msgstr "سایت default setting"
+
+#: src/modules/updates/translations-dashboard.php:89, src/modules/notices/templates/notice-upgrade.php:48, src/modules/notices/templates/notice-upgrade.php:51, src/modules/notices/templates/notice-upgrade.php:54, src/modules/notices/templates/notice-upgrade.php:62, src/modules/notices/templates/notice-upgrade.php:65, src/modules/notices/templates/notice-upgrade.php:68, src/modules/notices/templates/notice-upgrade.php:76, src/modules/notices/templates/notice-upgrade.php:79, src/modules/notices/templates/notice-upgrade.php:82, src/modules/notices/templates/notice-upgrade.php:90, src/modules/notices/templates/notice-upgrade.php:93, src/modules/notices/templates/notice-upgrade.php:96, src/modules/notices/templates/notice-upgrade.php:104, src/modules/notices/templates/notice-upgrade.php:107, src/modules/notices/templates/notice-upgrade.php:110, src/modules/notices/templates/notice-upgrade.php:118, src/modules/notices/templates/notice-upgrade.php:121, src/modules/notices/templates/notice-upgrade.php:124, src/modules/notices/templates/notice-upgrade.php:132, src/modules/notices/templates/notice-upgrade.php:135, src/modules/notices/templates/notice-upgrade.php:138, src/modules/notices/templates/notice-upgrade.php:146, src/modules/notices/templates/notice-upgrade.php:149, src/modules/notices/templates/notice-upgrade.php:152, src/modules/notices/templates/notice-upgrade.php:163, src/modules/notices/templates/notice-upgrade.php:166, src/modules/notices/templates/notice-upgrade.php:177, src/modules/notices/templates/notice-upgrade.php:180, src/modules/notices/templates/notice-upgrade.php:191, src/modules/notices/templates/notice-upgrade.php:194, src/modules/notices/templates/notice-upgrade.php:205, src/modules/notices/templates/notice-upgrade.php:208, src/modules/notices/templates/notice-upgrade.php:219, src/modules/notices/templates/notice-upgrade.php:222, src/modules/notices/templates/notice-upgrade.php:233, src/modules/notices/templates/notice-upgrade.php:236, src/modules/notices/templates/notice-upgrade.php:247, src/modules/notices/templates/notice-upgrade.php:250, src/modules/notices/templates/notice-upgrade.php:258, src/modules/notices/templates/notice-upgrade.php:261, src/modules/notices/templates/notice-upgrade.php:278, src/modules/notices/templates/notice-upgrade.php:289, src/modules/notices/templates/notice-upgrade.php:292
+msgid "Yes"
+msgstr "بله"
+
+#: src/modules/updates/translations-dashboard.php:90, src/modules/notices/templates/notice-upgrade.php:160, src/modules/notices/templates/notice-upgrade.php:174, src/modules/notices/templates/notice-upgrade.php:188, src/modules/notices/templates/notice-upgrade.php:202, src/modules/notices/templates/notice-upgrade.php:216, src/modules/notices/templates/notice-upgrade.php:230, src/modules/notices/templates/notice-upgrade.php:244, src/modules/notices/templates/notice-upgrade.php:264, src/modules/notices/templates/notice-upgrade.php:272, src/modules/notices/templates/notice-upgrade.php:275, src/modules/notices/templates/notice-upgrade.php:286
+msgid "No"
+msgstr "خیر"
+
+#: src/modules/updates/translations-dashboard.php:91
+msgid "View queued items"
+msgstr "مشاهده موارد صف"
+
+#: src/modules/updates/translations-dashboard.php:92
+msgid "Queue items shown"
+msgstr "موارد صف نمایش داده شد"
+
+#: src/modules/updates/translations-dashboard.php:93
+msgid "Remove selected items from queue"
+msgstr "حذف selected items from queue"
+
+#: src/modules/updates/translations-dashboard.php:94
+msgid "Queued items"
+msgstr "موارد صف‌شده"
+
+#: src/modules/updates/translations-dashboard.php:95
+msgid "Queue empty"
+msgstr "صف خالی است"
+
+#: src/modules/updates/translations-dashboard.php:96
+msgid "There are no items in the queue."
+msgstr "موردی در صف نیست."
+
+#: src/modules/updates/translations-dashboard.php:97, src/modules/updraftplus/translations-dashboard.php:66
+msgid "Remove"
+msgstr "حذف"
+
+#: src/modules/updates/translations-dashboard.php:98
+msgid "New translations are available."
+msgstr "ترجمه‌های جدید موجود است."
+
+#: src/modules/updates/translations-dashboard.php:99
+msgid "Available Translation Updates"
+msgstr "Available Translation به‌روزرسانی‌ها"
+
+#: src/modules/updates/translations-dashboard.php:100
+msgid "Language"
+msgstr "زبان"
+
+#: src/modules/updates/translations-dashboard.php:101
+msgid "Slug"
+msgstr "نامک"
+
+#: src/modules/updates/translations-dashboard.php:102
+msgid "New Version"
+msgstr "New نسخه"
+
+#: src/modules/updates/translations-dashboard.php:103, src/templates/sites/site-row.php:54
+msgid "Translations"
+msgstr "ترجمه‌ها"
+
+#: src/modules/updates/translations-dashboard.php:104
+msgid "Per page"
+msgstr "در هر صفحه"
+
+#: src/modules/updates/translations-dashboard.php:105
+msgid "latest version"
+msgstr "آخرین نسخه"
+
+#: src/modules/updates/translations-dashboard.php:106
+msgid "up to date"
+msgstr "به‌روز"
+
+#: src/modules/updates/translations-dashboard.php:107
+msgid "Only patch releases"
+msgstr "فقط نسخه‌های وصله"
+
+#: src/modules/updates/translations-dashboard.php:108
+msgid "There are no patch releases available."
+msgstr "نسخه وصله‌ای موجود نیست."
+
+#: src/modules/updates/translations-dashboard.php:109
+msgid "Last fetched"
+msgstr "آخرین دریافت"
+
+#: src/modules/updates/translations-dashboard.php:110
+msgid "Translation"
+msgstr "ترجمه"
+
+#: src/modules/updates/translations-dashboard.php:111
+msgid "Processing updates, please wait..."
+msgstr "در حال پردازش به‌روزرسانی‌ها، لطفاً صبر کنید..."
+
+#: src/modules/updates/translations-dashboard.php:112
+msgid "Loading updates, please wait..."
+msgstr "در حال بارگذاری updates, please wait..."
+
+#: src/modules/updates/translations-dashboard.php:113
+msgid "WordPress compatible"
+msgstr "سازگار با وردپرس"
+
+#: src/modules/updates/translations-dashboard.php:114
+msgid "There are no incompatible items available."
+msgstr "مورد ناسازگاری موجود نیست."
+
+#: src/modules/updates/translations-dashboard.php:115
+msgid "No compatible items found."
+msgstr "خیر compatible items found."
+
+#: src/modules/updates/translations-dashboard.php:115
+msgid "There are %d incompatible items on the list."
+msgstr "%d مورد ناسازگار در فهرست هست."
+
+#: src/modules/updraftplus/loader.php:32
+msgid "Backup site"
+msgstr "پشتیبان site"
+
+#: src/modules/updraftplus/loader.php:41
+msgid "Backup site increment"
+msgstr "پشتیبان site increment"
+
+#: src/modules/updraftplus/loader.php:50, src/modules/updraftplus/templates/site-row-buttons.php:12
+msgid "Existing backups"
+msgstr "پشتیبان‌های موجود"
+
+#: src/modules/updraftplus/loader.php:58, src/modules/updraftplus/templates/site-row-buttons.php:18
+msgid "Backup settings"
+msgstr "پشتیبان settings"
+
+#: src/modules/updraftplus/loader.php:66, src/templates/sites/site-menu.php:22, src/templates/sites/site-menu.php:13
+msgid "Site configuration"
+msgstr "سایت configuration"
+
+#: src/modules/updraftplus/loader.php:73
+msgid "Go back to Sites"
+msgstr "Go back to سایت‌ها"
+
+#: src/modules/updraftplus/loader.php:106
+msgid "Backups"
+msgstr "پشتیبان‌ها"
+
+#: src/modules/updraftplus/loader.php:117
+msgid "on every backup"
+msgstr "در هر پشتیبان‌گیری"
+
+#: src/modules/updraftplus/loader.php:121
+msgid "if any of the following conditions are matched:"
+msgstr "اگر هر یک از شرایط زیر برقرار باشد:"
+
+#: src/modules/updraftplus/loader.php:125
+msgid "if all of the following conditions are matched:"
+msgstr "اگر همه شرایط زیر برقرار باشد:"
+
+#: src/modules/updraftplus/loader.php:131
+msgid "Day of the week"
+msgstr "روز هفته"
+
+#: src/modules/updraftplus/loader.php:135
+msgid "Day of the month"
+msgstr "روز ماه"
+
+#: src/modules/updraftplus/loader.php:141
+msgid "is"
+msgstr "هست"
+
+#: src/modules/updraftplus/loader.php:145
+msgid "is not"
+msgstr "نیست"
+
+#: src/modules/updraftplus/translations-dashboard.php:20, src/modules/updraftplus/translations-dashboard.php:90
+msgid "Create"
+msgstr "ایجاد"
+
+#: src/modules/updraftplus/translations-dashboard.php:21
+msgid "You have chosen to backup files, but no file entities have been selected"
+msgstr "پشتیبان فایل را انتخاب کرده‌اید اما موجودیت فایلی انتخاب نشده است"
+
+#: src/modules/updraftplus/translations-dashboard.php:22
+msgid "You have chosen to backup a database, but no tables have been selected"
+msgstr "پشتیبان پایگاه‌داده را انتخاب کرده‌اید اما جدولی انتخاب نشده است"
+
+#: src/modules/updraftplus/translations-dashboard.php:23
+msgid "If you exclude both the database and the files, then you have excluded everything!"
+msgstr "اگر هم پایگاه‌داده و هم فایل‌ها را کنار بگذارید، همه چیز را کنار گذاشته‌اید!"
+
+#: src/modules/updraftplus/translations-dashboard.php:24
+msgid "The backup appears not to have started."
+msgstr "به نظر می‌رسد پشتیبان‌گیری شروع نشده است."
+
+#: src/modules/updraftplus/translations-dashboard.php:24
+msgid "You may find more information in your web browser's JavaScript console."
+msgstr "ممکن است اطلاعات بیشتری در کنسول جاوااسکریپت مرورگر بیابید."
+
+#: src/modules/updraftplus/translations-dashboard.php:25
+msgid "The backup has begun"
+msgstr "پشتیبان‌گیری آغاز شد"
+
+#: src/modules/updraftplus/translations-dashboard.php:26
+msgid "Last log message"
+msgstr "آخرین پیام گزارش"
+
+#: src/modules/updraftplus/translations-dashboard.php:27
+msgid "Backup now"
+msgstr "پشتیبان now"
+
+#: src/modules/updraftplus/translations-dashboard.php:28
+msgid "Log file"
+msgstr "گزارش file"
+
+#: src/modules/updraftplus/translations-dashboard.php:29
+msgid "Download log"
+msgstr "دانلود log"
+
+#: src/modules/updraftplus/translations-dashboard.php:30, src/modules/updraftvault/translations-dashboard.php:15
+msgid "Delete"
+msgstr "حذف"
+
+#: src/modules/updraftplus/translations-dashboard.php:31
+msgid "none"
+msgstr "هیچ"
+
+#: src/modules/updraftplus/translations-dashboard.php:32
+msgid "Deleted"
+msgstr "حذف شد"
+
+#: src/modules/updraftplus/translations-dashboard.php:33
+msgid "This item has been deleted."
+msgstr "این مورد حذف شده است."
+
+#: src/modules/updraftplus/translations-dashboard.php:34
+msgid "This item needs downloading from the remote storage (which will be attempted)."
+msgstr "این مورد باید از فضای راه دور دانلود شود (تلاش خواهد شد)."
+
+#: src/modules/updraftplus/translations-dashboard.php:35
+msgid "Delete backup set"
+msgstr "حذف backup set"
+
+#: src/modules/updraftplus/translations-dashboard.php:36
+msgid "Could not find that job - perhaps it has already finished?"
+msgstr "آن کار پیدا نشد — شاید قبلاً تمام شده باشد؟"
+
+#: src/modules/updraftplus/translations-dashboard.php:37
+msgid "Job deleted"
+msgstr "کار حذف شد"
+
+#: src/modules/updraftplus/translations-dashboard.php:38
+msgid "Existing Backups"
+msgstr "Existing پشتیبان‌ها"
+
+#: src/modules/updraftplus/translations-dashboard.php:39
+msgid "Rescanning (looking for backups that you have uploaded manually into the internal backup store)..."
+msgstr "اسکن مجدد (جستجوی پشتیبان‌هایی که دستی در مخزن داخلی بارگذاری کرده‌اید)..."
+
+#: src/modules/updraftplus/translations-dashboard.php:40
+msgid "Rescanning remote and local storage for backup sets..."
+msgstr "اسکن مجدد فضای راه دور و محلی برای مجموعه‌های پشتیبان..."
+
+#: src/modules/updraftplus/translations-dashboard.php:41
+msgid "Raw backup history"
+msgstr "تاریخچه خام پشتیبان"
+
+#: src/modules/updraftplus/translations-dashboard.php:42, src/modules/updraftplus/translations-dashboard.php:43
+msgid "Are you sure that you wish to remove %s from UpdraftPlus?"
+msgstr "آیا مطمئن هستید که می‌خواهید %s را از UpdraftPlus حذف کنید؟"
+
+#: src/modules/updraftplus/translations-dashboard.php:42
+msgid "this backup set"
+msgstr "این مجموعه پشتیبان"
+
+#: src/modules/updraftplus/translations-dashboard.php:43
+msgid "these backup sets"
+msgstr "این مجموعه‌های پشتیبان"
+
+#: src/modules/updraftplus/translations-dashboard.php:44
+msgid "Also delete from remote storage"
+msgstr "از فضای ذخیره‌سازی راه دور هم حذف شود"
+
+#: src/modules/updraftplus/translations-dashboard.php:45
+msgid "Deleting... please allow time for any communications with the remote storage to complete."
+msgstr "در حال حذف... لطفاً زمان کافی برای تکمیل ارتباط با فضای ذخیره‌سازی راه دور بدهید."
+
+#: src/modules/updraftplus/translations-dashboard.php:46
+msgctxt "(verb)"
+msgid "Download"
+msgstr "دانلود"
+
+#: src/modules/updraftplus/translations-dashboard.php:47
+msgid "Begun looking for this entity"
+msgstr "جستجوی این موجودیت آغاز شد"
+
+#: src/modules/updraftplus/translations-dashboard.php:48
+msgid "The download failed to start"
+msgstr "شروع دانلود ناموفق بود"
+
+#: src/modules/updraftplus/translations-dashboard.php:49
+msgid "File ready."
+msgstr "فایل ready."
+
+#: src/modules/updraftplus/translations-dashboard.php:50
+msgid "You should:"
+msgstr "باید:"
+
+#: src/modules/updraftplus/translations-dashboard.php:51
+msgid "Delete from your web server"
+msgstr "حذف from your web server"
+
+#: src/modules/updraftplus/translations-dashboard.php:52
+msgid "Download to your computer"
+msgstr "دانلود to your computer"
+
+#: src/modules/updraftplus/translations-dashboard.php:53
+msgid "and then, if you wish,"
+msgstr "و سپس، اگر مایلید،"
+
+#: src/modules/updraftplus/translations-dashboard.php:54
+msgid "The download request did not succeed."
+msgstr "درخواست دانلود موفق نبود."
+
+#: src/modules/updraftplus/translations-dashboard.php:55
+msgid "Restore backup"
+msgstr "بازیابی پشتیبان"
+
+#: src/modules/updraftplus/translations-dashboard.php:56
+msgid "You will now be taken to the site's dashboard, to allow you to choose restoration options."
+msgstr "اکنون به پیشخوان سایت منتقل می‌شوید تا گزینه‌های بازیابی را انتخاب کنید."
+
+#: src/modules/updraftplus/translations-dashboard.php:56
+msgid "Note that depending upon what you restore, and the state of the site when the backup was taken, restoring may cause your UpdraftCentral connection to be broken."
+msgstr "توجه: بسته به آنچه بازیابی می‌کنید و وضعیت سایت هنگام پشتیبان، بازیابی ممکن است اتصال UpdraftCentral را قطع کند."
+
+#: src/modules/updraftplus/translations-dashboard.php:56
+msgid "In that case, you will need to re-create it after restoring."
+msgstr "در آن صورت پس از بازیابی باید دوباره بسازیدش."
+
+#: src/modules/updraftplus/translations-dashboard.php:59
+msgid "day"
+msgstr "روز"
+
+#: src/modules/updraftplus/translations-dashboard.php:60
+msgid "in the month"
+msgstr "در ماه"
+
+#: src/modules/updraftplus/translations-dashboard.php:61
+msgid "day(s)"
+msgstr "روز"
+
+#: src/modules/updraftplus/translations-dashboard.php:62
+msgid "hour(s)"
+msgstr "ساعت"
+
+#: src/modules/updraftplus/translations-dashboard.php:63
+msgid "week(s)"
+msgstr "هفته"
+
+#: src/modules/updraftplus/translations-dashboard.php:64
+msgid "For backups older than"
+msgstr "برای پشتیبان‌های قدیمی‌تر از"
+
+#: src/modules/updraftplus/translations-dashboard.php:65
+msgid "Enter the directory:"
+msgstr "مسیر پوشه را وارد کنید:"
+
+#: src/modules/updraftplus/translations-dashboard.php:67
+msgid "Send a report only when there are warnings/errors"
+msgstr "گزارش فقط هنگام هشدار/خطا ارسال شود"
+
+#: src/modules/updraftplus/translations-dashboard.php:68
+msgid "When the Email storage method is enabled, also send the entire backup"
+msgstr "When the ایمیل storage method is enabled, also send the entire backup"
+
+#: src/modules/updraftplus/translations-dashboard.php:69
+msgid "Be aware that mail servers tend to have size limits; typically around %s Mb; backups larger than any limits will likely not arrive."
+msgstr "توجه کنید سرورهای ایمیل معمولاً محدودیت حجم دارند (حدود %s مگابایت)؛ پشتیبان‌های بزرگ‌تر احتمالاً نمی‌رسند."
+
+#: src/modules/updraftplus/translations-dashboard.php:70
+msgid "Only email the database backup"
+msgstr "فقط پشتیبان پایگاه‌داده ایمیل شود"
+
+#: src/modules/updraftplus/translations-dashboard.php:71
+msgid "Host"
+msgstr "میزبان"
+
+#: src/modules/updraftplus/translations-dashboard.php:72
+msgid "Username"
+msgstr "نام کاربری"
+
+#: src/modules/updraftplus/translations-dashboard.php:73
+msgid "Password"
+msgstr "رمز عبور"
+
+#: src/modules/updraftplus/translations-dashboard.php:74
+msgid "Database"
+msgstr "پایگاه‌داده"
+
+#: src/modules/updraftplus/translations-dashboard.php:75
+msgid "Table prefix"
+msgstr "پیشوند جدول"
+
+#: src/modules/updraftplus/translations-dashboard.php:76
+msgid "If you enter a table prefix, then only tables that begin with this prefix will be backed up."
+msgstr "اگر پیشوند جدول وارد کنید، فقط جدول‌هایی که با این پیشوند شروع می‌شوند پشتیبان گرفته می‌شوند."
+
+#: src/modules/updraftplus/translations-dashboard.php:77
+msgid "Test connection..."
+msgstr "آزمایش اتصال..."
+
+#: src/modules/updraftplus/translations-dashboard.php:78
+msgid "Backup external database"
+msgstr "پشتیبان external database"
+
+#: src/modules/updraftplus/translations-dashboard.php:80
+msgid "Test %s Settings"
+msgstr "Test %s تنظیمات"
+
+#: src/modules/updraftplus/translations-dashboard.php:81
+msgid "Testing %s Settings..."
+msgstr "Testing %s تنظیمات..."
+
+#: src/modules/updraftplus/translations-dashboard.php:82
+msgid "%s settings test result:"
+msgstr "نتیجه آزمایش تنظیمات %s:"
+
+#: src/modules/updraftplus/translations-dashboard.php:83
+msgid "Counting..."
+msgstr "در حال شمارش..."
+
+#: src/modules/updraftplus/translations-dashboard.php:84
+msgid "Update quota count"
+msgstr "به‌روزرسانی quota count"
+
+#: src/modules/updraftplus/translations-dashboard.php:85
+msgid "Disconnecting..."
+msgstr "در حال قطع اتصال..."
+
+#: src/modules/updraftplus/translations-dashboard.php:86
+msgid "Connect"
+msgstr "اتصال"
+
+#: src/modules/updraftplus/translations-dashboard.php:87
+msgid "Connecting..."
+msgstr "در حال اتصال..."
+
+#: src/modules/updraftplus/translations-dashboard.php:88
+msgid "Disconnect"
+msgstr "قطع اتصال"
+
+#: src/modules/updraftplus/translations-dashboard.php:89
+msgid "Create new IAM user and S3 bucket"
+msgstr "ایجاد کاربر IAM و باکت S3 جدید"
+
+#: src/modules/updraftplus/translations-dashboard.php:91
+msgid "Trying..."
+msgstr "در حال تلاش..."
+
+#: src/modules/updraftplus/translations-dashboard.php:92
+msgid "You are now using a IAM user account to access your bucket."
+msgstr "اکنون با حساب کاربری IAM به باکت دسترسی دارید."
+
+#: src/modules/updraftplus/translations-dashboard.php:92
+msgid "Do remember to save your settings."
+msgstr "ذخیره تنظیمات را فراموش نکنید."
+
+#: src/modules/updraftplus/translations-dashboard.php:93
+msgid "Settings saved"
+msgstr "تنظیمات ذخیره شد"
+
+#: src/modules/updraftplus/translations-dashboard.php:94
+msgid "Admin Username"
+msgstr "Admin نام کاربری"
+
+#: src/modules/updraftplus/translations-dashboard.php:95
+msgid "New API user"
+msgstr "کاربر API جدید"
+
+#: src/modules/updraftplus/translations-dashboard.php:96
+msgid "Admin API Key"
+msgstr "کلید API مدیر"
+
+#: src/modules/updraftplus/translations-dashboard.php:97
+msgid "New User's Username"
+msgstr "New کاربر's نام کاربری"
+
+#: src/modules/updraftplus/translations-dashboard.php:98
+msgid "New User's Email Address"
+msgstr "New کاربر's ایمیل Address"
+
+#: src/modules/updraftplus/translations-dashboard.php:99
+msgid "Cloud Files Container"
+msgstr "Cloud فایل‌ها Container"
+
+#: src/modules/updraftplus/translations-dashboard.php:100
+msgid "US or UK Rackspace Account"
+msgstr "حساب Rackspace آمریکا یا بریتانیا"
+
+#: src/modules/updraftplus/translations-dashboard.php:101
+msgid "Cloud Files Storage Region:"
+msgstr "Cloud فایل‌ها Storage Region:"
+
+#: src/modules/updraftplus/translations-dashboard.php:102
+msgid "Enter your Rackspace admin username/API key (so that Rackspace can authenticate your permission to create new users), and enter a new (unique) username and email address for the new user and a container name."
+msgstr "نام کاربری/کلید API مدیر Rackspace را وارد کنید (تا اجازه ساخت کاربر جدید تأیید شود)، سپس نام کاربری یکتا، ایمیل کاربر جدید و نام کانتینر را وارد کنید."
+
+#: src/modules/updraftplus/translations-dashboard.php:103
+msgid "Please upgrade the version of UpdraftPlus on this site to properly show the progress percentage and messages"
+msgstr "لطفاً نسخه UpdraftPlus این سایت را ارتقاء دهید تا درصد پیشرفت و پیام‌ها درست نمایش داده شود"
+
+#: src/modules/updraftplus/translations-dashboard.php:104
+msgid "Backup using"
+msgstr "پشتیبان using"
+
+#: src/modules/updraftplus/translations-dashboard.php:105
+msgid "Delete Selected"
+msgstr "حذف Selected"
+
+#: src/modules/updraftplus/translations-dashboard.php:106
+msgid "Select backup data"
+msgstr "انتخاب داده پشتیبان"
+
+#: src/modules/updraftplus/translations-dashboard.php:107
+msgid "Currently enabled"
+msgstr "در حال حاضر فعال"
+
+#: src/modules/updraftplus/translations-dashboard.php:108
+msgid "Currently disabled"
+msgstr "در حال حاضر غیرفعال"
+
+#: src/modules/updraftplus/translations-dashboard.php:109, src/templates/sites/site-row.php:70, src/templates/sites/site-row.php:72, src/modules/updraftplus/templates/management-actions-oldcopy-keep.php:7, src/modules/updraftplus/templates/site-row-buttons.php:3, src/modules/updraftplus/templates/site-row-buttons.php:5
+msgid "Backup"
+msgstr "پشتیبان‌گیری"
+
+#: src/modules/updraftplus/translations-dashboard.php:110
+msgid "Uploading backup"
+msgstr "بارگذاری پشتیبان"
+
+#: src/modules/updraftplus/translations-dashboard.php:111
+msgid "Include your files in the backup"
+msgstr "فایل‌ها را در پشتیبان بگنجانید"
+
+#: src/modules/updraftplus/translations-dashboard.php:112
+msgid "File backup options"
+msgstr "فایل backup options"
+
+#: src/modules/updraftplus/translations-dashboard.php:113
+msgid "You have chosen to send this backup to remote storage, but no remote storage locations have been selected"
+msgstr "ارسال پشتیبان به فضای راه دور را انتخاب کرده‌اید اما مکانی انتخاب نشده است"
+
+#: src/modules/updraftplus/translations-dashboard.php:114
+msgid "If you are not sure what this option is for, then you will not want it, and should turn it off."
+msgstr "اگر مطمئن نیستید این گزینه برای چیست، به آن نیاز ندارید و باید خاموشش کنید."
+
+#: src/modules/updraftplus/translations-dashboard.php:114
+msgid "If using it, then enter the directory path below."
+msgstr "اگر از آن استفاده می‌کنید، مسیر پوشه را پایین وارد کنید."
+
+#: src/modules/updraftplus/translations-dashboard.php:114
+msgid "Be careful what you enter - if you enter / then it really will try to create a zip containing your entire webserver."
+msgstr "مراقب ورودی باشید — اگر / وارد کنید واقعاً سعی می‌کند از کل وب‌سرور یک zip بسازد."
+
+#: src/modules/updraftplus/translations-dashboard.php:115
+msgid "Manual Authentication"
+msgstr "احراز هویت دستی"
+
+#: src/modules/updraftvault/loader.php:35
+msgid "Browse UpdraftVault files"
+msgstr "مرور فایل‌های UpdraftVault"
+
+#: src/modules/updraftvault/loader.php:63
+msgid "UpdraftVault"
+msgstr "UpdraftVault"
+
+#: src/modules/updraftvault/translations-dashboard.php:7
+msgid "This site has not been connected to UpdraftVault."
+msgstr "این سایت به UpdraftVault متصل نشده است."
+
+#: src/modules/updraftvault/translations-dashboard.php:7
+msgid "To do this, go to the \"Backups\" panel."
+msgstr "To do this, go to the \"پشتیبان‌ها\" panel."
+
+#: src/modules/updraftvault/translations-dashboard.php:8
+msgid "There appears to be a problem when processing your request."
+msgstr "به نظر می‌رسد هنگام پردازش درخواست مشکلی هست."
+
+#: src/modules/updraftvault/translations-dashboard.php:8, src/modules/updraftvault/translations-dashboard.php:9, src/modules/updraftvault/translations-dashboard.php:10, src/modules/updraftvault/translations-dashboard.php:11, src/modules/updraftvault/translations-dashboard.php:12
+msgid "Please refer to the following response: %s"
+msgstr "به این پاسخ مراجعه کنید: %s"
+
+#: src/modules/updraftvault/translations-dashboard.php:9
+msgid "Received response, but it was not in the expected format."
+msgstr "پاسخ دریافت شد اما در قالب مورد انتظار نبود."
+
+#: src/modules/updraftvault/translations-dashboard.php:10
+msgid "Unexpected HTTP response code."
+msgstr "کد پاسخ HTTP غیرمنتظره."
+
+#: src/modules/updraftvault/translations-dashboard.php:10
+msgid "The server or database may be down or is unable to process your request at the moment."
+msgstr "ممکن است سرور یا پایگاه‌داده از دسترس خارج باشد یا الان نتواند درخواست را پردازش کند."
+
+#: src/modules/updraftvault/translations-dashboard.php:11
+msgid "wp_remote_post returned a result that was not understood."
+msgstr "تابع wp_remote_post نتیجه‌ای برگرداند که قابل درک نبود."
+
+#: src/modules/updraftvault/translations-dashboard.php:12
+msgid "Could not load objects."
+msgstr "بارگذاری اشیاء ممکن نشد."
+
+#: src/modules/updraftvault/translations-dashboard.php:14, src/modules/updraftplus/templates/management-actions-oldcopy-keep.php:13
+msgid "Download"
+msgstr "دانلود"
+
+#: src/modules/updraftvault/translations-dashboard.php:16
+msgid "Size"
+msgstr "اندازه"
+
+#: src/modules/updraftvault/translations-dashboard.php:17
+msgid "bytes"
+msgstr "بایت"
+
+#: src/modules/updraftvault/translations-dashboard.php:20
+msgid "Your selected UpdraftVault file(s) have been deleted successfully."
+msgstr "فایل(های) انتخاب‌شده UpdraftVault با موفقیت حذف شدند."
+
+#: src/modules/updraftvault/translations-dashboard.php:21
+msgid "Delete files"
+msgstr "حذف files"
+
+#: src/modules/updraftvault/translations-dashboard.php:22
+msgid "Are you sure you want to permanently delete the selected file(s)?"
+msgstr "آیا مطمئن هستید که می‌خواهید فایل(های) انتخاب‌شده را برای همیشه حذف کنید؟"
+
+#: src/modules/updraftvault/translations-dashboard.php:23
+msgid "There appears to be a problem when deleting your file(s). Please refer to the following response: %s"
+msgstr "به نظر می‌رسد هنگام حذف فایل(ها) مشکلی هست. به این پاسخ مراجعه کنید: %s"
+
+#: src/modules/updraftvault/translations-dashboard.php:24
+msgid "There are currently no files found under your UpdraftVault."
+msgstr "در حال حاضر فایلی در UpdraftVault شما یافت نشد."
+
+#: src/modules/updraftvault/translations-dashboard.php:25
+msgid "Please select one or more files to delete."
+msgstr "لطفاً یک یا چند فایل برای حذف انتخاب کنید."
+
+#: src/modules/updraftvault/translations-dashboard.php:26
+msgid "Successfully removed files"
+msgstr "فایل‌ها با موفقیت حذف شدند"
+
+#: src/modules/updraftvault/translations-dashboard.php:27
+msgid "Failed to remove files"
+msgstr "ناموفق to remove files"
+
+#: src/modules/updraftvault/translations-dashboard.php:28
+msgid "Failed to retrieve files"
+msgstr "ناموفق to retrieve files"
+
+#: src/modules/updraftvault/translations-dashboard.php:29
+msgid "Connection error"
+msgstr "اتصال error"
+
+#: src/modules/updraftvault/translations-dashboard.php:30
+msgid "No files selected"
+msgstr "خیر files selected"
+
+#: src/modules/updraftvault/translations-dashboard.php:31
+msgid "Results per page"
+msgstr "نتایج در هر صفحه"
+
+#: src/modules/updraftvault/translations-dashboard.php:32
+msgid "No message was given to translate"
+msgstr "خیر message was given to translate"
+
+#: src/modules/updraftvault/translations-dashboard.php:33
+msgid "The site sent an unrecognised response '(%s)'. You may need to update either UpdraftPlus or UpdraftCentral to a later version."
+msgstr "سایت پاسخ ناشناخته‌ای فرستاد «(%s)». ممکن است لازم باشد UpdraftPlus یا UpdraftCentral را به نسخه جدیدتر به‌روز کنید."
+
+#: src/modules/wpo/loader.php:104, src/modules/wpo/templates/management-actions.php:10
+msgid "WP-Optimize"
+msgstr "WP-Optimize"
+
+#: src/modules/wpo/translations-dashboard.php:12
+msgid "Automatic backup before optimizations"
+msgstr "پشتیبان خودکار قبل از بهینه‌سازی‌ها"
+
+#: src/modules/wpo/translations-dashboard.php:14
+msgid "WP-Optimize plugin appears to be installed and activated but unfortunately the site could not return the requested information - perhaps you need to update it to a more recent WP-Optimize version?"
+msgstr "به نظر می‌رسد افزونه WP-Optimize نصب و فعال است اما سایت اطلاعات درخواستی را برنگرداند — شاید باید به نسخه جدیدتر WP-Optimize به‌روز کنید؟"
+
+#: src/modules/wpo/translations-dashboard.php:15
+msgid "Please, select a settings file."
+msgstr "لطفاً یک فایل تنظیمات انتخاب کنید."
+
+#: src/modules/wpo/translations-dashboard.php:16
+msgid "Optimization complete"
+msgstr "بهینه‌سازی کامل شد"
+
+#: src/modules/wpo/translations-dashboard.php:17
+msgid "You need to complete the currently incomplete scheduled time settings or remove them."
+msgstr "باید تنظیمات زمان‌بندی ناقص فعلی را کامل کنید یا حذفشان کنید."
+
+#: src/modules/wpo/translations-dashboard.php:18
+msgid "%s was not deleted."
+msgstr "%s حذف نشد."
+
+#: src/modules/wpo/translations-dashboard.php:18
+msgid "For more details, please check any logs configured in your logging destination settings."
+msgstr "برای جزئیات بیشتر، گزارش‌های تنظیم‌شده در مقصد لاگ را بررسی کنید."
+
+#: src/modules/wpo/translations-dashboard.php:19
+msgid "Are you sure you want to remove this table?"
+msgstr "آیا مطمئن هستید که می‌خواهید این جدول را حذف کنید؟"
+
+#: src/modules/wpo/translations-dashboard.php:20
+msgid "There are currently no items selected."
+msgstr "در حال حاضر موردی انتخاب نشده است."
+
+#: src/modules/wpo/translations-dashboard.php:20
+msgid "Please select one or more optimization items and try again."
+msgstr "لطفاً یک یا چند مورد بهینه‌سازی انتخاب کنید و دوباره تلاش کنید."
+
+#: src/modules/wpo/translations-dashboard.php:21
+msgid "%s was not converted to InnoDB."
+msgstr "%s به InnoDB تبدیل نشد."
+
+#: src/templates/dashboard/navigation.php:18
+msgid "This is your licence usage/availability count."
+msgstr "این شمارش مصرف/موجودی مجوز شماست."
+
+#: src/templates/dashboard/navigation.php:20
+msgid "Follow the link to purchase more licences."
+msgstr "برای خرید مجوز بیشتر پیوند را دنبال کنید."
+
+#: src/templates/dashboard/navigation.php:36
+msgid "Help"
+msgstr "راهنما"
+
+#: src/templates/dashboard/navigation.php:37, src/templates/dashboard/navigation.php:37
+msgid "Full screen"
+msgstr "تمام‌صفحه"
+
+#: src/templates/dashboard/navigation.php:38
+msgid "Profile"
+msgstr "پروفایل"
+
+#: src/templates/dashboard/not-authorised.php:7
+msgid "You are logged in, but your user account is not authorised to see this page."
+msgstr "وارد شده‌اید، اما حساب کاربری‌تان مجاز به دیدن این صفحه نیست."
+
+#: src/templates/dashboard/not-authorised.php:26
+msgid "Go here to log out and log in again."
+msgstr "برای خروج و ورود دوباره اینجا بروید."
+
+#: src/templates/dashboard/not-logged-in.php:7
+msgid "You need to be logged in to see this page."
+msgstr "برای دیدن این صفحه باید وارد شوید."
+
+#: src/templates/dashboard/not-logged-in.php:26
+msgid "Go here to log in."
+msgstr "برای ورود اینجا بروید."
+
+#: src/templates/dashboard/sidebar-navigation.php:44, src/templates/sites/management-actions.php:4
+msgid "Add new site"
+msgstr "افزودن سایت جدید"
+
+#: src/templates/dashboard/sidebar-navigation.php:45
+msgid "Import / export"
+msgstr "ورود / خروج"
+
+#: src/templates/dashboard/sidebar-navigation.php:115
+msgid "Show module"
+msgstr "نمایش ماژول"
+
+#: src/templates/dashboard/sidebar-navigation.php:99, src/templates/dashboard/sidebar-navigation.php:86
+msgid "Left arrow"
+msgstr "پیکان چپ"
+
+#: src/templates/dashboard/sidebar-navigation.php:99, src/templates/dashboard/sidebar-navigation.php:86
+msgid "Down arrow"
+msgstr "پیکان پایین"
+
+#: src/templates/dashboard/sidebar-navigation.php:103
+msgid "Hide module"
+msgstr "مخفی کردن ماژول"
+
+#: src/templates/sites/management-actions.php:5
+msgid "Add Site"
+msgstr "افزودن سایت"
+
+#: src/templates/sites/management-actions.php:9
+msgid "Import/export settings"
+msgstr "ورود/export settings"
+
+#: src/templates/sites/management-actions.php:10
+msgid "Export Settings"
+msgstr "خروجی تنظیمات"
+
+#: src/templates/sites/none-set-up.php:3
+msgid "No sites have yet been set up."
+msgstr "خیر sites have yet been set up."
+
+#: src/templates/sites/none-set-up.php:3
+msgid "Go here to learn how to add your first site."
+msgstr "برای یادگیری افزودن اولین سایت اینجا بروید."
+
+#: src/templates/sites/site-menu.php:2, src/templates/sites/site-menu.php:3, src/templates/sites/site-menu.php:4
+msgid "More"
+msgstr "بیشتر"
+
+#: src/templates/sites/site-row.php:50
+msgid "Available Updates"
+msgstr "Available به‌روزرسانی‌ها"
+
+#: src/templates/sites/site-row.php:53
+msgid "WordPress Core"
+msgstr "هسته وردپرس"
+
+#: src/templates/sites/site-row.php:60, src/templates/sites/site-row.php:12
+msgid "A licence is required to manage this site"
+msgstr "برای مدیریت این سایت به مجوز نیاز است"
+
+#: src/templates/sites/site-row.php:10
+msgid "Go to the WordPress dashboard"
+msgstr "رفتن به پیشخوان وردپرس"
+
+#: src/templates/sites/site-row.php:74, src/templates/sites/site-row.php:76, src/modules/updraftplus/templates/site-row-buttons.php:7, src/modules/updraftplus/templates/site-row-buttons.php:9
+msgid "Increment"
+msgstr "افزایشی"
+
+#: src/templates/sites/site-row.php:80, src/modules/updates/templates/site-row-buttons.php:9, src/modules/updraftplus/templates/site-row-buttons.php:25
+msgid "Dashboard"
+msgstr "داشبورد"
+
+#: src/templates/wp-admin/dashboard-page.php:1
+msgid "Remote Control for WordPress"
+msgstr "کنترل از راه دور وردپرس"
+
+#: src/templates/wp-admin/dashboard-page.php:4
+msgid "News"
+msgstr "اخبار"
+
+#: src/templates/wp-admin/dashboard-page.php:5
+msgid "Twitter"
+msgstr "توییتر"
+
+#: src/templates/wp-admin/dashboard-page.php:7
+msgid "Suggest idea"
+msgstr "پیشنهاد ایده"
+
+#: src/templates/wp-admin/dashboard-page.php:8
+msgid "Newsletter sign-up"
+msgstr "عضویت در خبرنامه"
+
+#: src/templates/wp-admin/dashboard-page.php:9
+msgid "Lead developer's homepage"
+msgstr "صفحه اصلی توسعه‌دهنده اصلی"
+
+#: src/templates/wp-admin/dashboard-page.php:10
+msgid "More plugins"
+msgstr "افزونه‌های بیشتر"
+
+#: src/templates/wp-admin/dashboard-page.php:15
+msgid "Getting started"
+msgstr "شروع به کار"
+
+#: src/templates/wp-admin/dashboard-page.php:17
+msgid "Welcome to UpdraftCentral! This is the dashboard plugin, which you install on the site where you want to have your dashboard for controlling other sites. (On the controlled sites, you install UpdraftPlus)."
+msgstr "به UpdraftCentral خوش آمدید! این افزونه داشبورد است که روی سایتی نصب می‌کنید که می‌خواهید داشبورد کنترل سایت‌های دیگر باشد. (روی سایت‌های کنترل‌شونده UpdraftPlus را نصب کنید.)"
+
+#: src/templates/wp-admin/dashboard-page.php:19
+msgid "UpdraftCentral runs on the front-end of your site."
+msgstr "UpdraftCentral در فرانت‌اند سایت شما اجرا می‌شود."
+
+#: src/templates/wp-admin/dashboard-page.php:19
+msgid "To get started, you must create a front-end page for your site, to contain the dashboard."
+msgstr "برای شروع باید یک صفحه فرانت‌اند برای قرار دادن داشبورد بسازید."
+
+#: src/templates/wp-admin/dashboard-page.php:19
+msgid "i.e. Go to %s."
+msgstr "یعنی به %s بروید."
+
+#: src/templates/wp-admin/dashboard-page.php:19
+msgid "Pages %s Add New"
+msgstr "صفحه‌ها %s افزودن"
+
+#: src/templates/wp-admin/dashboard-page.php:21
+msgid "In your new front-end page, put this shortcode: [updraft_central] . This will allow logged-in site administrators, who visit that page, to use UpdraftCentral."
+msgstr "در صفحه فرانت‌اند جدید این شورتکد را بگذارید: [updraft_central]. مدیران واردشده با بازدید از آن صفحه می‌توانند از UpdraftCentral استفاده کنند."
+
+#: src/templates/wp-admin/dashboard-page.php:23
+msgid "If you want users with roles to also be able to use UpdraftCentral (note that every user has their own list of sites - giving users access to UpdraftCentral does not give them access to your sites, only to their own list of sites), then please see this FAQ for instructions."
+msgstr "اگر می‌خواهید نقش‌های دیگر هم از UpdraftCentral استفاده کنند (هر کاربر فهرست سایت خودش را دارد — دادن دسترسی، دسترسی به سایت‌های شما نیست)، این پرسش‌متداول را ببینید."
+
+#: src/templates/wp-admin/dashboard-page.php:25
+msgid "Then, to start using UpdraftCentral, simply visit the page, and you can begin adding sites."
+msgstr "سپس برای شروع، همان صفحه را باز کنید و افزودن سایت‌ها را آغاز کنید."
+
+#: src/modules/advancedtools/templates/management-actions.php:5, src/modules/eum/templates/management-actions.php:5, src/modules/events/templates/management-actions.php:7, src/modules/notices/templates/management-actions.php:7, src/modules/updates/templates/management-actions.php:10, src/modules/updraftplus/templates/management-actions.php:5, src/modules/updraftvault/templates/management-actions.php:5, src/modules/wpo/templates/management-actions.php:5
+msgid "Go back to Site Management"
+msgstr "Go back to سایت Management"
+
+#: src/modules/advancedtools/templates/management-actions.php:10, src/modules/eum/templates/management-actions.php:10, src/modules/updates/templates/management-actions.php:15, src/modules/updraftvault/templates/management-actions.php:10, src/modules/wpo/templates/management-actions.php:10
+msgid "Choose another site to manage %s on"
+msgstr "سایت دیگری برای مدیریت %s انتخاب کنید"
+
+#: src/modules/advancedtools/templates/site-row-buttons.php:2
+msgid "Configure settings"
+msgstr "پیکربندی تنظیمات"
+
+#: src/modules/advancedtools/templates/site-row-buttons.php:4
+msgid "Advanced Tools"
+msgstr "پیشرفته ابزارها"
+
+#: src/modules/eum/templates/site-row-buttons.php:6
+msgid "General"
+msgstr "عمومی"
+
+#: src/modules/eum/templates/site-row-buttons.php:25
+msgid "Logs"
+msgstr "گزارش‌ها"
+
+#: src/modules/events/templates/events-table.php:4
+msgid "Event capture"
+msgstr "ضبط رویداد"
+
+#: src/modules/events/templates/events-table.php:4
+msgid "Refresh List"
+msgstr "تازه‌سازی List"
+
+#: src/modules/events/templates/events-table.php:5
+msgid "UpdraftCentral captures events to make it easier for you to check the status and the raw response coming from the remote site."
+msgstr "UpdraftCentral captures events to make it easier for you to check the status and the raw response coming from the سایت راه دور."
+
+#: src/modules/events/templates/events-table.php:5
+msgid "This is helpful, especially when an error has occurred while executing or processing a certain UpdraftCentral action."
+msgstr "این به‌خصوص وقتی خطایی هنگام اجرای یک عمل UpdraftCentral رخ دهد مفید است."
+
+#: src/modules/events/templates/events-table.php:10
+msgid "Event"
+msgstr "رویداد"
+
+#: src/modules/events/templates/events-table.php:12
+msgid "Status"
+msgstr "وضعیت"
+
+#: src/modules/events/templates/events-table.php:13
+msgid "Event date"
+msgstr "تاریخ رویداد"
+
+#: src/modules/events/templates/events-table.php:14
+msgid "Result data"
+msgstr "نتیجه data"
+
+#: src/modules/notices/templates/horizontal-notice.php:6
+msgid "notice image"
+msgstr "تصویر اعلان"
+
+#: src/modules/notices/templates/horizontal-notice.php:40
+msgid "Go there"
+msgstr "برو آنجا"
+
+#: src/modules/notices/templates/horizontal-notice.php:38
+msgid "Sign up"
+msgstr "ثبت‌نام"
+
+#: src/modules/notices/templates/horizontal-notice.php:36
+msgid "Get UpdraftPlus Premium"
+msgstr "دریافت UpdraftPlus ویژه"
+
+#: src/modules/notices/templates/horizontal-notice.php:34
+msgid "Review UpdraftCentral"
+msgstr "نظر دادن درباره UpdraftCentral"
+
+#: src/modules/notices/templates/horizontal-notice.php:32, src/modules/notices/templates/notice-upgrade.php:37, src/modules/notices/templates/notice-upgrade.php:40, src/modules/notices/templates/notice-upgrade.php:301, src/modules/notices/templates/notice-upgrade.php:304
+msgid "Upgrade now"
+msgstr "همین حالا ارتقاء دهید"
+
+#: src/modules/notices/templates/notice-upgrade.php:5
+msgid "Comparison of UpdraftCentral versions: Free, Premium, Cloud"
+msgstr "مقایسه نسخه‌های UpdraftCentral: رایگان، ویژه، ابری"
+
+#: src/modules/notices/templates/notice-upgrade.php:8
+msgid "The free, self-hosted version of UpdraftCentral is a fully functional dashboard to manage all your backups and updates in one place."
+msgstr "نسخه رایگان و خودمیزبان UpdraftCentral داشبوردی کامل برای مدیریت همه پشتیبان‌ها و به‌روزرسانی‌ها در یکجاست."
+
+#: src/modules/notices/templates/notice-upgrade.php:10
+msgid "However, with an upgrade, you get even more and can save even more time."
+msgstr "با این حال، با ارتقاء امکانات بیشتری می‌گیرید و زمان بیشتری صرفه‌جویی می‌کنید."
+
+#: src/modules/notices/templates/notice-upgrade.php:14
+msgid "UpdraftCentral Premium has an added, handy Analytics, Comment, User, Plugin and Theme Management modules, and more to come in future."
+msgstr "UpdraftCentral Premium has an added, handy Analytics, دیدگاه, کاربر, افزونه and پوسته Management modules, and more to come in future."
+
+#: src/modules/notices/templates/notice-upgrade.php:14
+msgid "Our UpdraftCentral Cloud version has this too, plus the additional convenience of having it completely hosted on UpdraftPlus.com, maintained and personally supported by our team (i.e. \"Software as a Service, SaaS\")."
+msgstr "نسخه ابری UpdraftCentral هم همین را دارد، به‌علاوه میزبانی کامل روی UpdraftPlus.com با نگهداری و پشتیبانی تیم ما (نرم‌افزار به‌عنوان سرویس، SaaS)."
+
+#: src/modules/notices/templates/notice-upgrade.php:25
+msgid "UpdraftCentral Premium"
+msgstr "UpdraftCentral ویژه"
+
+#: src/modules/notices/templates/notice-upgrade.php:28
+msgid "UpdraftCentral Cloud"
+msgstr "UpdraftCentral ابری"
+
+#: src/modules/notices/templates/notice-upgrade.php:34, src/modules/notices/templates/notice-upgrade.php:298
+msgid "Installed"
+msgstr "نصب‌شده"
+
+#: src/modules/notices/templates/notice-upgrade.php:45
+msgid "Comprehensive backup management"
+msgstr "مدیریت جامع پشتیبان"
+
+#: src/modules/notices/templates/notice-upgrade.php:59
+msgid "Update themes, plugins and WordPress core"
+msgstr "به‌روزرسانی themes, plugins and WordPress core"
+
+#: src/modules/notices/templates/notice-upgrade.php:73
+msgid "Manage UpdraftPlus advanced tools"
+msgstr "مدیریت ابزارهای پیشرفته UpdraftPlus"
+
+#: src/modules/notices/templates/notice-upgrade.php:87
+msgid "Export/Import websites and settings"
+msgstr "خروجی/ورود websites and settings"
+
+#: src/modules/notices/templates/notice-upgrade.php:101
+msgid "Manage UpdraftVault"
+msgstr "مدیریت UpdraftVault"
+
+#: src/modules/notices/templates/notice-upgrade.php:115
+msgid "Manage WP-Optimize"
+msgstr "مدیریت WP-Optimize"
+
+#: src/modules/notices/templates/notice-upgrade.php:129
+msgid "Manage Auto Updates"
+msgstr "Manage Auto به‌روزرسانی‌ها"
+
+#: src/modules/notices/templates/notice-upgrade.php:143
+msgid "RSA encryption"
+msgstr "رمزنگاری RSA"
+
+#: src/modules/notices/templates/notice-upgrade.php:157
+msgid "Instant overview of important KPIs using Google Analytics"
+msgstr "نمای آنی شاخص‌های مهم با Google Analytics"
+
+#: src/modules/notices/templates/notice-upgrade.php:171
+msgid "Manage WordPress comments"
+msgstr "مدیریت دیدگاه‌های وردپرس"
+
+#: src/modules/notices/templates/notice-upgrade.php:185
+msgid "Manage WordPress users"
+msgstr "مدیریت کاربران وردپرس"
+
+#: src/modules/notices/templates/notice-upgrade.php:199
+msgid "Manage WordPress plugins"
+msgstr "مدیریت افزونه‌های وردپرس"
+
+#: src/modules/notices/templates/notice-upgrade.php:213
+msgid "Manage WordPress themes"
+msgstr "مدیریت پوسته‌های وردپرس"
+
+#: src/modules/notices/templates/notice-upgrade.php:227
+msgid "Manage Tags"
+msgstr "مدیریت برچسب‌ها"
+
+#: src/modules/notices/templates/notice-upgrade.php:241
+msgid "Suspend/Unsuspend website management"
+msgstr "تعلیق/لغو تعلیق مدیریت وب‌سایت"
+
+#: src/modules/notices/templates/notice-upgrade.php:255
+msgid "Self-hosted"
+msgstr "خودمیزبان"
+
+#: src/modules/notices/templates/notice-upgrade.php:269
+msgid "Fully hosted on our website"
+msgstr "کاملاً میزبانی‌شده روی وب‌سایت ما"
+
+#: src/modules/notices/templates/notice-upgrade.php:283
+msgid "Personal support from the developers"
+msgstr "پشتیبانی شخصی از سوی توسعه‌دهندگان"
+
+#: src/modules/site_search/templates/management-actions.php:3
+msgid "Type here to search your sites"
+msgstr "برای جستجوی سایت‌ها اینجا بنویسید"
+
+#: src/modules/updates/templates/management-actions.php:5
+msgid "Show updates for all sites"
+msgstr "نمایش به‌روزرسانی‌ها برای همه سایت‌ها"
+
+#: src/modules/updates/templates/site-row-buttons.php:2, src/modules/updates/templates/site-row-buttons.php:4
+msgid "Show updates"
+msgstr "نمایش به‌روزرسانی‌ها"
+
+#: src/modules/updraftplus/templates/management-actions-oldcopy-keep.php:10
+msgid "Restore"
+msgstr "بازیابی"
+
+#: src/modules/updraftplus/templates/management-actions.php:10
+msgid "Choose another site to manage backups on"
+msgstr "سایت دیگری برای مدیریت پشتیبان‌ها انتخاب کنید"
+
+#: src/modules/updraftplus/templates/site-row-buttons.php:14
+msgid "View backups"
+msgstr "مشاهده پشتیبان‌ها"
+
+#: src/modules/updraftplus/templates/site-row-buttons.php:20, src/modules/wpo/templates/site-row-buttons.php:12
+msgid "Configure"
+msgstr "پیکربندی"
+
+#: src/modules/updraftvault/templates/site-row-buttons.php:4
+msgid "Browse Files"
+msgstr "Browse فایل‌ها"
+
+#: src/modules/wpo/templates/site-row-buttons.php:4
+msgid "Optimize"
+msgstr "بهینه‌سازی"
+
+#: src/modules/wpo/templates/site-row-buttons.php:8
+msgid "Table Info"
+msgstr "اطلاعات جدول"
+

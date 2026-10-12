@@ -1,0 +1,342 @@
+/**
+ * RTL / Persian layout overrides for UpdraftCentral.
+ * Loaded after core dashboard CSS. Does not modify UpdraftCentral files.
+ */
+
+html[dir="rtl"] #updraftcentral_dashboard,
+body.rtl #updraftcentral_dashboard,
+body.ucp-rtl #updraftcentral_dashboard,
+#updraftcentral_dashboard {
+  direction: rtl;
+  text-align: right;
+}
+
+/* ---------------------------------------------------------------------------
+ * Typography & tables
+ * --------------------------------------------------------------------------- */
+#updraftcentral_dashboard table,
+#updraftcentral_dashboard .table {
+  text-align: right !important;
+}
+
+#updraftcentral_dashboard th,
+#updraftcentral_dashboard td {
+  text-align: right;
+}
+
+#updraftcentral_dashboard ul,
+#updraftcentral_dashboard ol {
+  padding-right: 1.25rem;
+  padding-left: 0;
+  margin-right: 0;
+}
+
+/* ---------------------------------------------------------------------------
+ * Notices — border accent on the start (right in RTL)
+ * --------------------------------------------------------------------------- */
+#updraftcentral_notice_container .updraftcentral_notice {
+  border-left: 1px solid #555;
+  border-right: 5px solid;
+  padding: 6px 12px 6px 6px;
+}
+
+#updraftcentral_notice_container .updraftcentral_notice_level_error {
+  border-left-width: 1px;
+  border-right: 4px solid red;
+}
+
+#updraftcentral_notice_container .updraftcentral_notice_level_notice,
+#updraftcentral_notice_container .updraftcentral_notice_level_info {
+  border-left-width: 1px;
+  border-right: 4px solid #46b450;
+}
+
+#updraftcentral_notice_container .updraftcentral_notice_dismiss {
+  float: left;
+}
+
+/* ---------------------------------------------------------------------------
+ * Sidebar / navigation
+ * --------------------------------------------------------------------------- */
+#updraft-central-navigation-sidebar,
+.updraft-central-sidebar {
+  direction: rtl;
+  text-align: right;
+}
+
+#updraftcentral_dashboard .updraft-menu-item-container,
+#updraftcentral_dashboard .updraft-menu-item,
+#updraftcentral_dashboard .updraft-menu-item-links {
+  text-align: right;
+}
+
+#updraftcentral_dashboard .updraft-sub-menu-bullet.dashicons-arrow-right-alt {
+  transform: scaleX(-1);
+}
+
+#updraftcentral_dashboard .dashicons-arrow-right,
+#updraftcentral_dashboard .dashicons-arrow-right-alt,
+#updraftcentral_dashboard .dashicons-arrow-right-alt2,
+#updraftcentral_dashboard .updraft-sub-menu-arrow-left {
+  transform: scaleX(-1);
+}
+
+/* Collapse / expand chevrons */
+#updraftcentral_dashboard .updraft-central-sidebar .dashicons-arrow-left-alt2,
+#updraftcentral_dashboard .updraft-central-sidebar .dashicons-arrow-right-alt2 {
+  transform: scaleX(-1);
+}
+
+/* ---------------------------------------------------------------------------
+ * Floats & expert options
+ * --------------------------------------------------------------------------- */
+#updraftcentral_editsite_expertoptions {
+  clear: right;
+}
+
+#updraftcentral_dashboard .pull-left,
+#updraftcentral_dashboard .float-left {
+  float: right !important;
+}
+
+#updraftcentral_dashboard .pull-right,
+#updraftcentral_dashboard .float-right {
+  float: left !important;
+}
+
+#updraftcentral_dashboard .text-left {
+  text-align: right !important;
+}
+
+#updraftcentral_dashboard .text-right {
+  text-align: left !important;
+}
+
+#updraftcentral_dashboard .me-1,
+#updraftcentral_dashboard .me-2,
+#updraftcentral_dashboard .me-3 {
+  margin-right: 0 !important;
+}
+
+#updraftcentral_dashboard .ms-1 {
+  margin-left: 0 !important;
+  margin-right: 0.25rem !important;
+}
+
+#updraftcentral_dashboard .ms-2 {
+  margin-left: 0 !important;
+  margin-right: 0.5rem !important;
+}
+
+#updraftcentral_dashboard .ms-3 {
+  margin-left: 0 !important;
+  margin-right: 1rem !important;
+}
+
+/* ---------------------------------------------------------------------------
+ * Buttons, forms, modals
+ * --------------------------------------------------------------------------- */
+#updraftcentral_dashboard .modal-header .btn-close,
+#updraftcentral_dashboard .modal-header .close {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+#updraftcentral_dashboard .modal-footer {
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+}
+
+#updraftcentral_dashboard .modal-footer > * {
+  margin-left: 0.5rem;
+  margin-right: 0;
+}
+
+#updraftcentral_dashboard .btn .dashicons,
+#updraftcentral_dashboard button .dashicons {
+  margin-left: 0.35rem;
+  margin-right: 0;
+}
+
+#updraftcentral_dashboard input[type="checkbox"],
+#updraftcentral_dashboard input[type="radio"] {
+  margin-left: 0.4rem;
+  margin-right: 0;
+}
+
+#updraftcentral_dashboard label {
+  text-align: right;
+}
+
+/* Select2 */
+#updraftcentral_dashboard .select2-container {
+  direction: rtl;
+  text-align: right;
+}
+
+#updraftcentral_dashboard .select2-container--default .select2-selection--single .select2-selection__arrow {
+  left: 1px;
+  right: auto;
+}
+
+#updraftcentral_dashboard .select2-container--default .select2-selection--single .select2-selection__rendered {
+  padding-right: 8px;
+  padding-left: 20px;
+  text-align: right;
+}
+
+/* ---------------------------------------------------------------------------
+ * DataTables
+ * --------------------------------------------------------------------------- */
+#updraftcentral_dashboard .dataTables_wrapper .dataTables_filter {
+  float: left;
+  text-align: left;
+}
+
+#updraftcentral_dashboard .dataTables_wrapper .dataTables_length {
+  float: right;
+  text-align: right;
+}
+
+#updraftcentral_dashboard .dataTables_wrapper .dataTables_info {
+  float: right;
+  text-align: right;
+}
+
+#updraftcentral_dashboard .dataTables_wrapper .dataTables_paginate {
+  float: left;
+  text-align: left;
+}
+
+#updraftcentral_dashboard table.dataTable thead th,
+#updraftcentral_dashboard table.dataTable tbody td {
+  text-align: right;
+}
+
+#updraftcentral_dashboard table.dataTable thead .sorting:after,
+#updraftcentral_dashboard table.dataTable thead .sorting_asc:after,
+#updraftcentral_dashboard table.dataTable thead .sorting_desc:after {
+  left: 8px;
+  right: auto;
+}
+
+/* ---------------------------------------------------------------------------
+ * Site rows / cards / module panels
+ * --------------------------------------------------------------------------- */
+#updraftcentral_dashboard .updraft_site_row,
+#updraftcentral_dashboard .updraftcentral_row,
+#updraftcentral_dashboard .site-row {
+  text-align: right;
+}
+
+#updraftcentral_dashboard .updraft-site-menu,
+#updraftcentral_dashboard .updraftcentral_site_menu {
+  direction: rtl;
+}
+
+/* Search boxes */
+#updraftcentral_dashboard .search-box,
+#updraftcentral_dashboard input[type="search"] {
+  text-align: right;
+}
+
+/* Dropdown menus */
+#updraftcentral_dashboard .dropdown-menu {
+  text-align: right;
+  right: 0;
+  left: auto;
+}
+
+/* Progress / spinners stay centered */
+#updraftcentral_dashboard .spinner,
+#updraftcentral_dashboard .updraftcentral_spinner {
+  /* no flip */
+}
+
+/* ---------------------------------------------------------------------------
+ * Module-specific soft fixes
+ * --------------------------------------------------------------------------- */
+#updraftcentral_dashboard .updraftcentral_updates,
+#updraftcentral_dashboard .updraftcentral_backups,
+#updraftcentral_dashboard .updraftcentral_wpo,
+#updraftcentral_dashboard .updraftcentral_eum,
+#updraftcentral_dashboard .updraftcentral_vault,
+#updraftcentral_dashboard .updraftcentral_advancedtools,
+#updraftcentral_dashboard .updraftcentral_events {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Tabs */
+#updraftcentral_dashboard .nav-tabs,
+#updraftcentral_dashboard .nav-pills {
+  padding-right: 0;
+}
+
+#updraftcentral_dashboard .nav-tabs .nav-item,
+#updraftcentral_dashboard .nav-pills .nav-item {
+  margin-left: 0.25rem;
+  margin-right: 0;
+}
+
+/* Breadcrumbs / paginator */
+#updraftcentral_dashboard .pagination {
+  direction: rtl;
+}
+
+#updraftcentral_dashboard .page-item:first-child .page-link {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+
+#updraftcentral_dashboard .page-item:last-child .page-link {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+/* ---------------------------------------------------------------------------
+ * Keyboard shortcuts modal & help
+ * --------------------------------------------------------------------------- */
+#updraftcentral_dashboard .updraftcentral_keyboard_shortcuts,
+#updraftcentral_dashboard #updraftcentral_help {
+  text-align: right;
+}
+
+/* Keep code / keys LTR for readability */
+#updraftcentral_dashboard kbd,
+#updraftcentral_dashboard code,
+#updraftcentral_dashboard pre,
+#updraftcentral_dashboard .updraftcentral_key,
+#updraftcentral_dashboard input[name*="key"],
+#updraftcentral_dashboard textarea#updraftcentral_addsite_key {
+  direction: ltr;
+  text-align: left;
+  unicode-bidi: embed;
+}
+
+/* URLs and technical fields stay LTR */
+#updraftcentral_dashboard input[type="url"],
+#updraftcentral_dashboard input[name*="url"],
+#updraftcentral_dashboard .ltr {
+  direction: ltr;
+  text-align: left;
+}
+
+/* ---------------------------------------------------------------------------
+ * Fullscreen dashboard shell
+ * --------------------------------------------------------------------------- */
+#updraftcentral_dashboard.updraft-fullscreen,
+body.ucp-rtl #updraftcentral_dashboard {
+  font-feature-settings: "ss01" on;
+}
+
+/* Mobile tweaks */
+@media (max-width: 782px) {
+  #updraft-central-navigation-sidebar {
+    text-align: right;
+  }
+}

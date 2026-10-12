@@ -1,1 +1,8 @@
 .vscode/
+*.log
+.DS_Store
+Thumbs.db
+bin/cache-fa.json
+bin/msgids.json
+bin/missing-en.json
+bin/dict-fa-hand.php

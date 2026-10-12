@@ -1,0 +1,32 @@
+/**
+ * Persian-capable font stack for UpdraftCentral dashboard.
+ * Uses Vazirmatn from jsDelivr CDN (variable font).
+ */
+
+@font-face {
+  font-family: "Vazirmatn";
+  src: url("https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/fonts/webfonts/Vazirmatn[wght].woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --ucp-font-family: "Vazirmatn", "Tahoma", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+
+body.ucp-rtl,
+body.updraftcentral-persian,
+#updraftcentral_dashboard,
+#updraftcentral_dashboard button,
+#updraftcentral_dashboard textarea,
+#updraftcentral_dashboard select,
+#updraftcentral_dashboard input,
+#updraftcentral_dashboard label,
+#updraftcentral_dashboard .btn,
+#updraftcentral_dashboard table,
+#updraftcentral_dashboard .modal,
+.ucp-rtl #wpbody,
+.ucp-rtl .wrap {
+  font-family: var(--ucp-font-family) !important;
+}
