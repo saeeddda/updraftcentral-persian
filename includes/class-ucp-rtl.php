@@ -56,11 +56,21 @@ class UCP_RTL {
 	public function enqueue_dashboard_rtl( $enqueue_version ) {
 		unset( $enqueue_version );
 
+		// jsDelivr is more reachable in Iran than fonts.googleapis.com.
+		wp_enqueue_style(
+			'ucp-vazirmatn',
+			'https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css',
+			array(),
+			'33.003'
+		);
+
 		wp_enqueue_style(
 			'ucp-fonts',
 			UCP_URL . 'assets/css/fonts.css',
 			array(
+				'ucp-vazirmatn',
 				'updraftcentral-dashboard-css',
+				'updraftcentral-dashboard-temp-css',
 				'updraftcentral-new-design',
 			),
 			UCP_VERSION
@@ -94,6 +104,9 @@ class UCP_RTL {
 	public function requeue_modal_assets() {
 		if ( ! $this->is_dashboard_context() ) {
 			return;
+		}
+		if ( wp_style_is( 'ucp-vazirmatn', 'registered' ) ) {
+			wp_enqueue_style( 'ucp-vazirmatn' );
 		}
 		if ( wp_style_is( 'ucp-fonts', 'registered' ) ) {
 			wp_enqueue_style( 'ucp-fonts' );
@@ -154,9 +167,16 @@ class UCP_RTL {
 		}
 
 		wp_enqueue_style(
+			'ucp-vazirmatn',
+			'https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css',
+			array(),
+			'33.003'
+		);
+
+		wp_enqueue_style(
 			'ucp-fonts',
 			UCP_URL . 'assets/css/fonts.css',
-			array(),
+			array( 'ucp-vazirmatn' ),
 			UCP_VERSION
 		);
 
@@ -189,7 +209,7 @@ class UCP_RTL {
 		if ( ! $this->is_dashboard_context() && ! $this->is_uc_admin_page() ) {
 			return;
 		}
-		echo "<style id=\"ucp-dir-hint\">html,body,#updraftcentral_dashboard,#updraft-central-content-container,#updraft-central-content,#updraftcentral_modal_dialog,.bootbox.modal,.modal{direction:rtl!important;text-align:right!important;font-family:Vazirmatn,\"Source Sans Pro\",Roboto,\"Helvetica Neue\",Arial,Tahoma,sans-serif!important;}</style>\n";
+		echo "<style id=\"ucp-dir-hint\">html,body,#updraftcentral_dashboard,#updraft-central-content-container,#updraft-central-content,#updraftcentral_modal_dialog,.bootbox.modal,.modal{direction:rtl!important;text-align:right!important;font-family:Vazirmatn,Tahoma,\"Source Sans Pro\",Roboto,\"Helvetica Neue\",Arial,sans-serif!important;}#updraftcentral_dashboard h1,#updraftcentral_dashboard h2,#updraftcentral_dashboard h3,#updraftcentral_dashboard h4,#updraftcentral_dashboard h5,#updraftcentral_dashboard h6,#updraftcentral_dashboard .screen-title,#updraftcentral_modal_dialog h1,#updraftcentral_modal_dialog h2,#updraftcentral_modal_dialog h3,#updraftcentral_modal_dialog h4,#updraftcentral_modal_dialog h5,#updraftcentral_modal_dialog h6,#updraftcentral_modal_dialog .modal-title,.bootbox.modal h1,.bootbox.modal h2,.bootbox.modal h3,.bootbox.modal h4,.bootbox.modal h5,.bootbox.modal h6,.bootbox.modal .modal-title{font-family:Vazirmatn,Tahoma,\"Source Sans Pro\",Roboto,\"Helvetica Neue\",Arial,sans-serif!important;}</style>\n";
 	}
 
 	/**

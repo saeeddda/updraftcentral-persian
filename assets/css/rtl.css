@@ -120,41 +120,70 @@ div.updraft-menu-item > span.menu-label,
   left: 4px !important;
 }
 
-/* Collapse sidebar control — pin to inner edge (left of right sidebar) */
+/* Collapse sidebar control — keep UC design-temp layout; only flip icons for RTL */
 @media screen and (min-width: 670px) {
-  #updraft-central-sidebar-button,
   #updraftcentral_dashboard #updraft-central-sidebar-button {
-    position: absolute !important;
-    top: 50% !important;
-    left: -15px !important;
+    display: block !important;
+    position: relative !important;
+    top: 0 !important;
+    left: auto !important;
     right: auto !important;
-    width: 15px !important;
-    height: 100px !important;
+    width: 100% !important;
+    height: auto !important;
     margin: 0 !important;
     padding: 0 !important;
-    border-radius: 25px 0 0 25px !important;
-    background-color: #de6726 !important;
-    -webkit-transform: translateY(-50%) !important;
-    transform: translateY(-50%) !important;
-    z-index: 1001 !important;
+    border-radius: 0 !important;
+    background-color: #fff !important;
+    -webkit-transform: translateY(50%) !important;
+    transform: translateY(50%) !important;
+    z-index: 1000 !important;
+    cursor: pointer;
+    text-align: center !important;
   }
 
-  #updraft-central-navigation-sidebar,
-  #updraftcentral_dashboard #updraft-central-content-container .updraft-central-sidebar {
-    position: relative !important;
+  #updraftcentral_dashboard #updraft-central-sidebar-button .updraft-central-sidebar-button-icon {
+    display: inline-block;
   }
 
-  #updraft-central-sidebar-button .updraft-central-sidebar-button-icon img {
+  #updraftcentral_dashboard #updraft-central-sidebar-button .updraft-central-sidebar-button-icon img {
     transform: scaleX(-1);
   }
 }
 
 /* ===========================================================================
- * 3) Top bar
+ * 3) Top bar + list page headers (title ↔ action buttons)
  * =========================================================================== */
-#updraft-central-navigation .updraft-central-logo,
+#updraft-central-navigation .updraft-central-logo {
+  float: right !important;
+}
+
+/*
+ * List headers: mirror UC LTR (title float:left + box text-align:right).
+ * RTL → title float:right + box text-align:left so buttons group on the left.
+ */
+#updraftcentral_dashboard .updraftcentral_action_box,
+#updraftcentral_dashboard .updraftcentral_mode_actions {
+  text-align: left !important;
+  direction: rtl !important;
+  overflow: hidden !important;
+}
+
+#updraftcentral_dashboard .updraftcentral_action_box .screen-title,
+#updraftcentral_dashboard .updraftcentral_mode_actions .screen-title,
 #updraftcentral_dashboard .screen-title {
   float: right !important;
+  text-align: right !important;
+  margin: 0 0 0 1rem !important;
+}
+
+#updraftcentral_dashboard .updraftcentral_action_box > .btn,
+#updraftcentral_dashboard .updraftcentral_mode_actions > .btn,
+#updraftcentral_dashboard .updraftcentral_action_box > button,
+#updraftcentral_dashboard .updraftcentral_mode_actions > button {
+  float: none !important;
+  display: inline-block !important;
+  margin: 0 0 0 0.5rem !important;
+  vertical-align: middle !important;
 }
 
 #updraft-central-navigation .top_menu_right {
@@ -425,7 +454,7 @@ a.show-backup-data > span {
 }
 
 /* ===========================================================================
- * 9) Modals (general)
+ * 9) Modals (general) + vertical tabs (plugins / website)
  * =========================================================================== */
 #updraftcentral_modal_dialog,
 #updraftcentral_modal_dialog .modal-dialog,
@@ -441,6 +470,67 @@ a.show-backup-data > span {
 .bootbox.modal .modal-body,
 .bootbox.modal .modal-footer {
   direction: rtl !important;
+  text-align: right !important;
+}
+
+/* Vertical tabs: nav on the RIGHT, panel on the LEFT (mirror of LTR) */
+.ui-tabs.ui-tabs-vertical,
+#updraftcentral_modal_dialog .modal-content .modal-body .ui-tabs.ui-tabs-vertical,
+.bootbox.modal .modal-content .modal-body .ui-tabs.ui-tabs-vertical {
+  direction: rtl !important;
+}
+
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav,
+#updraftcentral_modal_dialog .modal-content .modal-body .ui-tabs.ui-tabs-vertical .ui-tabs-nav,
+.bootbox.modal .modal-content .modal-body .ui-tabs.ui-tabs-vertical .ui-tabs-nav {
+  float: right !important;
+}
+
+.ui-tabs.ui-tabs-vertical .ui-tabs-panel,
+#updraftcentral_modal_dialog .modal-content .modal-body .ui-tabs.ui-tabs-vertical .ui-tabs-panel,
+.bootbox.modal .modal-content .modal-body .ui-tabs.ui-tabs-vertical .ui-tabs-panel {
+  float: right !important;
+  left: auto !important;
+  right: auto !important;
+  box-sizing: border-box !important;
+}
+
+@media screen and (min-width: 576px) {
+  #updraftcentral_modal_dialog .modal-content .modal-body .ui-tabs.ui-tabs-vertical .ui-tabs-nav,
+  .bootbox.modal .modal-content .modal-body .ui-tabs.ui-tabs-vertical .ui-tabs-nav {
+    width: 22% !important;
+    margin: 0 0 0 4% !important;
+    border: none !important;
+    padding: 0 !important;
+  }
+
+  #updraftcentral_modal_dialog .modal-content .modal-body .ui-tabs.ui-tabs-vertical .ui-tabs-panel,
+  .bootbox.modal .modal-content .modal-body .ui-tabs.ui-tabs-vertical .ui-tabs-panel {
+    width: 74% !important;
+    padding: 0 0 0 8px !important;
+  }
+
+  #updraftcentral_modal_dialog .modal-content .modal-body .ui-tabs.ui-tabs-vertical .ui-tabs-nav li,
+  .bootbox.modal .modal-content .modal-body .ui-tabs.ui-tabs-vertical .ui-tabs-nav li {
+    float: right !important;
+    clear: right !important;
+    width: 100% !important;
+    text-align: right !important;
+  }
+
+  #updraftcentral_modal_dialog .modal-content .modal-body .ui-tabs.ui-tabs-vertical .ui-tabs-nav li a,
+  .bootbox.modal .modal-content .modal-body .ui-tabs.ui-tabs-vertical .ui-tabs-nav li a {
+    text-align: right !important;
+    padding: 8px 16px 8px 12px !important;
+  }
+}
+
+#updraftcentral_modal_dialog .modal-content .modal-body .ui-tabs.ui-tabs-vertical .ui-tabs-panel,
+.bootbox.modal .modal-content .modal-body .ui-tabs.ui-tabs-vertical .ui-tabs-panel,
+#updraftcentral_modal_dialog .modal-content .modal-body .ui-tabs.ui-tabs-vertical .ui-tabs-panel label,
+.bootbox.modal .modal-content .modal-body .ui-tabs.ui-tabs-vertical .ui-tabs-panel label,
+#updraftcentral_modal_dialog .modal-content .modal-body .ui-tabs.ui-tabs-vertical .ui-tabs-panel p,
+.bootbox.modal .modal-content .modal-body .ui-tabs.ui-tabs-vertical .ui-tabs-panel p {
   text-align: right !important;
 }
 

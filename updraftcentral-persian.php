@@ -1,9 +1,9 @@
 <?php
 /**
  * Plugin Name:       UpdraftCentral Persian
- * Plugin URI:        https://websila.co
+ * Plugin URI:        https://saeedna.ir
  * Description:       فارسی‌سازی کامل و راستی‌چین‌سازی افزونه UpdraftCentral بدون تغییر فایل‌های اصلی (مقاوم در برابر بروزرسانی).
- * Version:           1.0.3
+ * Version:           1.0.4
  * Requires at least: 5.8
  * Requires PHP:      7.4
  * Author:            Saeed Noori
@@ -20,7 +20,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'UCP_VERSION', '1.0.3' );
+define( 'UCP_VERSION', '1.0.4' );
 define( 'UCP_FILE', __FILE__ );
 define( 'UCP_DIR', plugin_dir_path( __FILE__ ) );
 define( 'UCP_URL', plugin_dir_url( __FILE__ ) );

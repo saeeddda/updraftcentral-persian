@@ -1,11 +1,16 @@
 /**
  * Vazirmatn for text only — never override icon fonts (dashicons).
+ * Must beat UC dashboard-design-temp.css Source Sans !important rules.
  */
 
 :root {
-  --ucp-font: Vazirmatn, "Source Sans Pro", Roboto, "Helvetica Neue", Arial, Tahoma, sans-serif;
+  --ucp-font: Vazirmatn, Tahoma, "Source Sans Pro", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
+/* Base surfaces */
+html.ucp-rtl,
+body.ucp-rtl,
+body.updraftcentral-persian,
 #updraftcentral_dashboard,
 #updraft-central-content-container,
 #updraft-central-content,
@@ -16,7 +21,51 @@
   font-family: var(--ucp-font) !important;
 }
 
-#updraftcentral_dashboard body,
+/* Explicit headings (UC sets Source Sans on these) */
+#updraftcentral_dashboard h1,
+#updraftcentral_dashboard h2,
+#updraftcentral_dashboard h3,
+#updraftcentral_dashboard h4,
+#updraftcentral_dashboard h5,
+#updraftcentral_dashboard h6,
+#updraftcentral_dashboard .h1,
+#updraftcentral_dashboard .h2,
+#updraftcentral_dashboard .h3,
+#updraftcentral_dashboard .h4,
+#updraftcentral_dashboard .h5,
+#updraftcentral_dashboard .h6,
+#updraftcentral_dashboard .screen-title,
+#updraftcentral_dashboard .modal-title,
+#updraftcentral_modal_dialog .modal-header h1,
+#updraftcentral_modal_dialog .modal-header h2,
+#updraftcentral_modal_dialog .modal-header h3,
+#updraftcentral_modal_dialog .modal-header h4,
+#updraftcentral_modal_dialog .modal-header h5,
+#updraftcentral_modal_dialog .modal-header h6,
+#updraftcentral_modal_dialog .modal-body h1,
+#updraftcentral_modal_dialog .modal-body h2,
+#updraftcentral_modal_dialog .modal-body h3,
+#updraftcentral_modal_dialog .modal-body h4,
+#updraftcentral_modal_dialog .modal-body h5,
+#updraftcentral_modal_dialog .modal-body h6,
+#updraftcentral_modal_dialog .modal-title,
+.bootbox.modal .modal-header h1,
+.bootbox.modal .modal-header h2,
+.bootbox.modal .modal-header h3,
+.bootbox.modal .modal-header h4,
+.bootbox.modal .modal-header h5,
+.bootbox.modal .modal-header h6,
+.bootbox.modal .modal-body h1,
+.bootbox.modal .modal-body h2,
+.bootbox.modal .modal-body h3,
+.bootbox.modal .modal-body h4,
+.bootbox.modal .modal-body h5,
+.bootbox.modal .modal-body h6,
+.bootbox.modal .modal-title {
+  font-family: var(--ucp-font) !important;
+}
+
+/* Body copy / controls */
 #updraftcentral_dashboard p,
 #updraftcentral_dashboard span:not(.dashicons):not([class*="dashicons-"]),
 #updraftcentral_dashboard a,
@@ -24,34 +73,19 @@
 #updraftcentral_dashboard td,
 #updraftcentral_dashboard th,
 #updraftcentral_dashboard label,
-#updraftcentral_dashboard h1,
-#updraftcentral_dashboard h2,
-#updraftcentral_dashboard h3,
-#updraftcentral_dashboard h4,
-#updraftcentral_dashboard h5,
-#updraftcentral_dashboard h6,
 #updraftcentral_dashboard button:not(.dashicons),
 #updraftcentral_dashboard .btn,
 #updraftcentral_dashboard .menu-label,
-#updraftcentral_dashboard .modal-title,
 #updraftcentral_dashboard input,
 #updraftcentral_dashboard textarea,
 #updraftcentral_dashboard select,
 #updraftcentral_dashboard .dropdown-item,
 #updraftcentral_dashboard .updraft-dropdown-item,
-#updraftcentral_modal_dialog,
 #updraftcentral_modal_dialog p,
 #updraftcentral_modal_dialog span:not(.dashicons):not([class*="dashicons-"]),
 #updraftcentral_modal_dialog a,
 #updraftcentral_modal_dialog label,
-#updraftcentral_modal_dialog h1,
-#updraftcentral_modal_dialog h2,
-#updraftcentral_modal_dialog h3,
-#updraftcentral_modal_dialog h4,
-#updraftcentral_modal_dialog h5,
-#updraftcentral_modal_dialog h6,
 #updraftcentral_modal_dialog .btn,
-#updraftcentral_modal_dialog .modal-title,
 #updraftcentral_modal_dialog input,
 #updraftcentral_modal_dialog textarea,
 #updraftcentral_modal_dialog select,
@@ -59,14 +93,7 @@
 .bootbox.modal span:not(.dashicons):not([class*="dashicons-"]),
 .bootbox.modal a,
 .bootbox.modal label,
-.bootbox.modal h1,
-.bootbox.modal h2,
-.bootbox.modal h3,
-.bootbox.modal h4,
-.bootbox.modal h5,
-.bootbox.modal h6,
 .bootbox.modal .btn,
-.bootbox.modal .modal-title,
 .bootbox.modal input,
 .bootbox.modal textarea,
 .bootbox.modal select {

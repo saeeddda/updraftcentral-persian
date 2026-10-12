@@ -35,6 +35,22 @@ class UCP_Admin {
 	public function init() {
 		add_action( 'admin_notices', array( $this, 'maybe_missing_uc_notice' ) );
 		add_filter( 'plugin_action_links_' . UCP_BASENAME, array( $this, 'action_links' ) );
+		// After notices module (priority 10) so Upgrade can be removed.
+		add_filter( 'updraftcentral_main_navigation_items', array( $this, 'hide_upgrade_menu' ), 100 );
+	}
+
+	/**
+	 * Hide the Upgrade (notices) sidebar item.
+	 *
+	 * @param array $items Navigation items.
+	 * @return array
+	 */
+	public function hide_upgrade_menu( $items ) {
+		if ( ! is_array( $items ) ) {
+			return $items;
+		}
+		unset( $items['notices'] );
+		return $items;
 	}
 
 	/**
