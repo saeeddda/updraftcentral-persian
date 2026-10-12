@@ -1,71 +1,75 @@
-# UpdraftCentral Persian
+# 🇮🇷 UpdraftCentral Persian
 
-افزونهٔ جانبی برای **فارسی‌سازی** و **راستی‌چین‌سازی (RTL)** داشبورد [UpdraftCentral](https://updraftcentral.com/) بدون دست‌کاری فایل‌های اصلی.
+Companion plugin that **Persianizes** and **right-to-left (RTL)** styles the [UpdraftCentral](https://updraftcentral.com/) dashboard — without touching core plugin files.
 
-با هر بروزرسانی UpdraftCentral، ترجمه‌ها و استایل RTL این افزونه باقی می‌مانند.
+Your translations and RTL styles survive every UpdraftCentral update. 🛡️
 
-## ویژگی‌ها
+> 🇮🇷 مستندات فارسی: [README-FA.md](README-FA.md)
 
-- بارگذاری فایل ترجمه `updraftcentral-fa_IR.mo` روی text domain اصلی (`updraftcentral`)
-- پوشش رشته‌های PHP و رشته‌های جاوااسکریپت (`udclion`) چون از طریق `__()` در PHP ساخته می‌شوند
-- جایگزینی Bootstrap LTR با `bootstrap.rtl` موجود در خود UpdraftCentral
-- استایل RTL اختصاصی برای داشبورد، مودال‌ها، جدول‌ها، منوی کناری و ماژول‌ها
-- فونت فارسی Vazirmatn (باندل محلی، بدون CDN)
-- بدون نیاز به ویرایش هستهٔ UpdraftCentral
+## ✨ Features
 
-## پیش‌نیاز
+- 🌐 Loads `updraftcentral-fa_IR.mo` onto the core `updraftcentral` text domain
+- 💬 Covers PHP strings and JavaScript strings (`udclion`) via `__()` in PHP
+- 🔁 Swaps Bootstrap LTR for UpdraftCentral’s built-in `bootstrap.rtl`
+- 📐 Custom RTL styles for dashboard, modals, tables, sidebar & modules
+- 🔤 Bundled **Vazirmatn** font (local — no CDN)
+- 🔒 No core UpdraftCentral edits required
+
+## 📋 Requirements
 
 - WordPress 5.8+
 - PHP 7.4+
-- افزونهٔ **UpdraftCentral** نصب و فعال
-- زبان سایت روی فارسی (`fa_IR`) یا فعال بودن RTL
+- **UpdraftCentral** installed and active
+- Site language set to Persian (`fa_IR`) or RTL enabled
 
-## نصب
+## 📥 Installation
 
-1. پوشهٔ `updraftcentral-persian` را در `wp-content/plugins/` قرار دهید (همین مسیر).
-2. از **افزونه‌ها** هر دو مورد را فعال کنید:
+1. Place the `updraftcentral-persian` folder in `wp-content/plugins/`.
+2. Activate both plugins:
    - UpdraftCentral Dashboard
    - UpdraftCentral Persian
-3. زبان وردپرس را روی **فارسی** بگذارید (`تنظیمات → عمومی → زبان سایت`).
-4. صفحهٔ فرانت دارای شورتکد `[updraft_central]` را باز کنید.
+3. Set WordPress language to **فارسی** (`Settings → General → Site Language`).
+4. Open the front-end page with the `[updraft_central]` shortcode. ✅
 
-## ساختار
+## 📁 Structure
 
 ```
 updraftcentral-persian/
-├── updraftcentral-persian.php   # نقطه ورود
+├── updraftcentral-persian.php   # Bootstrap
 ├── includes/                    # i18n / RTL / admin
 ├── assets/css/                  # fonts, rtl, admin-rtl
+├── assets/fonts/vazirmatn/      # Local Vazirmatn font
 ├── assets/js/rtl.js
 ├── languages/                   # updraftcentral-fa_IR.po / .mo
-├── bin/                         # ابزار کامپایل ترجمه
-├── .ai/                         # زمینه و قوانین برای Agentها
+├── bin/                         # Translation compile tools
+├── .ai/                         # Agent context & rules
 ├── AGENTS.md
-└── README.md
+├── README.md                    # English docs
+└── readme-fa.md                 # Persian docs
 ```
 
-## بروزرسانی ترجمه پس از آپدیت UpdraftCentral
+## 🔄 Updating translations after an UpdraftCentral upgrade
 
-1. فایل جدید `updraftcentral/languages/updraftcentral.pot` را با `.po` ادغام کنید (Poedit / `msgmerge`).
-2. رشته‌های جدید را ترجمه کنید.
-3. کامپایل:
+1. Merge the new `updraftcentral/languages/updraftcentral.pot` into the `.po` (Poedit / `msgmerge`).
+2. Translate new strings.
+3. Compile:
 
 ```bash
 php bin/compile-mo.php
 ```
 
-## فیلترهای توسعه‌دهنده
+## 🛠️ Developer filters
 
 ```php
-// اجبار به فعال/غیرفعال بودن فارسی‌سازی
+// Force localization on/off
 add_filter( 'ucp_should_localize', '__return_true' );
 
-// تشخیص سفارشی کانتکست داشبورد
+// Custom dashboard context detection
 add_filter( 'ucp_is_dashboard_context', function ( $is ) {
 	return $is || is_page( 'my-uc-dashboard' );
 } );
 ```
 
-## مجوز
+## 📄 License
 
-GPL-2.0-or-later — مانند اکوسیستم وردپرس.
+GPL-2.0-or-later — same as the WordPress ecosystem.
